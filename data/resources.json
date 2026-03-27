@@ -1,0 +1,162 @@
+[
+  {
+    "id": "r-jlpt-official",
+    "category": "official",
+    "title": "JLPT 日本語能力試験 官方网站",
+    "description": "日本语能力测试（JLPT）的官方网站，提供各级别的考试信息、报名方式、认定基准、官方例题等。",
+    "url": "https://www.jlpt.jp/",
+    "recommendedFor": "准备参加JLPT考试的所有学习者",
+    "why": "官方唯一权威来源，包含历年认定标准和免费练习题样本，是了解考试题型和难度的最佳参考。",
+    "caution": "官方例题数量有限，不能作为主要练习来源。",
+    "level": ["n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-jf-minato",
+    "category": "platform",
+    "title": "国际交流基金 Minato 日语学习平台",
+    "description": "日本国际交流基金（JF）运营的免费日语学习平台，提供结构化课程和练习材料，内容经过专业日语教育机构认证。",
+    "url": "https://minato-jf.jp/",
+    "recommendedFor": "喜欢系统学习、寻找免费结构化课程的学习者",
+    "why": "由专业机构提供，课程质量有保障，完全免费，适合初中级学习者。",
+    "level": ["beginner","elementary","n5","n4"]
+  },
+  {
+    "id": "r-nhk-easy",
+    "category": "reading",
+    "title": "NHK Web Easy（やさしい日本語ニュース）",
+    "description": "NHK（日本放送协会）提供的简单日语新闻网站，将正式新闻改写成适合N4-N3学习者阅读的简化版本，附汉字注音。",
+    "url": "https://www3.nhk.or.jp/news/easy/",
+    "recommendedFor": "N4水平以上，想练习真实阅读材料的学习者",
+    "why": "真实新闻内容，词汇和句型接近实际使用，所有汉字都有注音，是从教材过渡到真实日语的理想桥梁。",
+    "caution": "N5以下学习者可能遇到较多超纲词汇，建议先掌握N5再尝试。",
+    "level": ["n4","n3","n2"]
+  },
+  {
+    "id": "r-jisho",
+    "category": "tool",
+    "title": "Jisho 日英词典",
+    "description": "功能强大的免费日英双向词典，支持搜索汉字、词语、假名，提供例句、词性、JLPT级别标注和笔顺动画。",
+    "url": "https://jisho.org/",
+    "recommendedFor": "所有学习者，查词必备工具",
+    "why": "界面简洁、功能全面、完全免费。不仅能查词义，还能查JLPT级别、汉字笔顺，是学日语的基本工具。",
+    "level": ["beginner","elementary","n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-anki",
+    "category": "tool",
+    "title": "Anki 间隔重复记忆软件",
+    "description": "基于科学的间隔重复（SRS）算法的开源闪卡软件，可自制词汇卡片，支持导入日语学习共享卡组（deck）。",
+    "url": "https://apps.ankiweb.net/",
+    "recommendedFor": "需要系统记忆大量词汇和假名的学习者",
+    "why": "间隔重复是科学验证最有效的长期记忆方法，学日语词汇量大，Anki是记忆效率最高的工具之一。桌面版完全免费。",
+    "caution": "iOS App Store版本需付费，安卓版AnkiDroid免费。需要一定时间配置才能顺手。",
+    "level": ["beginner","elementary","n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-tae-kim",
+    "category": "platform",
+    "title": "Tae Kim's Guide to Learning Japanese",
+    "description": "由Tae Kim编写的免费日语语法全面指南，以直观易懂的方式讲解日语语法，适合自学者。",
+    "url": "https://guidetojapanese.org/learn/",
+    "recommendedFor": "喜欢从理论角度理解语法的自学者，N5-N3阶段",
+    "why": "完全免费，讲解清晰，覆盖从基础到中高级的完整语法，是最受欢迎的日语语法自学资源之一。",
+    "caution": "以英文写就，适合英文阅读能力较强的学习者。中文学习者可能更适合本站讲解。",
+    "level": ["elementary","n5","n4","n3"]
+  },
+  {
+    "id": "r-hinative",
+    "category": "community",
+    "title": "HiNative 语言问答社区",
+    "description": "可以向母语者提问关于语言使用、地道表达、文化习惯等问题的免费社区平台。",
+    "url": "https://hinative.com/",
+    "recommendedFor": "想确认日语表达是否地道、有语言问题想问母语者的学习者",
+    "why": "能直接得到母语者的回答，解决教材不会告诉你的地道表达问题，比词典更能反映真实使用习惯。",
+    "caution": "回答质量参差不齐，建议多问几个人确认。高级功能需要付费订阅。",
+    "level": ["elementary","n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-wanikani",
+    "category": "tool",
+    "title": "WaniKani 汉字记忆系统",
+    "description": "用故事联想法（radical+mnemonics）系统学习日语汉字和词汇的网页应用，通过SRS算法安排复习。",
+    "url": "https://www.wanikani.com/",
+    "recommendedFor": "想系统攻克日语汉字的学习者",
+    "why": "把汉字拆分成部件用故事记忆，记忆效率高，课程顺序科学，很多学习者反映比死记硬背高效得多。",
+    "caution": "前3级免费，之后需要付费订阅（约$9/月或一次性购买）。仅英文界面。",
+    "level": ["elementary","n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-bunpro",
+    "category": "platform",
+    "title": "Bunpro 日语语法SRS",
+    "description": "专注于日语语法的间隔重复学习平台，按JLPT级别分类，用SRS方式系统复习语法点。",
+    "url": "https://bunpro.jp/",
+    "recommendedFor": "想系统复习巩固语法、准备JLPT的学习者",
+    "why": "把语法点做成SRS卡片，解决了语法容易忘、难以系统复习的痛点，与教材结合使用效果很好。",
+    "caution": "有免费层（部分内容），完整功能需付费订阅。",
+    "level": ["n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-youtube-nihongonomori",
+    "category": "platform",
+    "title": "YouTube：日本語の森",
+    "description": "面向JLPT备考者的免费日语YouTube频道，提供N5到N2各级别语法讲解和练习题解析视频。",
+    "url": "https://www.youtube.com/@nihongonomori",
+    "recommendedFor": "喜欢视频学习、准备JLPT的N5-N2学习者",
+    "why": "讲解清晰，覆盖全级别，完全免费，视频质量高。特别适合在通勤途中学习。",
+    "level": ["n5","n4","n3","n2"]
+  },
+  {
+    "id": "r-youtube-japanesepod101",
+    "category": "platform",
+    "title": "YouTube：JapanesePod101 免费内容",
+    "description": "JapanesePod101 YouTube频道上的免费入门视频，包含假名入门、基础词汇、日常会话等内容。",
+    "url": "https://www.youtube.com/@JapanesePod101",
+    "recommendedFor": "完全零基础、喜欢视频入门的学习者",
+    "why": "YouTube上完全免费，入门视频内容轻松有趣，适合刚起步的学习者建立兴趣。",
+    "caution": "付费网站（JapanesePod101.com）内容更完整，但YouTube免费内容已经足够入门使用。",
+    "level": ["beginner","elementary"]
+  },
+  {
+    "id": "r-todai",
+    "category": "reading",
+    "title": "Todai Easy Japanese News（App）",
+    "description": "提供日语分级阅读材料的App，内容来自真实日本新闻，可选择难度级别，点击生词即可查看释义。",
+    "url": "https://www.easy-japanese.com/",
+    "recommendedFor": "N4以上、想练习真实日语阅读的学习者",
+    "why": "点读生词功能非常适合阅读时遇到不懂词汇，真实新闻内容让阅读有意义，难度分级合理。",
+    "caution": "App部分功能需付费。主要面向已有一定基础的学习者。",
+    "level": ["n4","n3","n2"]
+  },
+  {
+    "id": "r-itazuraneko",
+    "category": "platform",
+    "title": "いたずらねこ（Japanese From Zero系列）",
+    "description": "系列教材「Japanese From Zero」的在线免费版，以循序渐进、以学习者为中心的方式讲解日语，内容幽默易懂。",
+    "url": "https://www.yesjapan.com/",
+    "recommendedFor": "完全零基础、希望用书本式教材系统学习的学习者",
+    "why": "以初学者为中心设计，解释直观，书籍广受好评，网站有部分免费内容可试用。",
+    "caution": "完整教材为付费书籍，网站免费内容有限。",
+    "level": ["beginner","elementary","n5"]
+  },
+  {
+    "id": "r-forvo",
+    "category": "tool",
+    "title": "Forvo 日语发音词典",
+    "description": "由母语者录制真实发音的在线词典，可以听到日本人如何发音每个词语。",
+    "url": "https://forvo.com/languages/ja/",
+    "recommendedFor": "想确认词汇准确发音、改善口音的学习者",
+    "why": "母语者真实发音，比文字描述更直观，对于拿不准某个词的实际读音时非常有用。",
+    "level": ["beginner","elementary","n5","n4"]
+  },
+  {
+    "id": "r-jf-dokkai",
+    "category": "reading",
+    "title": "国际交流基金 读解素材（JF日语教育スタンダード）",
+    "description": "国际交流基金提供的分级日语阅读素材，按Can-do标准分级，适合各水平学习者练习阅读理解。",
+    "url": "https://jfstandard.jp/",
+    "recommendedFor": "想练习分级阅读、了解JF标准的学习者",
+    "why": "权威机构出品，内容经过专业设计，难度分级科学，是进行系统阅读练习的好资源。",
+    "level": ["elementary","n5","n4","n3"]
+  }
+]
