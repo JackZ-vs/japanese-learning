@@ -4,7 +4,8 @@ import grammarData from '@/data/grammar.json'
 import vocabData from '@/data/vocabulary.json'
 import exercisesData from '@/data/exercises.json'
 import resourcesData from '@/data/resources.json'
-import type { Stage, Lesson, GrammarPoint, VocabWord, Exercise, Resource, Level } from './types'
+import lessonContentData from '@/data/lessonContent.json'
+import type { Stage, Lesson, GrammarPoint, VocabWord, Exercise, Resource, Level, LessonRichContent } from './types'
 
 export function getStages(): Stage[] {
   return stagesData as Stage[]
@@ -66,4 +67,8 @@ export function getExercisesByLevel(level: Level): Exercise[] {
 
 export function getResources(): Resource[] {
   return resourcesData as Resource[]
+}
+
+export function getLessonContent(slug: string): LessonRichContent | undefined {
+  return (lessonContentData as LessonRichContent[]).find(c => c.slug === slug)
 }

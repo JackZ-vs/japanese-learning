@@ -37,9 +37,27 @@ export interface GrammarPoint {
   structure: string
   usageNotes: string
   commonMistakes: string
+  whenToUse?: string
+  chineseTrap?: string
+  memoryTip?: string
   examples: Array<{ ja: string; reading: string; zh: string }>
   compareWith?: string[]
   tags: string[]
+}
+
+export interface LessonSection {
+  type: 'explainer' | 'examples' | 'mistake-box' | 'tip-box' | 'table' | 'summary' | 'compare'
+  title?: string
+  text?: string
+  items?: string[]
+  examples?: Array<{ ja: string; reading: string; zh: string; note?: string }>
+  rows?: string[][]
+}
+
+export interface LessonRichContent {
+  slug: string
+  prereqs?: string[]
+  sections: LessonSection[]
 }
 
 export interface VocabWord {

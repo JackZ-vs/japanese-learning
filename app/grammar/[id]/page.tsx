@@ -47,20 +47,28 @@ export default async function GrammarDetailPage({ params }: { params: Promise<{ 
             {levelLabels[g.level]}
           </span>
         </div>
-
         <p className="text-gray-700 text-lg leading-relaxed mb-5">{g.meaning}</p>
-
-        <div className="bg-gray-50 rounded-lg px-5 py-3 mb-5">
-          <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">接续</span>
+        <div className="bg-gray-50 rounded-lg px-5 py-3 mb-4">
+          <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">接续规则</span>
           <code className="text-sm text-gray-800 font-mono">{g.structure}</code>
         </div>
-
         <div className="flex flex-wrap gap-1.5">
           {g.tags.map(t => (
             <span key={t} className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">{t}</span>
           ))}
         </div>
       </div>
+
+      {/* When to Use */}
+      {g.whenToUse && (
+        <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+          <h2 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <span className="w-1 h-5 rounded-full" style={{ backgroundColor: color }} />
+            什么时候用这个语法？
+          </h2>
+          <p className="text-gray-700 text-sm leading-relaxed">{g.whenToUse}</p>
+        </div>
+      )}
 
       {/* Usage Notes */}
       <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
@@ -88,11 +96,29 @@ export default async function GrammarDetailPage({ params }: { params: Promise<{ 
         </div>
       </div>
 
+      {/* Chinese Thinking Trap */}
+      {g.chineseTrap && (
+        <div className="bg-amber-50 rounded-xl border border-amber-200 p-6 mb-6">
+          <h2 className="font-bold text-amber-800 mb-3 flex items-center gap-2">
+            <span>🇨🇳</span> 中文思维容易导致的误解
+          </h2>
+          <p className="text-amber-800 text-sm leading-relaxed">{g.chineseTrap}</p>
+        </div>
+      )}
+
       {/* Common Mistakes */}
       {g.commonMistakes && (
         <div className="bg-red-50 rounded-xl border border-red-100 p-6 mb-6">
           <h2 className="font-bold text-red-700 mb-3">⚠ 常见错误 & 注意事项</h2>
           <p className="text-red-700 text-sm leading-relaxed">{g.commonMistakes}</p>
+        </div>
+      )}
+
+      {/* Memory Tip */}
+      {g.memoryTip && (
+        <div className="bg-[#1e3a5f]/5 rounded-xl border border-[#1e3a5f]/10 p-6 mb-6">
+          <h2 className="font-bold text-[#1e3a5f] mb-3">💡 记忆提醒</h2>
+          <p className="text-[#1e3a5f] text-sm leading-relaxed">{g.memoryTip}</p>
         </div>
       )}
 
@@ -117,6 +143,7 @@ export default async function GrammarDetailPage({ params }: { params: Promise<{ 
 
       <div className="flex justify-between pt-4">
         <Link href="/grammar" className="text-sm text-gray-500 hover:text-[#1e3a5f]">← 返回语法库</Link>
+        <Link href="/practice" className="text-sm text-[#1e3a5f] hover:underline">去做练习题 →</Link>
       </div>
     </div>
   )
