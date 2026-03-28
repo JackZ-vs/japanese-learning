@@ -1,44 +1,42 @@
 /**
- * 阿里云 DashScope CosyVoice TTS 实现
+ * 阿里云 DashScope CosyVoice TTS 实现（WebSocket 协议）
  *
- * API 文档：https://help.aliyun.com/zh/model-studio/developer-reference/cosyvoice-tts
+ * API 文档：https://help.aliyun.com/zh/model-studio/cosyvoice-websocket-api
  *
- * 接口地址：POST https://dashscope.aliyuncs.com/api/v1/services/aigc/text2audio/synthesis
+ * 接口地址：wss://dashscope.aliyuncs.com/api-ws/v1/inference
  *
- * 认证方式：请求头 Authorization: Bearer {DASHSCOPE_API_KEY}
+ * 认证方式：WebSocket 握手时请求头 Authorization: Bearer {DASHSCOPE_API_KEY}
  *
- * 响应格式（同步模式，不加 X-DashScope-SSE 头）：
- *   HTTP 200 + JSON { request_id, output: { audio: "<base64 mp3>" }, usage: {...} }
- * 出错时：
- *   HTTP 4xx/5xx + JSON { request_id, code, message }
+ * 协议流程：
+ *   1. 建立 WebSocket 连接
+ *   2. 发送 run-task（指定模型、音色、格式）
+ *   3. 收到 task-started 后发送 continue-task（文本内容）
+ *   4. 发送 finish-task
+ *   5. 接收 result-generated 事件（二进制音频分块或 base64）
+ *   6. 收到 task-finished 后关闭连接，拼接所有分块写入文件
  *
  * 本模块只在 Node.js（生成脚本）中运行，不在浏览器端执行。
  */
 
 import { writeFileSync, existsSync, mkdirSync } from 'fs'
 import { dirname, resolve } from 'path'
+import { randomUUID } from 'crypto'
+import WebSocket from 'ws'
 import type { TtsRequest, TtsConfig, TtsResult } from './types'
 
-// ─── 集中配置 ────────────────────────────────────────────────────────────────
-
-const DASHSCOPE_TTS_URL =
-  'https://dashscope.aliyuncs.com/api/v1/services/aigc/text2audio/synthesis'
+const WS_URL = 'wss://dashscope.aliyuncs.com/api-ws/v1/inference'
 
 /**
- * 默认 TTS 配置（所有参数集中在此处，修改一处即可全局生效）
+ * 默认 TTS 配置
  *
- * voice 说明：
- *   - longxiaochun_v2：CosyVoice 自然女声，支持中日双语，适合语言学习类内容
- *   - 如需切换音色，可在 .env.local 中设置 DASHSCOPE_VOICE=xxx
- *   - 可用音色列表：登录 https://dashscope.console.aliyun.com/ → 模型广场 → CosyVoice
+ * model: cosyvoice-v3-flash — 有免费额度，支持中日双语
+ * voice: longxiaochun_v2   — 自然女声
  *
- * format 说明：
- *   - 优先使用 mp3：主流浏览器原生支持，文件体积约为 wav 的 1/10
- *   - 阿里云 CosyVoice 同样支持 wav/pcm，如遇 mp3 不可用可改为 wav
+ * 如需切换音色，可在 .env.local 中设置 DASHSCOPE_VOICE=xxx
  */
 export const DEFAULT_TTS_CONFIG: TtsConfig = {
-  model: 'cosyvoice-v1',
-  voice: 'longxiaochun_v2',
+  model: 'cosyvoice-v3-flash',
+  voice: 'loongtomoka_v3',
   format: 'mp3',
   sampleRate: 22050,
   volume: 50,
@@ -46,14 +44,8 @@ export const DEFAULT_TTS_CONFIG: TtsConfig = {
   pitchRate: 0,
 }
 
-// ─── 核心调用函数 ─────────────────────────────────────────────────────────────
-
 /**
- * 合成一条语音并写入本地文件
- *
- * @param req - 包含文本、输出路径等信息的请求对象
- * @param config - TTS 参数配置（默认使用 DEFAULT_TTS_CONFIG）
- * @returns TtsResult
+ * 合成一条语音并写入本地文件（WebSocket 协议）
  */
 export async function synthesize(
   req: TtsRequest,
@@ -69,101 +61,102 @@ export async function synthesize(
 
   const absPath = resolve(req.outputPath)
 
-  // 已存在则跳过，支持增量生成
   if (existsSync(absPath)) {
     return { id: req.id, outputPath: absPath, skipped: true, success: true }
   }
 
-  // 确保输出目录存在
   mkdirSync(dirname(absPath), { recursive: true })
 
-  // 允许通过环境变量覆盖音色
   const voice = process.env.DASHSCOPE_VOICE || config.voice
+  const taskId = randomUUID()
 
-  // ─── 发起请求 ────────────────────────────────────────────────────────────
-  let res: Response
-  try {
-    res = await fetch(DASHSCOPE_TTS_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`,
-        // 不加 X-DashScope-SSE 头 → 同步模式，响应体为完整 JSON（含 base64 音频）
-        // 如需流式模式，加 'X-DashScope-SSE': 'enable'
-      },
-      body: JSON.stringify({
-        model: config.model,
-        input: {
-          text: req.text,
-          voice,
-        },
-        parameters: {
-          format: config.format,
-          sample_rate: config.sampleRate,
-          volume: config.volume,
-          speech_rate: config.speechRate,
-          pitch_rate: config.pitchRate,
-        },
-      }),
+  return new Promise((done) => {
+    const ws = new WebSocket(WS_URL, {
+      headers: { Authorization: `Bearer ${apiKey}` },
     })
-  } catch (e) {
-    return {
-      id: req.id,
-      outputPath: absPath,
-      skipped: false,
-      success: false,
-      error: `网络请求失败: ${String(e)}`,
-    }
-  }
 
-  // ─── 解析响应 ────────────────────────────────────────────────────────────
-  const contentType = res.headers.get('content-type') || ''
+    const audioChunks: Buffer[] = []
+    let failed: string | null = null
 
-  try {
-    if (contentType.includes('audio/')) {
-      // 部分版本接口直接返回二进制音频流
-      const buf = Buffer.from(await res.arrayBuffer())
-      writeFileSync(absPath, buf)
-      return { id: req.id, outputPath: absPath, skipped: false, success: true }
-    }
+    ws.on('open', () => {
+      // Step 1: run-task
+      ws.send(JSON.stringify({
+        header: { action: 'run-task', task_id: taskId, streaming: 'duplex' },
+        payload: {
+          task_group: 'audio',
+          task: 'tts',
+          function: 'SpeechSynthesizer',
+          model: config.model,
+          parameters: {
+            voice,
+            format: config.format,
+            sample_rate: config.sampleRate,
+            volume: config.volume,
+            speech_rate: config.speechRate,
+            pitch_rate: config.pitchRate,
+          },
+          input: {},
+        },
+      }))
+    })
 
-    // 标准响应：JSON 包含 base64 编码的音频
-    const json = (await res.json()) as {
-      request_id?: string
-      output?: { audio?: string }
-      code?: string
-      message?: string
-    }
-
-    if (!res.ok || json.code) {
-      return {
-        id: req.id,
-        outputPath: absPath,
-        skipped: false,
-        success: false,
-        error: `API 错误 [${json.code ?? res.status}]: ${json.message ?? '未知错误'}`,
+    ws.on('message', (data, isBinary) => {
+      if (isBinary) {
+        // 二进制音频分块
+        audioChunks.push(Buffer.from(data as Buffer))
+        return
       }
-    }
 
-    if (!json.output?.audio) {
-      return {
-        id: req.id,
-        outputPath: absPath,
-        skipped: false,
-        success: false,
-        error: `响应中无 audio 字段: ${JSON.stringify(json).slice(0, 200)}`,
+      let msg: {
+        header?: { event?: string; error_code?: string; error_message?: string }
+        payload?: { output?: { audio?: string } }
       }
-    }
+      try {
+        msg = JSON.parse(data.toString())
+      } catch {
+        return
+      }
 
-    writeFileSync(absPath, Buffer.from(json.output.audio, 'base64'))
-    return { id: req.id, outputPath: absPath, skipped: false, success: true }
-  } catch (e) {
-    return {
-      id: req.id,
-      outputPath: absPath,
-      skipped: false,
-      success: false,
-      error: `响应解析失败: ${String(e)}`,
-    }
-  }
+      const event = msg.header?.event
+
+      if (event === 'task-started') {
+        // Step 2: 发送文本
+        ws.send(JSON.stringify({
+          header: { action: 'continue-task', task_id: taskId },
+          payload: { input: { text: req.text } },
+        }))
+        // Step 3: 通知文本发送完毕
+        ws.send(JSON.stringify({
+          header: { action: 'finish-task', task_id: taskId },
+          payload: { input: { text: '' } },
+        }))
+      } else if (event === 'result-generated') {
+        // JSON 中的 base64 音频（部分版本）
+        const b64 = msg.payload?.output?.audio
+        if (b64) audioChunks.push(Buffer.from(b64, 'base64'))
+      } else if (event === 'task-finished') {
+        ws.close()
+      } else if (event === 'task-failed') {
+        failed = `${msg.header?.error_code ?? 'error'}: ${msg.header?.error_message ?? '未知错误'}`
+        ws.close()
+      }
+    })
+
+    ws.on('close', () => {
+      if (failed) {
+        done({ id: req.id, outputPath: absPath, skipped: false, success: false, error: failed })
+        return
+      }
+      if (audioChunks.length === 0) {
+        done({ id: req.id, outputPath: absPath, skipped: false, success: false, error: '未收到音频数据' })
+        return
+      }
+      writeFileSync(absPath, Buffer.concat(audioChunks))
+      done({ id: req.id, outputPath: absPath, skipped: false, success: true })
+    })
+
+    ws.on('error', (e) => {
+      done({ id: req.id, outputPath: absPath, skipped: false, success: false, error: `WebSocket 错误: ${e.message}` })
+    })
+  })
 }
