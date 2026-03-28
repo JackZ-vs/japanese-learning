@@ -2605,5 +2605,655 @@
     "page": "/kana",
     "sourceId": "special",
     "note": "拨音 nihongo"
+  },
+  {
+    "id": "gr-g-desu-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "田中さんは先生ですか？",
+    "outputPath": "public/audio/grammar/g-desu_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-desu_ex2.mp3",
+    "page": "/grammar/g-desu",
+    "sourceId": "g-desu"
+  },
+  {
+    "id": "gr-g-desu-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "今日は月曜日です。",
+    "outputPath": "public/audio/grammar/g-desu_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-desu_ex3.mp3",
+    "page": "/grammar/g-desu",
+    "sourceId": "g-desu"
+  },
+  {
+    "id": "gr-g-desu-ex4",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "あの人は中国人ではありません。",
+    "outputPath": "public/audio/grammar/g-desu_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-desu_ex4.mp3",
+    "page": "/grammar/g-desu",
+    "sourceId": "g-desu"
+  },
+  {
+    "id": "gr-g-wa-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "田中さんは来ましたが、鈴木さんは来ませんでした。",
+    "outputPath": "public/audio/grammar/g-wa_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-wa_ex2.mp3",
+    "page": "/grammar/g-wa",
+    "sourceId": "g-wa"
+  },
+  {
+    "id": "gr-g-wa-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "日本語は難しいです。",
+    "outputPath": "public/audio/grammar/g-wa_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-wa_ex3.mp3",
+    "page": "/grammar/g-wa",
+    "sourceId": "g-wa"
+  },
+  {
+    "id": "gr-g-ga-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "公園に猫がいます。",
+    "outputPath": "public/audio/grammar/g-ga_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-ga_ex2.mp3",
+    "page": "/grammar/g-ga",
+    "sourceId": "g-ga"
+  },
+  {
+    "id": "gr-g-ga-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "彼女が作ったケーキはおいしい。",
+    "outputPath": "public/audio/grammar/g-ga_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-ga_ex3.mp3",
+    "page": "/grammar/g-ga",
+    "sourceId": "g-ga"
+  },
+  {
+    "id": "gr-g-wo-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "この道を真っすぐ歩いてください。",
+    "outputPath": "public/audio/grammar/g-wo_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-wo_ex2.mp3",
+    "page": "/grammar/g-wo",
+    "sourceId": "g-wo"
+  },
+  {
+    "id": "gr-g-wo-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "毎朝、家を7時に出ます。",
+    "outputPath": "public/audio/grammar/g-wo_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-wo_ex3.mp3",
+    "page": "/grammar/g-wo",
+    "sourceId": "g-wo"
+  },
+  {
+    "id": "gr-g-ni-place-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "毎朝6時に起きます。",
+    "outputPath": "public/audio/grammar/g-ni-place_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-ni-place_ex2.mp3",
+    "page": "/grammar/g-ni-place",
+    "sourceId": "g-ni-place"
+  },
+  {
+    "id": "gr-g-ni-place-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "冷蔵庫にビールがあります。",
+    "outputPath": "public/audio/grammar/g-ni-place_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-ni-place_ex3.mp3",
+    "page": "/grammar/g-ni-place",
+    "sourceId": "g-ni-place"
+  },
+  {
+    "id": "gr-g-de-place-ex2",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "箸で食べるのが好きです。",
+    "outputPath": "public/audio/grammar/g-de-place_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-de-place_ex2.mp3",
+    "page": "/grammar/g-de-place",
+    "sourceId": "g-de-place"
+  },
+  {
+    "id": "gr-g-de-place-ex3",
+    "type": "grammar-example",
+    "level": "elementary",
+    "text": "風邪で学校を休みました。",
+    "outputPath": "public/audio/grammar/g-de-place_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-de-place_ex3.mp3",
+    "page": "/grammar/g-de-place",
+    "sourceId": "g-de-place"
+  },
+  {
+    "id": "gr-g-te-iru-ex2",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "田中さんはどんな仕事をしていますか。",
+    "outputPath": "public/audio/grammar/g-te-iru_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-iru_ex2.mp3",
+    "page": "/grammar/g-te-iru",
+    "sourceId": "g-te-iru"
+  },
+  {
+    "id": "gr-g-te-iru-ex3",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "電気がついています。",
+    "outputPath": "public/audio/grammar/g-te-iru_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-te-iru_ex3.mp3",
+    "page": "/grammar/g-te-iru",
+    "sourceId": "g-te-iru"
+  },
+  {
+    "id": "gr-g-te-iru-ex4",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "その映画は知っています。",
+    "outputPath": "public/audio/grammar/g-te-iru_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-te-iru_ex4.mp3",
+    "page": "/grammar/g-te-iru",
+    "sourceId": "g-te-iru"
+  },
+  {
+    "id": "gr-g-tai-ex2",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "もっと日本語が上手になりたいです。",
+    "outputPath": "public/audio/grammar/g-tai_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-tai_ex2.mp3",
+    "page": "/grammar/g-tai",
+    "sourceId": "g-tai"
+  },
+  {
+    "id": "gr-g-tai-ex3",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "今日は何もしたくないです。",
+    "outputPath": "public/audio/grammar/g-tai_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-tai_ex3.mp3",
+    "page": "/grammar/g-tai",
+    "sourceId": "g-tai"
+  },
+  {
+    "id": "gr-g-tai-ex4",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "子供のとき、パイロットになりたかったです。",
+    "outputPath": "public/audio/grammar/g-tai_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-tai_ex4.mp3",
+    "page": "/grammar/g-tai",
+    "sourceId": "g-tai"
+  },
+  {
+    "id": "gr-g-te-kudasai-ex2",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "写真を撮ってもいいですか？",
+    "outputPath": "public/audio/grammar/g-te-kudasai_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-kudasai_ex2.mp3",
+    "page": "/grammar/g-te-kudasai",
+    "sourceId": "g-te-kudasai"
+  },
+  {
+    "id": "gr-g-te-kudasai-ex3",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "ここでタバコを吸わないでください。",
+    "outputPath": "public/audio/grammar/g-te-kudasai_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-te-kudasai_ex3.mp3",
+    "page": "/grammar/g-te-kudasai",
+    "sourceId": "g-te-kudasai"
+  },
+  {
+    "id": "gr-g-te-kudasai-ex4",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "少し待ってください。",
+    "outputPath": "public/audio/grammar/g-te-kudasai_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-te-kudasai_ex4.mp3",
+    "page": "/grammar/g-te-kudasai",
+    "sourceId": "g-te-kudasai"
+  },
+  {
+    "id": "gr-g-koto-ga-dekiru-ex2",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "明日は来ることができますか？",
+    "outputPath": "public/audio/grammar/g-koto-ga-dekiru_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-koto-ga-dekiru_ex2.mp3",
+    "page": "/grammar/g-koto-ga-dekiru",
+    "sourceId": "g-koto-ga-dekiru"
+  },
+  {
+    "id": "gr-g-koto-ga-dekiru-ex3",
+    "type": "grammar-example",
+    "level": "n5",
+    "text": "ここでカードを使うことができます。",
+    "outputPath": "public/audio/grammar/g-koto-ga-dekiru_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-koto-ga-dekiru_ex3.mp3",
+    "page": "/grammar/g-koto-ga-dekiru",
+    "sourceId": "g-koto-ga-dekiru"
+  },
+  {
+    "id": "gr-g-ta-koto-ga-aru-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "いいえ、まだ食べたことがありません。",
+    "outputPath": "public/audio/grammar/g-ta-koto-ga-aru_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-ta-koto-ga-aru_ex2.mp3",
+    "page": "/grammar/g-ta-koto-ga-aru",
+    "sourceId": "g-ta-koto-ga-aru"
+  },
+  {
+    "id": "gr-g-ta-koto-ga-aru-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "富士山に登ったことが一度あります。",
+    "outputPath": "public/audio/grammar/g-ta-koto-ga-aru_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-ta-koto-ga-aru_ex3.mp3",
+    "page": "/grammar/g-ta-koto-ga-aru",
+    "sourceId": "g-ta-koto-ga-aru"
+  },
+  {
+    "id": "gr-g-ta-koto-ga-aru-ex4",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "こんな難しい問題は見たことがない。",
+    "outputPath": "public/audio/grammar/g-ta-koto-ga-aru_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-ta-koto-ga-aru_ex4.mp3",
+    "page": "/grammar/g-ta-koto-ga-aru",
+    "sourceId": "g-ta-koto-ga-aru"
+  },
+  {
+    "id": "gr-g-potential-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "明日は来られますか？",
+    "outputPath": "public/audio/grammar/g-potential_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-potential_ex2.mp3",
+    "page": "/grammar/g-potential",
+    "sourceId": "g-potential"
+  },
+  {
+    "id": "gr-g-potential-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "漢字はまだあまり書けません。",
+    "outputPath": "public/audio/grammar/g-potential_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-potential_ex3.mp3",
+    "page": "/grammar/g-potential",
+    "sourceId": "g-potential"
+  },
+  {
+    "id": "gr-g-potential-ex4",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "ここで写真が撮れますよ。",
+    "outputPath": "public/audio/grammar/g-potential_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-potential_ex4.mp3",
+    "page": "/grammar/g-potential",
+    "sourceId": "g-potential"
+  },
+  {
+    "id": "gr-g-tara-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "家に帰ったら、手を洗ってください。",
+    "outputPath": "public/audio/grammar/g-tara_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-tara_ex2.mp3",
+    "page": "/grammar/g-tara",
+    "sourceId": "g-tara"
+  },
+  {
+    "id": "gr-g-tara-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "財布を開けたら、お金がなかった。",
+    "outputPath": "public/audio/grammar/g-tara_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-tara_ex3.mp3",
+    "page": "/grammar/g-tara",
+    "sourceId": "g-tara"
+  },
+  {
+    "id": "gr-g-tara-ex4",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "もし時間があったら、映画を見ませんか？",
+    "outputPath": "public/audio/grammar/g-tara_ex4.mp3",
+    "audioUrl": "/audio/grammar/g-tara_ex4.mp3",
+    "page": "/grammar/g-tara",
+    "sourceId": "g-tara"
+  },
+  {
+    "id": "gr-g-te-ageru-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "友達のために料理を作ってあげた。",
+    "outputPath": "public/audio/grammar/g-te-ageru_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-ageru_ex2.mp3",
+    "page": "/grammar/g-te-ageru",
+    "sourceId": "g-te-ageru"
+  },
+  {
+    "id": "gr-g-te-morau-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "もう少し待ってもらえますか？",
+    "outputPath": "public/audio/grammar/g-te-morau_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-morau_ex2.mp3",
+    "page": "/grammar/g-te-morau",
+    "sourceId": "g-te-morau"
+  },
+  {
+    "id": "gr-g-te-kureru-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "彼女が誕生日に料理を作ってくれました。",
+    "outputPath": "public/audio/grammar/g-te-kureru_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-kureru_ex2.mp3",
+    "page": "/grammar/g-te-kureru",
+    "sourceId": "g-te-kureru"
+  },
+  {
+    "id": "gr-g-volitional-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "そろそろ帰りましょうか。",
+    "outputPath": "public/audio/grammar/g-volitional_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-volitional_ex2.mp3",
+    "page": "/grammar/g-volitional",
+    "sourceId": "g-volitional"
+  },
+  {
+    "id": "gr-g-volitional-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "今年は日本語を頑張ろうと思っています。",
+    "outputPath": "public/audio/grammar/g-volitional_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-volitional_ex3.mp3",
+    "page": "/grammar/g-volitional",
+    "sourceId": "g-volitional"
+  },
+  {
+    "id": "gr-g-te-shimau-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "雨で傘を壊してしまいました。",
+    "outputPath": "public/audio/grammar/g-te-shimau_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-shimau_ex2.mp3",
+    "page": "/grammar/g-te-shimau",
+    "sourceId": "g-te-shimau"
+  },
+  {
+    "id": "gr-g-te-shimau-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "もう返事をしてしまったから、断れない。",
+    "outputPath": "public/audio/grammar/g-te-shimau_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-te-shimau_ex3.mp3",
+    "page": "/grammar/g-te-shimau",
+    "sourceId": "g-te-shimau"
+  },
+  {
+    "id": "gr-g-ba-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "あの時、もっと頑張ればよかった。",
+    "outputPath": "public/audio/grammar/g-ba_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-ba_ex2.mp3",
+    "page": "/grammar/g-ba",
+    "sourceId": "g-ba"
+  },
+  {
+    "id": "gr-g-ba-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "安ければ、買います。",
+    "outputPath": "public/audio/grammar/g-ba_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-ba_ex3.mp3",
+    "page": "/grammar/g-ba",
+    "sourceId": "g-ba"
+  },
+  {
+    "id": "gr-g-soo-da-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "雨が降りそうですね。",
+    "outputPath": "public/audio/grammar/g-soo-da_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-soo-da_ex2.mp3",
+    "page": "/grammar/g-soo-da",
+    "sourceId": "g-soo-da"
+  },
+  {
+    "id": "gr-g-soo-da-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "この問題は難しそうですが、やってみます。",
+    "outputPath": "public/audio/grammar/g-soo-da_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-soo-da_ex3.mp3",
+    "page": "/grammar/g-soo-da",
+    "sourceId": "g-soo-da"
+  },
+  {
+    "id": "gr-g-rashii-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "彼は本当に先生らしい先生ですね。",
+    "outputPath": "public/audio/grammar/g-rashii_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-rashii_ex2.mp3",
+    "page": "/grammar/g-rashii",
+    "sourceId": "g-rashii"
+  },
+  {
+    "id": "gr-g-rashii-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "外が騒がしいと思ったら、事故があったらしい。",
+    "outputPath": "public/audio/grammar/g-rashii_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-rashii_ex3.mp3",
+    "page": "/grammar/g-rashii",
+    "sourceId": "g-rashii"
+  },
+  {
+    "id": "gr-g-plain-form-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "彼女は毎日日本語を勉強すると言っていた。",
+    "outputPath": "public/audio/grammar/g-plain-form_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-plain-form_ex2.mp3",
+    "page": "/grammar/g-plain-form",
+    "sourceId": "g-plain-form"
+  },
+  {
+    "id": "gr-g-plain-form-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "安くておいしいから、このお店が好きです。",
+    "outputPath": "public/audio/grammar/g-plain-form_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-plain-form_ex3.mp3",
+    "page": "/grammar/g-plain-form",
+    "sourceId": "g-plain-form"
+  },
+  {
+    "id": "gr-g-causative-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "少し休ませてください。",
+    "outputPath": "public/audio/grammar/g-causative_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-causative_ex2.mp3",
+    "page": "/grammar/g-causative",
+    "sourceId": "g-causative"
+  },
+  {
+    "id": "gr-g-causative-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "面白い映画を見て、彼女を笑わせた。",
+    "outputPath": "public/audio/grammar/g-causative_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-causative_ex3.mp3",
+    "page": "/grammar/g-causative",
+    "sourceId": "g-causative"
+  },
+  {
+    "id": "gr-g-passive-ex1",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "財布を盗まれてしまいました。",
+    "outputPath": "public/audio/grammar/g-passive_ex1.mp3",
+    "audioUrl": "/audio/grammar/g-passive_ex1.mp3",
+    "page": "/grammar/g-passive",
+    "sourceId": "g-passive"
+  },
+  {
+    "id": "gr-g-passive-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "昨日、雨に降られて大変でした。",
+    "outputPath": "public/audio/grammar/g-passive_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-passive_ex2.mp3",
+    "page": "/grammar/g-passive",
+    "sourceId": "g-passive"
+  },
+  {
+    "id": "gr-g-passive-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "この小説は夏目漱石に書かれました。",
+    "outputPath": "public/audio/grammar/g-passive_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-passive_ex3.mp3",
+    "page": "/grammar/g-passive",
+    "sourceId": "g-passive"
+  },
+  {
+    "id": "gr-g-te-oku-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "予約しておいたほうがいいですよ。",
+    "outputPath": "public/audio/grammar/g-te-oku_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-oku_ex2.mp3",
+    "page": "/grammar/g-te-oku",
+    "sourceId": "g-te-oku"
+  },
+  {
+    "id": "gr-g-te-oku-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "明日のパーティーのために料理を作っておきました。",
+    "outputPath": "public/audio/grammar/g-te-oku_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-te-oku_ex3.mp3",
+    "page": "/grammar/g-te-oku",
+    "sourceId": "g-te-oku"
+  },
+  {
+    "id": "gr-g-you-da-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "外が騒がしい。何かあったようだ。",
+    "outputPath": "public/audio/grammar/g-you-da_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-you-da_ex2.mp3",
+    "page": "/grammar/g-you-da",
+    "sourceId": "g-you-da"
+  },
+  {
+    "id": "gr-g-you-da-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "まるで夢のようです。",
+    "outputPath": "public/audio/grammar/g-you-da_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-you-da_ex3.mp3",
+    "page": "/grammar/g-you-da",
+    "sourceId": "g-you-da"
+  },
+  {
+    "id": "gr-g-te-mo-ii-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "明日は来なくてもいいですよ。",
+    "outputPath": "public/audio/grammar/g-te-mo-ii_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-te-mo-ii_ex2.mp3",
+    "page": "/grammar/g-te-mo-ii",
+    "sourceId": "g-te-mo-ii"
+  },
+  {
+    "id": "gr-g-te-mo-ii-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "宿題はもう終わったから、遊んでもいいよ。",
+    "outputPath": "public/audio/grammar/g-te-mo-ii_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-te-mo-ii_ex3.mp3",
+    "page": "/grammar/g-te-mo-ii",
+    "sourceId": "g-te-mo-ii"
+  },
+  {
+    "id": "gr-g-nakereba-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "早く帰らなきゃ。",
+    "outputPath": "public/audio/grammar/g-nakereba_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-nakereba_ex2.mp3",
+    "page": "/grammar/g-nakereba",
+    "sourceId": "g-nakereba"
+  },
+  {
+    "id": "gr-g-nakereba-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "この書類は明日までに提出しなければなりません。",
+    "outputPath": "public/audio/grammar/g-nakereba_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-nakereba_ex3.mp3",
+    "page": "/grammar/g-nakereba",
+    "sourceId": "g-nakereba"
+  },
+  {
+    "id": "gr-g-to-cond-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "このボタンを押すと、ドアが開きます。",
+    "outputPath": "public/audio/grammar/g-to-cond_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-to-cond_ex2.mp3",
+    "page": "/grammar/g-to-cond",
+    "sourceId": "g-to-cond"
+  },
+  {
+    "id": "gr-g-to-cond-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "お酒を飲むと、すぐ眠くなります。",
+    "outputPath": "public/audio/grammar/g-to-cond_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-to-cond_ex3.mp3",
+    "page": "/grammar/g-to-cond",
+    "sourceId": "g-to-cond"
+  },
+  {
+    "id": "gr-g-nara-ex2",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "もし私なら、そうしません。",
+    "outputPath": "public/audio/grammar/g-nara_ex2.mp3",
+    "audioUrl": "/audio/grammar/g-nara_ex2.mp3",
+    "page": "/grammar/g-nara",
+    "sourceId": "g-nara"
+  },
+  {
+    "id": "gr-g-nara-ex3",
+    "type": "grammar-example",
+    "level": "n4",
+    "text": "子供なら、この映画は無料です。",
+    "outputPath": "public/audio/grammar/g-nara_ex3.mp3",
+    "audioUrl": "/audio/grammar/g-nara_ex3.mp3",
+    "page": "/grammar/g-nara",
+    "sourceId": "g-nara"
   }
 ]
