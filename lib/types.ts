@@ -40,7 +40,7 @@ export interface GrammarPoint {
   whenToUse?: string
   chineseTrap?: string
   memoryTip?: string
-  examples: Array<{ ja: string; reading: string; zh: string }>
+  examples: Array<{ ja: string; reading: string; zh: string; audioUrl?: string }>
   compareWith?: string[]
   tags: string[]
 }
@@ -50,7 +50,7 @@ export interface LessonSection {
   title?: string
   text?: string
   items?: string[]
-  examples?: Array<{ ja: string; reading: string; zh: string; note?: string }>
+  examples?: Array<{ ja: string; reading: string; zh: string; note?: string; audioUrl?: string }>
   rows?: string[][]
 }
 
@@ -67,7 +67,8 @@ export interface VocabWord {
   reading: string
   meaningZh: string
   partOfSpeech: string
-  exampleSentences: Array<{ ja: string; reading: string; zh: string }>
+  audioUrl?: string
+  exampleSentences: Array<{ ja: string; reading: string; zh: string; audioUrl?: string }>
   tags: string[]
 }
 

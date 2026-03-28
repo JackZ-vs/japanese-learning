@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getGrammar, getGrammarById } from '@/lib/data'
+import AudioButton from '@/components/AudioButton'
 
 export async function generateStaticParams() {
   return getGrammar().map(g => ({ id: g.id }))
@@ -88,7 +89,12 @@ export default async function GrammarDetailPage({ params }: { params: Promise<{ 
         <div className="space-y-4">
           {g.examples.map((ex, i) => (
             <div key={i} className="border-l-2 pl-4" style={{ borderColor: color + '60' }}>
-              <p className="text-lg japanese text-gray-900">{ex.ja}</p>
+              <div className="flex items-start gap-2">
+                <p className="text-lg japanese text-gray-900 flex-1">{ex.ja}</p>
+                {ex.audioUrl && (
+                  <AudioButton url={ex.audioUrl} size="md" className="mt-0.5 shrink-0" />
+                )}
+              </div>
               <p className="text-xs text-gray-400 japanese mt-0.5">{ex.reading}</p>
               <p className="text-sm text-gray-500 mt-1">{ex.zh}</p>
             </div>

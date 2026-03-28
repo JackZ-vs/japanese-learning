@@ -1,4 +1,5 @@
 import type { VocabWord } from '@/lib/types'
+import AudioButton from '@/components/AudioButton'
 
 const levelColors: Record<string, string> = {
   beginner: '#10b981', elementary: '#3b82f6', n5: '#8b5cf6', n4: '#f59e0b', n3: '#ef4444', n2: '#ec4899',
@@ -20,17 +21,25 @@ const posColors: Record<string, string> = {
 export default function VocabCard({ vocab }: { vocab: VocabWord }) {
   const color = levelColors[vocab.level] || '#1e3a5f'
   const posClass = posColors[vocab.partOfSpeech] || 'bg-gray-100 text-gray-600'
+  const ex = vocab.exampleSentences[0]
+
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-4 hover:shadow-sm transition-shadow">
+      {/* 单词行：单词 + 播放按钮 + 级别标签 */}
       <div className="flex items-start justify-between mb-2">
-        <div>
-          <div className="text-2xl font-bold text-gray-900 japanese leading-none mb-1">
-            {vocab.word}
+        <div className="flex items-center gap-2 min-w-0">
+          <div>
+            <div className="text-2xl font-bold text-gray-900 japanese leading-none mb-1">
+              {vocab.word}
+            </div>
+            <div className="text-sm text-gray-500 japanese">{vocab.reading}</div>
           </div>
-          <div className="text-sm text-gray-500 japanese">{vocab.reading}</div>
+          {vocab.audioUrl && (
+            <AudioButton url={vocab.audioUrl} size="md" className="mt-0.5" />
+          )}
         </div>
         <span
-          className="text-xs font-semibold px-2 py-0.5 rounded-full shrink-0"
+          className="text-xs font-semibold px-2 py-0.5 rounded-full shrink-0 ml-2"
           style={{ backgroundColor: color + '20', color }}
         >
           {levelLabels[vocab.level]}
@@ -45,11 +54,17 @@ export default function VocabCard({ vocab }: { vocab: VocabWord }) {
 
       <p className="text-gray-800 font-medium text-sm mb-3">{vocab.meaningZh}</p>
 
-      {vocab.exampleSentences[0] && (
+      {/* 例句：带独立播放按钮 */}
+      {ex && (
         <div className="bg-gray-50 rounded-md p-3 text-xs space-y-1">
-          <p className="japanese text-gray-700">{vocab.exampleSentences[0].ja}</p>
-          <p className="text-gray-400 japanese text-xs">{vocab.exampleSentences[0].reading}</p>
-          <p className="text-gray-500">{vocab.exampleSentences[0].zh}</p>
+          <div className="flex items-start gap-1.5">
+            <p className="japanese text-gray-700 flex-1">{ex.ja}</p>
+            {ex.audioUrl && (
+              <AudioButton url={ex.audioUrl} size="sm" className="mt-0.5 shrink-0" />
+            )}
+          </div>
+          <p className="text-gray-400 japanese text-xs">{ex.reading}</p>
+          <p className="text-gray-500">{ex.zh}</p>
         </div>
       )}
     </div>

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen:audio": "tsx scripts/generate-audio.ts"
   },
   "dependencies": {
     "next": "^15.2.4",
@@ -19,6 +20,7 @@
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "tsx": "^4.19.2"
   }
 }
