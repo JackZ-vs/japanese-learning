@@ -84,9 +84,9 @@ function KanaGrid({ rows }: { rows: KanaRow[] }) {
                           {cell.roma}
                         </span>
                       </button>
-                      {/* 发音按钮：悬停时出现，叠加在格子右下角 */}
+                      {/* 发音按钮：始终可见，叠加在格子右下角 */}
                       {audioUrl(cell.roma) && (
-                        <div className="absolute -bottom-1 -right-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div className="absolute -bottom-1 -right-1">
                           <AudioButton
                             url={audioUrl(cell.roma)!}
                             size="sm"

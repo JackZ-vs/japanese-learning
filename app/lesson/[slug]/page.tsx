@@ -5,6 +5,7 @@ import { getLessons, getLessonBySlug, getStage, getGrammarById, getVocabByIds, g
 import type { LessonSection } from '@/lib/types'
 import VocabCard from '@/components/VocabCard'
 import ExerciseBlock from '@/components/ExerciseBlock'
+import AudioButton from '@/components/AudioButton'
 
 export async function generateStaticParams() {
   return getLessons().map(l => ({ slug: l.slug }))
@@ -59,7 +60,10 @@ function SectionBlock({ section, color }: { section: LessonSection; color: strin
         <div className="space-y-4">
           {section.examples?.map((ex, i) => (
             <div key={i} className="border-l-2 pl-4" style={{ borderColor: color + '60' }}>
-              <p className="text-base japanese text-gray-900">{ex.ja}</p>
+              <div className="flex items-center gap-2">
+                <p className="text-base japanese text-gray-900">{ex.ja}</p>
+                {ex.audioUrl && <AudioButton url={ex.audioUrl} size="sm" />}
+              </div>
               <p className="text-xs text-gray-400 japanese mt-0.5">{ex.reading}</p>
               <p className="text-sm text-gray-600 mt-1">{ex.zh}</p>
               {ex.note && <p className="text-xs text-gray-400 mt-0.5 italic">※ {ex.note}</p>}
@@ -280,7 +284,10 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
                 <div className="space-y-2 mt-2">
                   {g.examples.slice(0, 2).map((ex, i) => (
                     <div key={i} className="border-l-2 border-gray-200 pl-3">
-                      <p className="text-sm japanese text-gray-900">{ex.ja}</p>
+                      <div className="flex items-center gap-2">
+                        <p className="text-sm japanese text-gray-900">{ex.ja}</p>
+                        {ex.audioUrl && <AudioButton url={ex.audioUrl} size="sm" />}
+                      </div>
                       <p className="text-xs text-gray-500 mt-0.5">{ex.zh}</p>
                     </div>
                   ))}

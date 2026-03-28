@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import KanaTable from '@/components/KanaTable'
 import ExerciseBlock from '@/components/ExerciseBlock'
+import AudioButton from '@/components/AudioButton'
 import type { Exercise } from '@/lib/types'
 
 const tabs = ['平假名', '片假名', '特殊音'] as const
@@ -21,11 +22,11 @@ const specialSoundData = [
     title: '拗音（ようおん）',
     desc: 'き/し/ち/に/ひ/み/り等的「い段」假名 + 小写やゆよ，组合成一个音节。',
     examples: [
-      { kana: 'きゃ', roma: 'kya', example: '客 (きゃく)' },
-      { kana: 'しゅ', roma: 'shu', example: '首 (しゅ)' },
-      { kana: 'ちょ', roma: 'cho', example: '帳 (ちょう)' },
-      { kana: 'にゅ', roma: 'nyu', example: '入 (にゅう)' },
-      { kana: 'びょ', roma: 'byo', example: '病院 (びょういん)' },
+      { kana: 'きゃ', roma: 'kya', example: '客 (きゃく)', audioUrl: '/audio/kana/kya.mp3' },
+      { kana: 'しゅ', roma: 'shu', example: '首 (しゅ)', audioUrl: '/audio/kana/shu.mp3' },
+      { kana: 'ちょ', roma: 'cho', example: '帳 (ちょう)', audioUrl: '/audio/kana/cho.mp3' },
+      { kana: 'にゅ', roma: 'nyu', example: '入 (にゅう)', audioUrl: '/audio/kana/nyu.mp3' },
+      { kana: 'びょ', roma: 'byo', example: '病院 (びょういん)', audioUrl: '/audio/kana/byo.mp3' },
     ],
     tip: '小写やゆよ不能单独使用，必须接在い段假名后面。'
   },
@@ -33,9 +34,9 @@ const specialSoundData = [
     title: '促音（そくおん）',
     desc: '小写っ/ッ表示一个停顿（无声音节），让后面的辅音"double"，发音时憋气一拍。',
     examples: [
-      { kana: 'きって', roma: 'kitte', example: '切手（邮票）' },
-      { kana: 'ざっし', roma: 'zasshi', example: '雑誌（杂志）' },
-      { kana: 'はっか', roma: 'hakka', example: '発火（着火）' },
+      { kana: 'きって', roma: 'kitte', example: '切手（邮票）', audioUrl: '/audio/kana/kitte.mp3' },
+      { kana: 'ざっし', roma: 'zasshi', example: '雑誌（杂志）', audioUrl: '/audio/kana/zasshi.mp3' },
+      { kana: 'はっか', roma: 'hakka', example: '発火（着火）', audioUrl: '/audio/kana/hakka.mp3' },
     ],
     tip: '促音不能出现在句末，不能在ん前面，通常在か/さ/た/ぱ行之前。'
   },
@@ -43,9 +44,9 @@ const specialSoundData = [
     title: '长音（ちょうおん）',
     desc: '平假名中，同列元音相接（あ段+あ/い段+い/う段+う/え段+い/お段+う）表示长音。片假名中用「ー」表示长音。',
     examples: [
-      { kana: 'おかあさん', roma: 'okaasan', example: '母亲（aa=长音a）' },
-      { kana: 'えいご', roma: 'eigo', example: '英语（ei=长音e）' },
-      { kana: 'コーヒー', roma: 'koohii', example: '咖啡（ー=长音符号）' },
+      { kana: 'おかあさん', roma: 'okaasan', example: '母亲（aa=长音a）', audioUrl: '/audio/kana/okaasan.mp3' },
+      { kana: 'えいご', roma: 'eigo', example: '英语（ei=长音e）', audioUrl: '/audio/kana/eigo.mp3' },
+      { kana: 'コーヒー', roma: 'koohii', example: '咖啡（ー=长音符号）', audioUrl: '/audio/kana/koohii.mp3' },
     ],
     tip: '长音和短音意思完全不同：おばさん（おばさん=阿姨）vs おばあさん（おばあさん=祖母）。'
   },
@@ -53,9 +54,9 @@ const specialSoundData = [
     title: '拨音（はつおん）ん/ン',
     desc: '日语唯一能单独作为音节的辅音，读作n/m/ng，根据后面的音变化发音。',
     examples: [
-      { kana: 'てんき', roma: 'tenki', example: '天気（天气）' },
-      { kana: 'さんぽ', roma: 'sanpo', example: '散歩（散步）' },
-      { kana: 'にほんご', roma: 'nihongo', example: '日本語' },
+      { kana: 'てんき', roma: 'tenki', example: '天気（天气）', audioUrl: '/audio/kana/tenki.mp3' },
+      { kana: 'さんぽ', roma: 'sanpo', example: '散歩（散步）', audioUrl: '/audio/kana/sanpo.mp3' },
+      { kana: 'にほんご', roma: 'nihongo', example: '日本語', audioUrl: '/audio/kana/nihongo.mp3' },
     ],
     tip: 'ん不能出现在词的开头。在后接な行/ま行时发n，在后接ば行/ぱ行/ま行时发m，在后接か行/が行时发ng，在句末或元音前发n。'
   },
@@ -151,7 +152,10 @@ export default function KanaPage() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">
                 {item.examples.map((ex, ei) => (
                   <div key={ei} className="bg-gray-50 rounded-lg p-3 text-center">
-                    <div className="text-xl japanese font-bold text-gray-900 mb-1">{ex.kana}</div>
+                    <div className="flex items-center justify-center gap-1.5 mb-1">
+                      <div className="text-xl japanese font-bold text-gray-900">{ex.kana}</div>
+                      {ex.audioUrl && <AudioButton url={ex.audioUrl} size="sm" />}
+                    </div>
                     <div className="text-xs text-[#1e3a5f] font-mono mb-1">{ex.roma}</div>
                     <div className="text-xs text-gray-500">{ex.example}</div>
                   </div>
