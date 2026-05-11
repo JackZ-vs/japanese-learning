@@ -95,37 +95,43 @@
             "ja": "あおい",
             "reading": "a-o-i",
             "zh": "蓝色的（形容词）",
-            "note": "あ + お + い，三个元音"
+            "note": "あ + お + い，三个元音",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex0.mp3"
           },
           {
             "ja": "いえ",
             "reading": "i-e",
             "zh": "家",
-            "note": "注意：不是 ie，而是 i + e 两个音节"
+            "note": "注意：不是 ie，而是 i + e 两个音节",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex1.mp3"
           },
           {
             "ja": "うえ",
             "reading": "u-e",
             "zh": "上面",
-            "note": "う + え，与いえ区分"
+            "note": "う + え，与いえ区分",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex2.mp3"
           },
           {
             "ja": "おかあさん",
             "reading": "o-ka-a-sa-n",
             "zh": "妈妈",
-            "note": "お + か + あ（长音）+ さん，先认识整体"
+            "note": "お + か + あ（长音）+ さん，先认识整体",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex3.mp3"
           },
           {
             "ja": "いか",
             "reading": "i-ka",
             "zh": "乌贼",
-            "note": "い + か，简单的两音节词"
+            "note": "い + か，简单的两音节词",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex4.mp3"
           },
           {
             "ja": "あおい",
             "reading": "a-o-i",
             "zh": "青/蓝（颜色）",
-            "note": "三个元音连读，不要断开"
+            "note": "三个元音连读，不要断开",
+            "audioUrl": "/audio/lesson/kana-hiragana-1_ex5.mp3"
           }
         ]
       },
@@ -208,25 +214,29 @@
             "ja": "わたしは学生です。",
             "reading": "わたしはがくせいです。",
             "zh": "我是学生。",
-            "note": "名词 + です，最基本句型"
+            "note": "名词 + です，最基本句型",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex0.mp3"
           },
           {
             "ja": "今日は月曜日です。",
             "reading": "きょうはげつようびです。",
             "zh": "今天是星期一。",
-            "note": "名词 + です"
+            "note": "名词 + です",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex1.mp3"
           },
           {
             "ja": "田中さんは先生じゃありません。",
             "reading": "たなかさんはせんせいじゃありません。",
             "zh": "田中先生不是老师。",
-            "note": "じゃありません 是口语否定"
+            "note": "じゃありません 是口语否定",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex2.mp3"
           },
           {
             "ja": "昨日は休みでした。",
             "reading": "きのうはやすみでした。",
             "zh": "昨天是休息日。",
-            "note": "でした 是过去式"
+            "note": "でした 是过去式",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex3.mp3"
           }
         ]
       },
@@ -269,25 +279,29 @@
             "ja": "毎日、日本語を勉強します。",
             "reading": "まいにち、にほんごをべんきょうします。",
             "zh": "每天学日语。",
-            "note": "します = する（做）的ます形"
+            "note": "します = する（做）的ます形",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex4.mp3"
           },
           {
             "ja": "朝ごはんを食べません。",
             "reading": "あさごはんをたべません。",
             "zh": "不吃早饭。",
-            "note": "食べます 的否定"
+            "note": "食べます 的否定",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex5.mp3"
           },
           {
             "ja": "昨日、映画を見ました。",
             "reading": "きのう、えいがをみました。",
             "zh": "昨天看了电影。",
-            "note": "見ます 的过去形"
+            "note": "見ます 的过去形",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex6.mp3"
           },
           {
             "ja": "一緒に行きませんか？",
             "reading": "いっしょにいきませんか？",
             "zh": "要不要一起去？",
-            "note": "ませんか 也可以表示礼貌邀请"
+            "note": "ませんか 也可以表示礼貌邀请",
+            "audioUrl": "/audio/lesson/el-desu-masu_ex7.mp3"
           }
         ]
       },
@@ -389,31 +403,36 @@
             "ja": "田中さんは来ました。",
             "reading": "たなかさんはきました。",
             "zh": "田中（的话）来了。（说到田中这个人，陈述事实）",
-            "note": "は：话题，可能暗示别人没来"
+            "note": "は：话题，可能暗示别人没来",
+            "audioUrl": "/audio/lesson/el-particles-wa-ga_ex0.mp3"
           },
           {
             "ja": "田中さんが来ました。",
             "reading": "たなかさんがきました。",
             "zh": "是田中来了。（回答「谁来了？」，强调是田中）",
-            "note": "が：回答疑问，强调新信息"
+            "note": "が：回答疑问，强调新信息",
+            "audioUrl": "/audio/lesson/el-particles-wa-ga_ex1.mp3"
           },
           {
             "ja": "日本語は難しいです。",
             "reading": "にほんごはむずかしいです。",
             "zh": "日语（的话）挺难的。（话题，陈述）",
-            "note": "は：引出话题"
+            "note": "は：引出话题",
+            "audioUrl": "/audio/lesson/el-particles-wa-ga_ex2.mp3"
           },
           {
             "ja": "日本語が難しいです。",
             "reading": "にほんごがむずかしいです。",
             "zh": "难的是日语。（强调难的是日语这门语言）",
-            "note": "が：强调主体"
+            "note": "が：强调主体",
+            "audioUrl": "/audio/lesson/el-particles-wa-ga_ex3.mp3"
           },
           {
             "ja": "彼女が作ったケーキはおいしい。",
             "reading": "かのじょがつくったけーきはおいしい。",
             "zh": "她做的蛋糕很好吃。（从句中用が，主句主题用は）",
-            "note": "从句主语用が，主句话题用は"
+            "note": "从句主语用が，主句话题用は",
+            "audioUrl": "/audio/lesson/el-particles-wa-ga_ex4.mp3"
           }
         ]
       },
@@ -519,25 +538,29 @@
             "ja": "毎日、電車で学校に行きます。",
             "reading": "まいにち、でんしゃでがっこうにいきます。",
             "zh": "每天坐电车去学校。",
-            "note": "で（手段）+ に（目的地）"
+            "note": "で（手段）+ に（目的地）",
+            "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex0.mp3"
           },
           {
             "ja": "図書館で日本語の本を読みます。",
             "reading": "としょかんでにほんごのほんをよみます。",
             "zh": "在图书馆读日语书。",
-            "note": "で（动作地点）+ を（宾语）"
+            "note": "で（动作地点）+ を（宾语）",
+            "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex1.mp3"
           },
           {
             "ja": "冷蔵庫にビールがあります。",
             "reading": "れいぞうこにびーるがあります。",
             "zh": "冰箱里有啤酒。",
-            "note": "に（存在地点）+ が（存在主体）"
+            "note": "に（存在地点）+ が（存在主体）",
+            "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex2.mp3"
           },
           {
             "ja": "9時に起きて、10時に学校を出ます。",
             "reading": "くじにおきて、じゅうじにがっこうをでます。",
             "zh": "9点起床，10点出门离开学校。",
-            "note": "に（时间点）+ を（离开某处）"
+            "note": "に（时间点）+ を（离开某处）",
+            "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex3.mp3"
           }
         ]
       },
@@ -638,25 +661,29 @@
             "ja": "この映画は面白いです。",
             "reading": "このえいがはおもしろいです。",
             "zh": "这部电影很有趣。",
-            "note": "面白い（adj）作谓语"
+            "note": "面白い（adj）作谓语",
+            "audioUrl": "/audio/lesson/el-i-adjectives_ex0.mp3"
           },
           {
             "ja": "昨日は忙しくなかったです。",
             "reading": "きのうはいそがしくなかったです。",
             "zh": "昨天不忙。",
-            "note": "過去否定：忙しい→忙しくなかった"
+            "note": "過去否定：忙しい→忙しくなかった",
+            "audioUrl": "/audio/lesson/el-i-adjectives_ex1.mp3"
           },
           {
             "ja": "新しいスマホを買いたいです。",
             "reading": "あたらしいすまほをかいたいです。",
             "zh": "想买新手机。",
-            "note": "新しい修饰名词（スマホ）"
+            "note": "新しい修饰名词（スマホ）",
+            "audioUrl": "/audio/lesson/el-i-adjectives_ex2.mp3"
           },
           {
             "ja": "この店の料理は安くておいしい。",
             "reading": "このみせのりょうりはやすくておいしい。",
             "zh": "这家店的料理又便宜又好吃。",
-            "note": "く + て 连接两个い形容词（下节课学て形连接）"
+            "note": "く + て 连接两个い形容词（下节课学て形连接）",
+            "audioUrl": "/audio/lesson/el-i-adjectives_ex3.mp3"
           }
         ]
       },
@@ -791,25 +818,29 @@
             "ja": "シャワーを浴びて、朝ごはんを食べます。",
             "reading": "しゃわーをあびて、あさごはんをたべます。",
             "zh": "洗完澡，吃早饭。",
-            "note": "て形连接动作（有先后顺序）"
+            "note": "て形连接动作（有先后顺序）",
+            "audioUrl": "/audio/lesson/n5-te-form_ex0.mp3"
           },
           {
             "ja": "ゆっくり話してください。",
             "reading": "ゆっくりはなしてください。",
             "zh": "请说慢一点。",
-            "note": "て形 + ください = 请求"
+            "note": "て形 + ください = 请求",
+            "audioUrl": "/audio/lesson/n5-te-form_ex1.mp3"
           },
           {
             "ja": "今、テレビを見ています。",
             "reading": "いま、てれびをみています。",
             "zh": "现在正在看电视。",
-            "note": "て形 + いる = 正在进行"
+            "note": "て形 + いる = 正在进行",
+            "audioUrl": "/audio/lesson/n5-te-form_ex2.mp3"
           },
           {
             "ja": "窓を開けてもいいですか？",
             "reading": "まどをあけてもいいですか？",
             "zh": "可以开窗吗？",
-            "note": "て形 + もいい = 表许可"
+            "note": "て形 + もいい = 表许可",
+            "audioUrl": "/audio/lesson/n5-te-form_ex3.mp3"
           }
         ]
       },
@@ -896,31 +927,36 @@
             "ja": "今、ご飯を食べています。",
             "reading": "いま、ごはんをたべています。",
             "zh": "现在正在吃饭。",
-            "note": "食べる=动作动词→正在进行"
+            "note": "食べる=动作动词→正在进行",
+            "audioUrl": "/audio/lesson/n5-te-iru_ex0.mp3"
           },
           {
             "ja": "彼女は結婚しています。",
             "reading": "かのじょはけっこんしています。",
             "zh": "她已婚。（婚姻状态持续）",
-            "note": "結婚する=状态变化→持续状态"
+            "note": "結婚する=状态变化→持续状态",
+            "audioUrl": "/audio/lesson/n5-te-iru_ex1.mp3"
           },
           {
             "ja": "電気がついています。",
             "reading": "でんきがついています。",
             "zh": "灯亮着。（亮的状态持续）",
-            "note": "つく=状态变化→持续状态"
+            "note": "つく=状态变化→持续状态",
+            "audioUrl": "/audio/lesson/n5-te-iru_ex2.mp3"
           },
           {
             "ja": "田中さんはどんな仕事をしていますか。",
             "reading": "たなかさんはどんなしごとをしていますか。",
             "zh": "田中先生从事什么工作？",
-            "note": "する=习惯/状态→职业的持续状态"
+            "note": "する=习惯/状态→职业的持续状态",
+            "audioUrl": "/audio/lesson/n5-te-iru_ex3.mp3"
           },
           {
             "ja": "その単語を知っています。",
             "reading": "そのたんごをしっています。",
             "zh": "我知道那个单词。",
-            "note": "知る的特殊用法：知っている=知道（不是正在知道）"
+            "note": "知る的特殊用法：知っている=知道（不是正在知道）",
+            "audioUrl": "/audio/lesson/n5-te-iru_ex4.mp3"
           }
         ]
       },
@@ -1058,31 +1094,36 @@
             "ja": "日本語が話せます。",
             "reading": "にほんごがはなせます。",
             "zh": "会说日语。",
-            "note": "話す→話せる；を→が"
+            "note": "話す→話せる；を→が",
+            "audioUrl": "/audio/lesson/n4-potential_ex0.mp3"
           },
           {
             "ja": "漢字はまだあまり書けません。",
             "reading": "かんじはまだあまりかけません。",
             "zh": "汉字还不太会写。",
-            "note": "書く→書ける 的否定"
+            "note": "書く→書ける 的否定",
+            "audioUrl": "/audio/lesson/n4-potential_ex1.mp3"
           },
           {
             "ja": "この魚は生で食べられます。",
             "reading": "このさかなはなまでたべられます。",
             "zh": "这鱼可以生吃。",
-            "note": "食べる→食べられる，表可能性"
+            "note": "食べる→食べられる，表可能性",
+            "audioUrl": "/audio/lesson/n4-potential_ex2.mp3"
           },
           {
             "ja": "明日は来られますか？",
             "reading": "あしたはこられますか？",
             "zh": "明天能来吗？",
-            "note": "くる→こられる"
+            "note": "くる→こられる",
+            "audioUrl": "/audio/lesson/n4-potential_ex3.mp3"
           },
           {
             "ja": "ここでカードが使えますよ。",
             "reading": "ここでかーどがつかえますよ。",
             "zh": "这里可以刷卡哦。",
-            "note": "使う→使える；を→が"
+            "note": "使う→使える；を→が",
+            "audioUrl": "/audio/lesson/n4-potential_ex4.mp3"
           }
         ]
       },
@@ -1146,31 +1187,36 @@
             "ja": "もし雨が降ったら、試合は中止です。",
             "reading": "もしあめがふったら、しあいはちゅうしです。",
             "zh": "如果下雨，比赛就取消。",
-            "note": "用法①：假设条件；もし常与たら搭配"
+            "note": "用法①：假设条件；もし常与たら搭配",
+            "audioUrl": "/audio/lesson/n4-tara_ex0.mp3"
           },
           {
             "ja": "宿題が終わったら、遊んでもいいよ。",
             "reading": "しゅくだいがおわったら、あそんでもいいよ。",
             "zh": "作业做完就可以玩了。",
-            "note": "用法②：时间顺序，「做完A之后B」"
+            "note": "用法②：时间顺序，「做完A之后B」",
+            "audioUrl": "/audio/lesson/n4-tara_ex1.mp3"
           },
           {
             "ja": "家に帰ったら、手を洗ってください。",
             "reading": "いえにかえったら、てをあらってください。",
             "zh": "回家后请洗手。",
-            "note": "用法②：时间顺序（回家后→洗手）"
+            "note": "用法②：时间顺序（回家后→洗手）",
+            "audioUrl": "/audio/lesson/n4-tara_ex2.mp3"
           },
           {
             "ja": "財布を開けたら、お金がなかった。",
             "reading": "さいふをひらいたら、おかねがなかった。",
             "zh": "打开钱包一看，没钱了。",
-            "note": "用法③：意外发现（打开发现→竟然没钱）"
+            "note": "用法③：意外发现（打开发现→竟然没钱）",
+            "audioUrl": "/audio/lesson/n4-tara_ex3.mp3"
           },
           {
             "ja": "もし時間があったら、映画を見ませんか？",
             "reading": "もしじかんがあったら、えいがをみませんか？",
             "zh": "如果有时间的话，要不要看电影？",
-            "note": "もし+たら，礼貌邀请的条件句"
+            "note": "もし+たら，礼貌邀请的条件句",
+            "audioUrl": "/audio/lesson/n4-tara_ex4.mp3"
           }
         ]
       },
@@ -1329,31 +1375,36 @@
             "ja": "明日は雨が降ると思います。",
             "reading": "あしたはあめがふるとおもいます。",
             "zh": "我想明天会下雨。",
-            "note": "と思う 前：降る（普通体）"
+            "note": "と思う 前：降る（普通体）",
+            "audioUrl": "/audio/lesson/n4-plain-form_ex0.mp3"
           },
           {
             "ja": "疲れたから、もう寝ます。",
             "reading": "つかれたから、もうねます。",
             "zh": "因为累了，我要睡了。",
-            "note": "から 前：疲れた（普通体过去）"
+            "note": "から 前：疲れた（普通体过去）",
+            "audioUrl": "/audio/lesson/n4-plain-form_ex1.mp3"
           },
           {
             "ja": "彼女は日本に行くと言っていた。",
             "reading": "かのじょはにほんにいくといっていた。",
             "zh": "她说她要去日本。",
-            "note": "と言う 前：行く（普通体）"
+            "note": "と言う 前：行く（普通体）",
+            "audioUrl": "/audio/lesson/n4-plain-form_ex2.mp3"
           },
           {
             "ja": "学校が遠いので、毎日大変です。",
             "reading": "がっこうがとおいので、まいにちたいへんです。",
             "zh": "因为学校很远，每天很辛苦。",
-            "note": "ので 前：遠い（い形容词普通体）"
+            "note": "ので 前：遠い（い形容词普通体）",
+            "audioUrl": "/audio/lesson/n4-plain-form_ex3.mp3"
           },
           {
             "ja": "彼は先生なので、日本語が上手です。",
             "reading": "かれはせんせいなので、にほんごがじょうずです。",
             "zh": "因为他是老师，所以日语很好。",
-            "note": "ので 前：先生な（な形容词/名词+な）"
+            "note": "ので 前：先生な（な形容词/名词+な）",
+            "audioUrl": "/audio/lesson/n4-plain-form_ex4.mp3"
           }
         ]
       },
@@ -1535,31 +1586,36 @@
             "ja": "もう帰ろう。",
             "reading": "もうかえろう。",
             "zh": "要回去了。（自言自语，下决心）",
-            "note": "帰る→帰ろう（五段）"
+            "note": "帰る→帰ろう（五段）",
+            "audioUrl": "/audio/lesson/n4-volitional_ex0.mp3"
           },
           {
             "ja": "一緒に映画を見よう！",
             "reading": "いっしょにえいがをみよう！",
             "zh": "一起看电影吧！（邀请朋友）",
-            "note": "見る→見よう（一段）"
+            "note": "見る→見よう（一段）",
+            "audioUrl": "/audio/lesson/n4-volitional_ex1.mp3"
           },
           {
             "ja": "今年こそ日記をつけようと思っています。",
             "reading": "ことしこそにっきをつけようとおもっています。",
             "zh": "今年无论如何都要坚持写日记。",
-            "note": "計画：ようと思っている"
+            "note": "計画：ようと思っている",
+            "audioUrl": "/audio/lesson/n4-volitional_ex2.mp3"
           },
           {
             "ja": "明日は早く起きようと思っているんですが、なかなかできません。",
             "reading": "あしたははやくおきようとおもっているんですが、なかなかできません。",
             "zh": "我打算明天早起，但一直做不到。",
-            "note": "意向形+と思っている，表达打算"
+            "note": "意向形+と思っている，表达打算",
+            "audioUrl": "/audio/lesson/n4-volitional_ex3.mp3"
           },
           {
             "ja": "さあ、勉強しよう！",
             "reading": "さあ、べんきょうしよう！",
             "zh": "好了，开始学习吧！（する→しよう）",
-            "note": "不规则动词 する→しよう"
+            "note": "不规则动词 する→しよう",
+            "audioUrl": "/audio/lesson/n4-volitional_ex4.mp3"
           }
         ]
       },
@@ -1685,31 +1741,36 @@
             "ja": "友達に道を教えてあげました。",
             "reading": "ともだちにみちをおしえてあげました。",
             "zh": "我教了朋友路怎么走。（我给出的视角）",
-            "note": "てあげる：给予者=我，对象=友達に"
+            "note": "てあげる：给予者=我，对象=友達に",
+            "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex0.mp3"
           },
           {
             "ja": "友達に道を教えてもらいました。",
             "reading": "ともだちにみちをおしえてもらいました。",
             "zh": "朋友教了我路怎么走（我从朋友那里收到了帮助）。",
-            "note": "てもらう：接受者=我，来源=友達に"
+            "note": "てもらう：接受者=我，来源=友達に",
+            "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex1.mp3"
           },
           {
             "ja": "友達が道を教えてくれました。",
             "reading": "ともだちがみちをおしえてくれました。",
             "zh": "朋友教了我路怎么走。（朋友主动给我的）",
-            "note": "てくれる：给予者=友達が，受益者=我"
+            "note": "てくれる：给予者=友達が，受益者=我",
+            "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex2.mp3"
           },
           {
             "ja": "先生に日本語を教えていただきました。",
             "reading": "せんせいににほんごをおしえていただきました。",
             "zh": "得到了老师教我日语。（礼貌，いただく）",
-            "note": "もらう的礼貌形：いただく"
+            "note": "もらう的礼貌形：いただく",
+            "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex3.mp3"
           },
           {
             "ja": "荷物を持ってあげましょうか？",
             "reading": "にもつをもってあげましょうか？",
             "zh": "要我帮你拿行李吗？（提出帮助用ましょうか更礼貌）",
-            "note": "てあげる对陌生人/长辈时，改用ましょうか"
+            "note": "てあげる对陌生人/长辈时，改用ましょうか",
+            "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex4.mp3"
           }
         ]
       },
@@ -1796,31 +1857,36 @@
             "ja": "富士山に登ったことがあります。",
             "reading": "ふじさんにのぼったことがあります。",
             "zh": "我爬过富士山。（有过这个经历）",
-            "note": "登る（五段）→登った + ことがある"
+            "note": "登る（五段）→登った + ことがある",
+            "audioUrl": "/audio/lesson/n4-experience_ex0.mp3"
           },
           {
             "ja": "日本のアニメを見たことがありますか？",
             "reading": "にほんのあにめをみたことがありますか？",
             "zh": "你看过日本动漫吗？",
-            "note": "常用于询问对方的经历"
+            "note": "常用于询问对方的经历",
+            "audioUrl": "/audio/lesson/n4-experience_ex1.mp3"
           },
           {
             "ja": "はい、何度も見たことがあります。",
             "reading": "はい、なんどもみたことがあります。",
             "zh": "是的，看过很多次。",
-            "note": "何度も（许多次）+ たことがある"
+            "note": "何度も（许多次）+ たことがある",
+            "audioUrl": "/audio/lesson/n4-experience_ex2.mp3"
           },
           {
             "ja": "いいえ、まだ一度も見たことがありません。",
             "reading": "いいえ、まだいちどもみたことがありません。",
             "zh": "不，一次都没看过。",
-            "note": "一度も～ない（一次都没有）"
+            "note": "一度も～ない（一次都没有）",
+            "audioUrl": "/audio/lesson/n4-experience_ex3.mp3"
           },
           {
             "ja": "こんなにおいしい料理は食べたことがない。",
             "reading": "こんなにおいしいりょうりはたべたことがない。",
             "zh": "没吃过这么好吃的料理。（普通体）",
-            "note": "普通体：たことがない（用于日记/朋友对话）"
+            "note": "普通体：たことがない（用于日记/朋友对话）",
+            "audioUrl": "/audio/lesson/n4-experience_ex4.mp3"
           }
         ]
       },
@@ -1952,31 +2018,36 @@
             "ja": "安ければ、買います。",
             "reading": "やすければ、かいます。",
             "zh": "如果便宜的话就买。",
-            "note": "い形容词ば形：安い→安ければ"
+            "note": "い形容词ば形：安い→安ければ",
+            "audioUrl": "/audio/lesson/n4-ba_ex0.mp3"
           },
           {
             "ja": "わからなければ、調べればいいですよ。",
             "reading": "わからなければ、しらべればいいですよ。",
             "zh": "如果不懂，查一查就好了。",
-            "note": "ばいい=建议，ない的ば形=なければ"
+            "note": "ばいい=建议，ない的ば形=なければ",
+            "audioUrl": "/audio/lesson/n4-ba_ex1.mp3"
           },
           {
             "ja": "あの時、もっと勉強すればよかった。",
             "reading": "あのとき、もっとべんきょうすればよかった。",
             "zh": "那时候要是多学习就好了。",
-            "note": "ばよかった=遗憾固定句"
+            "note": "ばよかった=遗憾固定句",
+            "audioUrl": "/audio/lesson/n4-ba_ex2.mp3"
           },
           {
             "ja": "天気がよければ、ピクニックに行きましょう。",
             "reading": "てんきがよければ、ぴくにっくにいきましょう。",
             "zh": "如果天气好的话，去野餐吧。",
-            "note": "よい→よければ（い形容词特例）"
+            "note": "よい→よければ（い形容词特例）",
+            "audioUrl": "/audio/lesson/n4-ba_ex3.mp3"
           },
           {
             "ja": "もっと早く来れば、席があったのに。",
             "reading": "もっとはやくくれば、せきがあったのに。",
             "zh": "要是来得早一点就有位子了。",
-            "note": "くる→くれば（不规则）"
+            "note": "くる→くれば（不规则）",
+            "audioUrl": "/audio/lesson/n4-ba_ex4.mp3"
           }
         ]
       },
@@ -2121,31 +2192,36 @@
             "ja": "春になると、桜が咲きます。",
             "reading": "はるになると、さくらがさきます。",
             "zh": "春天来了，樱花就开。（自然规律）",
-            "note": "と：客观必然，不是人的意志"
+            "note": "と：客观必然，不是人的意志",
+            "audioUrl": "/audio/lesson/n4-to-nara_ex0.mp3"
           },
           {
             "ja": "このボタンを押すと、エレベーターが来ます。",
             "reading": "このぼたんをおすと、えれべーたーがきます。",
             "zh": "按这个按钮，电梯就来了。（操作结果）",
-            "note": "と：机械操作的必然结果"
+            "note": "と：机械操作的必然结果",
+            "audioUrl": "/audio/lesson/n4-to-nara_ex1.mp3"
           },
           {
             "ja": "左に曲がると、コンビニがあります。",
             "reading": "ひだりにまがると、こんびにがあります。",
             "zh": "往左转，有便利店。（方向指引）",
-            "note": "と：指路常用"
+            "note": "と：指路常用",
+            "audioUrl": "/audio/lesson/n4-to-nara_ex2.mp3"
           },
           {
             "ja": "「日本語を勉強したい」「そうなら、この教材がいいですよ。」",
             "reading": "「にほんごをべんきょうしたい」「そうなら、このきょうざいがいいですよ。」",
             "zh": "「想学日语」「这样的话，这个教材不错哦。」",
-            "note": "なら：基于对方说的「想学日语」来回应"
+            "note": "なら：基于对方说的「想学日语」来回应",
+            "audioUrl": "/audio/lesson/n4-to-nara_ex3.mp3"
           },
           {
             "ja": "東京に行くなら、新幹線が便利です。",
             "reading": "とうきょうにいくなら、しんかんせんがべんりです。",
             "zh": "如果要去东京的话，新干线很方便。",
-            "note": "なら：基于「你要去东京」这个信息给建议"
+            "note": "なら：基于「你要去东京」这个信息给建议",
+            "audioUrl": "/audio/lesson/n4-to-nara_ex4.mp3"
           }
         ]
       },
@@ -2267,31 +2343,36 @@
             "ja": "先生は学生に漢字を書かせました。",
             "reading": "せんせいはがくせいにかんじをかかせました。",
             "zh": "老师让学生写了汉字。",
-            "note": "書く（他动词）→被使役者学生用に"
+            "note": "書く（他动词）→被使役者学生用に",
+            "audioUrl": "/audio/lesson/n4-causative_ex0.mp3"
           },
           {
             "ja": "母は子供に野菜を食べさせます。",
             "reading": "はははこどもにやさいをたべさせます。",
             "zh": "妈妈让孩子吃蔬菜。",
-            "note": "食べる（他动词）→被使役者子供用に"
+            "note": "食べる（他动词）→被使役者子供用に",
+            "audioUrl": "/audio/lesson/n4-causative_ex1.mp3"
           },
           {
             "ja": "面白い映画で彼女を笑わせました。",
             "reading": "おもしろいえいがでかのじょをわらわせました。",
             "zh": "用有趣的电影逗她笑了。",
-            "note": "笑う（自动词）→被使役者彼女用を"
+            "note": "笑う（自动词）→被使役者彼女用を",
+            "audioUrl": "/audio/lesson/n4-causative_ex2.mp3"
           },
           {
             "ja": "少し休ませてください。",
             "reading": "すこしやすませてください。",
             "zh": "请让我休息一下。",
-            "note": "休む（自动词）→させてください是常用请求形式"
+            "note": "休む（自动词）→させてください是常用请求形式",
+            "audioUrl": "/audio/lesson/n4-causative_ex3.mp3"
           },
           {
             "ja": "このプロジェクトを担当させていただけますか？",
             "reading": "このぷろじぇくとをたんとうさせていただけますか？",
             "zh": "能让我负责这个项目吗？（礼貌请求）",
-            "note": "させていただく是使役形的礼貌请求"
+            "note": "させていただく是使役形的礼貌请求",
+            "audioUrl": "/audio/lesson/n4-causative_ex4.mp3"
           }
         ]
       },
@@ -2418,31 +2499,36 @@
             "ja": "私は先生に褒められました。",
             "reading": "わたしはせんせいにほめられました。",
             "zh": "我被老师表扬了。",
-            "note": "直接被动：褒める→褒められる"
+            "note": "直接被动：褒める→褒められる",
+            "audioUrl": "/audio/lesson/n4-passive_ex0.mp3"
           },
           {
             "ja": "財布を盗まれてしまいました。",
             "reading": "さいふをぬすまれてしまいました。",
             "zh": "钱包被偷了。（遗憾语气）",
-            "note": "五段动词：盗む→盗まれる"
+            "note": "五段动词：盗む→盗まれる",
+            "audioUrl": "/audio/lesson/n4-passive_ex1.mp3"
           },
           {
             "ja": "昨日、雨に降られて大変でした。",
             "reading": "きのう、あめにふられてたいへんでした。",
             "zh": "昨天被雨淋了，很狼狈。",
-            "note": "间接被动（迷惑）：雨的动作影响到了我"
+            "note": "间接被动（迷惑）：雨的动作影响到了我",
+            "audioUrl": "/audio/lesson/n4-passive_ex2.mp3"
           },
           {
             "ja": "この小説は夏目漱石に書かれました。",
             "reading": "このしょうせつはなつめそうせきにかかれました。",
             "zh": "这本小说是夏目漱石写的。（正式文体）",
-            "note": "文章/报道中的客观被动"
+            "note": "文章/报道中的客观被动",
+            "audioUrl": "/audio/lesson/n4-passive_ex3.mp3"
           },
           {
             "ja": "子供に泣かれて、困りました。",
             "reading": "こどもになかれて、こまりました。",
             "zh": "孩子哭了，让我很头疼。",
-            "note": "间接被动：孩子哭这件事影响到了我"
+            "note": "间接被动：孩子哭这件事影响到了我",
+            "audioUrl": "/audio/lesson/n4-passive_ex4.mp3"
           }
         ]
       },
@@ -2529,31 +2615,36 @@
             "ja": "宿題を忘れてしまいました。",
             "reading": "しゅくだいをわすれてしまいました。",
             "zh": "不小心把作业忘了。（遗憾/失误）",
-            "note": "書面語：てしまいました"
+            "note": "書面語：てしまいました",
+            "audioUrl": "/audio/lesson/n4-te-shimau_ex0.mp3"
           },
           {
             "ja": "ケーキ、全部食べちゃった。",
             "reading": "けーき、ぜんぶたべちゃった。",
             "zh": "蛋糕全吃完了。（口语，ちゃった）",
-            "note": "口語：てしまった→ちゃった"
+            "note": "口語：てしまった→ちゃった",
+            "audioUrl": "/audio/lesson/n4-te-shimau_ex1.mp3"
           },
           {
             "ja": "待ち合わせの場所を間違えてしまって、ごめんなさい。",
             "reading": "まちあわせのばしょをまちがえてしまって、ごめんなさい。",
             "zh": "不小心搞错了见面地点，对不起。",
-            "note": "てしまう的て形：てしまって（连接后续）"
+            "note": "てしまう的て形：てしまって（连接后续）",
+            "audioUrl": "/audio/lesson/n4-te-shimau_ex2.mp3"
           },
           {
             "ja": "電車に乗り遅れてしまいました。",
             "reading": "でんしゃにのりおくれてしまいました。",
             "zh": "没赶上电车。（遗憾/无奈）",
-            "note": "乗り遅れる→乗り遅れてしまう，失误的结果"
+            "note": "乗り遅れる→乗り遅れてしまう，失误的结果",
+            "audioUrl": "/audio/lesson/n4-te-shimau_ex3.mp3"
           },
           {
             "ja": "もう返事してしまったから、断れない。",
             "reading": "もうへんじしてしまったから、ことわれない。",
             "zh": "已经回答了，没法拒绝了。（既成事实的无奈）",
-            "note": "てしまう表示既成事实，已无法改变"
+            "note": "てしまう表示既成事实，已无法改变",
+            "audioUrl": "/audio/lesson/n4-te-shimau_ex4.mp3"
           }
         ]
       },
@@ -2645,31 +2736,36 @@
             "ja": "旅行の前に宿を予約しておきました。",
             "reading": "りょこうのまえにやどをよやくしておきました。",
             "zh": "旅行前提前预约好了住宿。",
-            "note": "事前准备：为了旅行而提前做"
+            "note": "事前准备：为了旅行而提前做",
+            "audioUrl": "/audio/lesson/n4-te-oku_ex0.mp3"
           },
           {
             "ja": "ドアを開けておいてください。",
             "reading": "どあをあけておいてください。",
             "zh": "请把门开着。（保持开门状态）",
-            "note": "保持现状：暂时维持开着的状态"
+            "note": "保持现状：暂时维持开着的状态",
+            "audioUrl": "/audio/lesson/n4-te-oku_ex1.mp3"
           },
           {
             "ja": "明日のパーティーのために料理を作っておきます。",
             "reading": "あしたのぱーてぃーのためにりょうりをつくっておきます。",
             "zh": "为了明天的聚会提前做好饭。",
-            "note": "目的性提前准备"
+            "note": "目的性提前准备",
+            "audioUrl": "/audio/lesson/n4-te-oku_ex2.mp3"
           },
           {
             "ja": "単語帳はもう買っといたよ。",
             "reading": "たんごちょうはもうかっといたよ。",
             "zh": "单词本我已经提前买好了。（口语：買っておいた→買っといた）",
-            "note": "口語缩略：とく/とった"
+            "note": "口語缩略：とく/とった",
+            "audioUrl": "/audio/lesson/n4-te-oku_ex3.mp3"
           },
           {
             "ja": "メモしておかないと、忘れてしまいます。",
             "reading": "めもしておかないと、わすれてしまいます。",
             "zh": "如果不提前记下来，就会忘掉。",
-            "note": "ておく的否定：ておかない＋と（条件）"
+            "note": "ておく的否定：ておかない＋と（条件）",
+            "audioUrl": "/audio/lesson/n4-te-oku_ex4.mp3"
           }
         ]
       },
@@ -2815,31 +2911,36 @@
             "ja": "この料理、おいしそうですね。",
             "reading": "このりょうり、おいしそうですね。",
             "zh": "这道料理看起来很好吃呢。",
-            "note": "様態そう：おいしい→おいし+そう，亲眼看到"
+            "note": "様態そう：おいしい→おいし+そう，亲眼看到",
+            "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex0.mp3"
           },
           {
             "ja": "あの料理、おいしいらしいですよ。",
             "reading": "あのりょうり、おいしいらしいですよ。",
             "zh": "那道料理听说很好吃哦。",
-            "note": "らしい：间接信息，普通体+らしい"
+            "note": "らしい：间接信息，普通体+らしい",
+            "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex1.mp3"
           },
           {
             "ja": "彼は疲れているようです。",
             "reading": "かれはつかれているようです。",
             "zh": "他好像很累。",
-            "note": "ようだ：观察他的状态，做出推断"
+            "note": "ようだ：观察他的状态，做出推断",
+            "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex2.mp3"
           },
           {
             "ja": "雨が降りそうです。",
             "reading": "あめがふりそうです。",
             "zh": "看起来要下雨了。",
-            "note": "様態そう：看天色判断，当场感受"
+            "note": "様態そう：看天色判断，当场感受",
+            "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex3.mp3"
           },
           {
             "ja": "天気予報によると、明日は雨が降るそうです。",
             "reading": "てんきよほうによると、あしたはあめがふるそうです。",
             "zh": "根据天气预报，明天会下雨。",
-            "note": "伝聞そう：根据天气预报转述，普通体+そうだ"
+            "note": "伝聞そう：根据天气预报转述，普通体+そうだ",
+            "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex4.mp3"
           }
         ]
       },
@@ -2936,31 +3037,36 @@
             "ja": "ここで写真を撮ってもいいですか？",
             "reading": "ここでしゃしんをとってもいいですか？",
             "zh": "可以在这里拍照吗？",
-            "note": "请求许可的标准句型"
+            "note": "请求许可的标准句型",
+            "audioUrl": "/audio/lesson/n4-te-mo-ii_ex0.mp3"
           },
           {
             "ja": "ここでは写真を撮ってはいけません。",
             "reading": "ここではしゃしんをとってはいけません。",
             "zh": "在这里不可以拍照。",
-            "note": "禁止规则，は强调「就这里」"
+            "note": "禁止规则，は强调「就这里」",
+            "audioUrl": "/audio/lesson/n4-te-mo-ii_ex1.mp3"
           },
           {
             "ja": "明日は来なくてもいいですよ。",
             "reading": "あしたはこなくてもいいですよ。",
             "zh": "明天不来也可以/不用来。",
-            "note": "なくてもいい：不做也没关系"
+            "note": "なくてもいい：不做也没关系",
+            "audioUrl": "/audio/lesson/n4-te-mo-ii_ex2.mp3"
           },
           {
             "ja": "この薬は飲まなくてもいいですか？",
             "reading": "このくすりはのまなくてもいいですか？",
             "zh": "这个药不吃也行吗？",
-            "note": "询问「是否必须」，用なくてもいいですか"
+            "note": "询问「是否必须」，用なくてもいいですか",
+            "audioUrl": "/audio/lesson/n4-te-mo-ii_ex3.mp3"
           },
           {
             "ja": "宿題はもう終わったから、遊んでもいいよ。",
             "reading": "しゅくだいはもうおわったから、あそんでもいいよ。",
             "zh": "作业做完了，可以去玩了。",
-            "note": "从内容判断：终于被允许了"
+            "note": "从内容判断：终于被允许了",
+            "audioUrl": "/audio/lesson/n4-te-mo-ii_ex4.mp3"
           }
         ]
       },
@@ -3262,55 +3368,64 @@
             "ja": "すし",
             "reading": "su-shi",
             "zh": "寿司",
-            "note": "す + し，两个さ行字"
+            "note": "す + し，两个さ行字",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex0.mp3"
           },
           {
             "ja": "ねこ",
             "reading": "ne-ko",
             "zh": "猫",
-            "note": "ね（な行）+ こ（か行）"
+            "note": "ね（な行）+ こ（か行）",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex1.mp3"
           },
           {
             "ja": "なに",
             "reading": "na-ni",
             "zh": "什么",
-            "note": "常用疑问词，な + に"
+            "note": "常用疑问词，な + に",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex2.mp3"
           },
           {
             "ja": "ちち",
             "reading": "chi-chi",
             "zh": "父亲（家庭内部称呼）",
-            "note": "两个ち，注意chi的发音"
+            "note": "两个ち，注意chi的发音",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex3.mp3"
           },
           {
             "ja": "つき",
             "reading": "tsu-ki",
             "zh": "月亮",
-            "note": "つ（tsu）+ き，tsu容易说错"
+            "note": "つ（tsu）+ き，tsu容易说错",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex4.mp3"
           },
           {
             "ja": "にほん",
             "reading": "ni-ho-n",
             "zh": "日本",
-            "note": "に + ほ + ん，ほ是下一课，ん已认识"
+            "note": "に + ほ + ん，ほ是下一课，ん已认识",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex5.mp3"
           },
           {
             "ja": "さかな",
             "reading": "sa-ka-na",
             "zh": "鱼",
-            "note": "さ + か + な，横跨三行"
+            "note": "さ + か + な，横跨三行",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex6.mp3"
           },
           {
             "ja": "そと",
             "reading": "so-to",
             "zh": "外面",
-            "note": "そ + と"
+            "note": "そ + と",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex7.mp3"
           },
           {
             "ja": "てがみ",
             "reading": "te-ga-mi",
             "zh": "信（书信）",
-            "note": "て + が（浊音，下课学）+ み（ま行，下课学）"
+            "note": "て + が（浊音，下课学）+ み（ま行，下课学）",
+            "audioUrl": "/audio/lesson/kana-hiragana-2_ex8.mp3"
           }
         ]
       },
@@ -3552,49 +3667,57 @@
             "ja": "がっこう",
             "reading": "ga-k-ko-u",
             "zh": "学校",
-            "note": "が（浊音）开头，っ是促音（下课学）"
+            "note": "が（浊音）开头，っ是促音（下课学）",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex0.mp3"
           },
           {
             "ja": "ざっし",
             "reading": "za-s-shi",
             "zh": "杂志",
-            "note": "ざ是ざ行浊音"
+            "note": "ざ是ざ行浊音",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex1.mp3"
           },
           {
             "ja": "でんわ",
             "reading": "de-n-wa",
             "zh": "电话",
-            "note": "で（だ行浊音）+ ん + わ"
+            "note": "で（だ行浊音）+ ん + わ",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex2.mp3"
           },
           {
             "ja": "ばら",
             "reading": "ba-ra",
             "zh": "玫瑰",
-            "note": "ば是ば行浊音"
+            "note": "ば是ば行浊音",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex3.mp3"
           },
           {
             "ja": "ぱん",
             "reading": "pa-n",
             "zh": "面包（来自葡萄牙语 pão）",
-            "note": "ぱ是半浊音pa"
+            "note": "ぱ是半浊音pa",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex4.mp3"
           },
           {
             "ja": "てんぷら",
             "reading": "te-n-pu-ra",
             "zh": "天妇罗（炸物）",
-            "note": "ぷ是半浊音pu"
+            "note": "ぷ是半浊音pu",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex5.mp3"
           },
           {
             "ja": "ふじさん",
             "reading": "fu-ji-sa-n",
             "zh": "富士山",
-            "note": "ふ（fu）的特殊发音，じ是ざ行浊音"
+            "note": "ふ（fu）的特殊发音，じ是ざ行浊音",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex6.mp3"
           },
           {
             "ja": "ごはん",
             "reading": "go-ha-n",
             "zh": "米饭",
-            "note": "ご是が行浊音go"
+            "note": "ご是が行浊音go",
+            "audioUrl": "/audio/lesson/kana-hiragana-3_ex7.mp3"
           }
         ]
       },
@@ -3797,37 +3920,43 @@
             "ja": "アイスクリーム",
             "reading": "a-i-su-ku-ri-i-mu",
             "zh": "冰淇淋（ice cream）",
-            "note": "ア+イ+ス（サ行）+ク+リーム，本课学的ア/イ/ク"
+            "note": "ア+イ+ス（サ行）+ク+リーム，本课学的ア/イ/ク",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex0.mp3"
           },
           {
             "ja": "コーヒー",
             "reading": "ko-o-hi-i",
             "zh": "咖啡（coffee）",
-            "note": "コ（本课）+ ー（长音符）+ ヒ（ハ行，下课学）+ ー"
+            "note": "コ（本课）+ ー（长音符）+ ヒ（ハ行，下课学）+ ー",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex1.mp3"
           },
           {
             "ja": "ケーキ",
             "reading": "ke-e-ki",
             "zh": "蛋糕（cake）",
-            "note": "ケ + ー + キ，全部本课内容"
+            "note": "ケ + ー + キ，全部本课内容",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex2.mp3"
           },
           {
             "ja": "アメリカ",
             "reading": "a-me-ri-ka",
             "zh": "美国（America）",
-            "note": "ア（本课）+ メ（マ行）+ リ + カ（本课）"
+            "note": "ア（本课）+ メ（マ行）+ リ + カ（本课）",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex3.mp3"
           },
           {
             "ja": "カメラ",
             "reading": "ka-me-ra",
             "zh": "相机（camera）",
-            "note": "カ（本课）+ メ + ラ"
+            "note": "カ（本课）+ メ + ラ",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex4.mp3"
           },
           {
             "ja": "エアコン",
             "reading": "e-a-ko-n",
             "zh": "空调（air conditioner）",
-            "note": "エ + ア（本课）+ コ（本课）+ ン"
+            "note": "エ + ア（本课）+ コ（本课）+ ン",
+            "audioUrl": "/audio/lesson/kana-katakana-1_ex5.mp3"
           }
         ]
       },
@@ -4130,37 +4259,43 @@
             "ja": "テレビ",
             "reading": "te-re-bi",
             "zh": "电视（television）",
-            "note": "テ+レ+ビ（ば行浊音）"
+            "note": "テ+レ+ビ（ば行浊音）",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex0.mp3"
           },
           {
             "ja": "スマートフォン",
             "reading": "su-ma-a-to-fo-n",
             "zh": "智能手机（smartphone）",
-            "note": "スマート（smart）+ フォン（phone），フォ是特殊组合"
+            "note": "スマート（smart）+ フォン（phone），フォ是特殊组合",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex1.mp3"
           },
           {
             "ja": "アイスクリーム",
             "reading": "a-i-su-ku-ri-i-mu",
             "zh": "冰淇淋（ice cream）",
-            "note": "注意リー是ri+长音"
+            "note": "注意リー是ri+长音",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex2.mp3"
           },
           {
             "ja": "パーティー",
             "reading": "pa-a-ti-i",
             "zh": "派对（party）",
-            "note": "ティ是特殊组合ti，ー是长音"
+            "note": "ティ是特殊组合ti，ー是长音",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex3.mp3"
           },
           {
             "ja": "コンビニ",
             "reading": "ko-n-bi-ni",
             "zh": "便利店（convenience store）",
-            "note": "日语常用缩略词"
+            "note": "日语常用缩略词",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex4.mp3"
           },
           {
             "ja": "ファッション",
             "reading": "fa-s-sho-n",
             "zh": "时尚（fashion）",
-            "note": "ファ是特殊组合fa，ッ是促音"
+            "note": "ファ是特殊组合fa，ッ是促音",
+            "audioUrl": "/audio/lesson/kana-katakana-2_ex5.mp3"
           }
         ]
       },
@@ -4295,49 +4430,57 @@
             "ja": "きょうと",
             "reading": "kyo-u-to",
             "zh": "京都（城市名）",
-            "note": "きょ是拗音（kyo），う是长音"
+            "note": "きょ是拗音（kyo），う是长音",
+            "audioUrl": "/audio/lesson/special-sounds_ex0.mp3"
           },
           {
             "ja": "でんしゃ",
             "reading": "de-n-sha",
             "zh": "电车",
-            "note": "ん是拨音，しゃ是拗音（sha）"
+            "note": "ん是拨音，しゃ是拗音（sha）",
+            "audioUrl": "/audio/lesson/special-sounds_ex1.mp3"
           },
           {
             "ja": "きって",
             "reading": "ki-t-te",
             "zh": "邮票",
-            "note": "っ是促音，中间停顿一拍"
+            "note": "っ是促音，中间停顿一拍",
+            "audioUrl": "/audio/lesson/special-sounds_ex2.mp3"
           },
           {
             "ja": "りょうり",
             "reading": "ryo-u-ri",
             "zh": "料理（烹饪）",
-            "note": "りょ是拗音（ryo），う是长音"
+            "note": "りょ是拗音（ryo），う是长音",
+            "audioUrl": "/audio/lesson/special-sounds_ex3.mp3"
           },
           {
             "ja": "しんかんせん",
             "reading": "shi-n-ka-n-se-n",
             "zh": "新干线",
-            "note": "两个ん都是拨音"
+            "note": "两个ん都是拨音",
+            "audioUrl": "/audio/lesson/special-sounds_ex4.mp3"
           },
           {
             "ja": "ちょっと",
             "reading": "cho-t-to",
             "zh": "稍微；（拒绝时）有点难……",
-            "note": "ちょ是拗音，っ是促音"
+            "note": "ちょ是拗音，っ是促音",
+            "audioUrl": "/audio/lesson/special-sounds_ex5.mp3"
           },
           {
             "ja": "おかあさん",
             "reading": "o-ka-a-sa-n",
             "zh": "妈妈",
-            "note": "あ是长音（あ段加あ），ん是拨音"
+            "note": "あ是长音（あ段加あ），ん是拨音",
+            "audioUrl": "/audio/lesson/special-sounds_ex6.mp3"
           },
           {
             "ja": "にゅうがく",
             "reading": "nyu-u-ga-ku",
             "zh": "入学",
-            "note": "にゅ是拗音（nyu），う是长音"
+            "note": "にゅ是拗音（nyu），う是长音",
+            "audioUrl": "/audio/lesson/special-sounds_ex7.mp3"
           }
         ]
       },
@@ -4413,6 +4556,40 @@
         ]
       },
       {
+        "type": "examples",
+        "title": "时间段问候语：听读练习",
+        "examples": [
+          {
+            "ja": "おはようございます。",
+            "reading": "o-ha-yo-u go-za-i-ma-su",
+            "zh": "早上好。（正式）",
+            "note": "早晨问候，朋友间可简短说おはよう",
+            "audioUrl": "/audio/lesson/greetings-intro_gr0.mp3"
+          },
+          {
+            "ja": "こんにちは。",
+            "reading": "ko-n-ni-chi-wa",
+            "zh": "你好。（白天）",
+            "note": "は此处读wa，约10:00~17:00使用",
+            "audioUrl": "/audio/lesson/greetings-intro_gr1.mp3"
+          },
+          {
+            "ja": "こんばんは。",
+            "reading": "ko-n-ba-n-wa",
+            "zh": "晚上好。",
+            "note": "は此处读wa，傍晚以后使用",
+            "audioUrl": "/audio/lesson/greetings-intro_gr2.mp3"
+          },
+          {
+            "ja": "おやすみなさい。",
+            "reading": "o-ya-su-mi-na-sa-i",
+            "zh": "晚安。",
+            "note": "睡前道别，朋友间可说おやすみ",
+            "audioUrl": "/audio/lesson/greetings-intro_gr3.mp3"
+          }
+        ]
+      },
+      {
         "type": "table",
         "title": "日常礼貌用语",
         "rows": [
@@ -4473,6 +4650,40 @@
         ]
       },
       {
+        "type": "examples",
+        "title": "日常礼貌用语：听读练习",
+        "examples": [
+          {
+            "ja": "ありがとうございます。",
+            "reading": "a-ri-ga-to-u go-za-i-ma-su",
+            "zh": "非常感谢。（正式）",
+            "note": "对陌生人/长辈/正式场合使用",
+            "audioUrl": "/audio/lesson/greetings-intro_pl0.mp3"
+          },
+          {
+            "ja": "ありがとう。",
+            "reading": "a-ri-ga-to-u",
+            "zh": "谢谢。（日常）",
+            "note": "对朋友或熟人使用",
+            "audioUrl": "/audio/lesson/greetings-intro_pl1.mp3"
+          },
+          {
+            "ja": "すみません。",
+            "reading": "su-mi-ma-se-n",
+            "zh": "对不起；请问；打扰一下。",
+            "note": "多义词，引起注意/道歉/致谢均可用",
+            "audioUrl": "/audio/lesson/greetings-intro_pl2.mp3"
+          },
+          {
+            "ja": "ごめんなさい。",
+            "reading": "go-me-n-na-sa-i",
+            "zh": "对不起。（真诚道歉）",
+            "note": "犯了错时用，比すみません更正式的道歉",
+            "audioUrl": "/audio/lesson/greetings-intro_pl3.mp3"
+          }
+        ]
+      },
+      {
         "type": "explainer",
         "title": "自我介绍：基本句型",
         "text": "日语自我介绍的标准结构：\n\n① 问候 → ② 名字 → ③ 来自哪里/身份 → ④ 请多关照\n\n核心句型：\n• はじめまして。（初次见面。）\n• 〜と申します / 〜です。（我叫……）\n  - と申します（もうします）：更正式\n  - 〜です：日常\n• 〜から来ました。（我来自……）\n• 〜人です。（我是……人）\n• 〜大学の学生です。（我是……大学的学生。）\n• よろしくお願いします。（请多关照。）\n  - 更正式：どうぞよろしくお願いいたします。\n\n「よろしくお願いします」是日语社交中极其重要的表达，不仅用于初次见面，还用于开始合作、请求帮助等各种场合。"
@@ -4485,37 +4696,43 @@
             "ja": "はじめまして。",
             "reading": "ha-ji-me-ma-shi-te",
             "zh": "初次见面。",
-            "note": "所有初次见面必说，固定开场白"
+            "note": "所有初次见面必说，固定开场白",
+            "audioUrl": "/audio/lesson/greetings-intro_ex0.mp3"
           },
           {
             "ja": "わたしは李明です。",
             "reading": "wa-ta-shi-wa ri-me-i-de-su",
             "zh": "我叫李明。",
-            "note": "わたし=我，は=话题助词（读wa）"
+            "note": "わたし=我，は=话题助词（读wa）",
+            "audioUrl": "/audio/lesson/greetings-intro_ex1.mp3"
           },
           {
             "ja": "中国から来ました。",
             "reading": "chu-u-go-ku-ka-ra-ki-ma-shi-ta",
             "zh": "我来自中国。",
-            "note": "〜から来ました，から=从，来ました=来了"
+            "note": "〜から来ました，から=从，来ました=来了",
+            "audioUrl": "/audio/lesson/greetings-intro_ex2.mp3"
           },
           {
             "ja": "大学生です。",
             "reading": "da-i-ga-ku-se-i-de-su",
             "zh": "我是大学生。",
-            "note": "可以省略わたしは，对话中主语常被省略"
+            "note": "可以省略わたしは，对话中主语常被省略",
+            "audioUrl": "/audio/lesson/greetings-intro_ex3.mp3"
           },
           {
             "ja": "日本語を勉強しています。",
             "reading": "ni-ho-n-go-o-be-n-kyo-u-shi-te-i-ma-su",
             "zh": "我在学日语。",
-            "note": "〜ています=正在做……（持续状态）"
+            "note": "〜ています=正在做……（持续状态）",
+            "audioUrl": "/audio/lesson/greetings-intro_ex4.mp3"
           },
           {
             "ja": "どうぞよろしくお願いします。",
             "reading": "do-u-zo yo-ro-shi-ku o-ne-ga-i-shi-ma-su",
             "zh": "请多关照。",
-            "note": "自我介绍必须以此收尾，非常重要"
+            "note": "自我介绍必须以此收尾，非常重要",
+            "audioUrl": "/audio/lesson/greetings-intro_ex5.mp3"
           }
         ]
       },
@@ -4624,43 +4841,50 @@
             "ja": "明日、大阪へ行きます。",
             "reading": "あした、おおさかへいきます。",
             "zh": "明天去大阪。",
-            "note": "へ表方向，行きます（去）"
+            "note": "へ表方向，行きます（去）",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex0.mp3"
           },
           {
             "ja": "姉と買い物をしました。",
             "reading": "あねとかいものをしました。",
             "zh": "和姐姐一起购物了。",
-            "note": "と表「和……一起」"
+            "note": "と表「和……一起」",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex1.mp3"
           },
           {
             "ja": "りんごとみかんを買いました。",
             "reading": "りんごとみかんをかいました。",
             "zh": "买了苹果和橘子。",
-            "note": "と表并列（完全列举）"
+            "note": "と表并列（完全列举）",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex2.mp3"
           },
           {
             "ja": "わたしも日本語を勉強しています。",
             "reading": "わたしもにほんごをべんきょうしています。",
             "zh": "我也在学日语。",
-            "note": "も表「也」，替换了は的位置"
+            "note": "も表「也」，替换了は的位置",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex3.mp3"
           },
           {
             "ja": "これは友達の本です。",
             "reading": "これはともだちのほんです。",
             "zh": "这是朋友的书。",
-            "note": "の表所属"
+            "note": "の表所属",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex4.mp3"
           },
           {
             "ja": "日本語の授業は楽しいです。",
             "reading": "にほんごのじゅぎょうはたのしいです。",
             "zh": "日语课很有趣。",
-            "note": "の连接两个名词，说明性修饰"
+            "note": "の连接两个名词，说明性修饰",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex5.mp3"
           },
           {
             "ja": "何も分かりません。",
             "reading": "なにもわかりません。",
             "zh": "什么都不明白。",
-            "note": "疑问词+も+否定=全否定"
+            "note": "疑问词+も+否定=全否定",
+            "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex6.mp3"
           }
         ]
       },
@@ -4856,37 +5080,43 @@
             "ja": "山田さんはとても親切です。",
             "reading": "やまださんはとてもしんせつです。",
             "zh": "山田先生非常亲切。",
-            "note": "とても=非常，是常用程度副词"
+            "note": "とても=非常，是常用程度副词",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex0.mp3"
           },
           {
             "ja": "日本語はあまり上手じゃありません。",
             "reading": "にほんごはあまりじょうずじゃありません。",
             "zh": "日语不太好。",
-            "note": "あまり+否定=不太……；自谦说法"
+            "note": "あまり+否定=不太……；自谦说法",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex1.mp3"
           },
           {
             "ja": "ここは静かできれいです。",
             "reading": "ここはしずかできれいです。",
             "zh": "这里安静又漂亮。",
-            "note": "静かで+きれい，te形连接两个描述"
+            "note": "静かで+きれい，te形连接两个描述",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex2.mp3"
           },
           {
             "ja": "好きな食べ物は何ですか？",
             "reading": "すきなたべものはなんですか？",
             "zh": "你喜欢吃什么？（最喜欢的食物是什么？）",
-            "note": "好きな+名词，修饰用法"
+            "note": "好きな+名词，修饰用法",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex3.mp3"
           },
           {
             "ja": "その人は有名な歌手ですか？",
             "reading": "そのひとはゆうめいなかしゅですか？",
             "zh": "那个人是有名的歌手吗？",
-            "note": "有名な+名词，修饰用法"
+            "note": "有名な+名词，修饰用法",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex4.mp3"
           },
           {
             "ja": "昔はもっと元気でした。",
             "reading": "むかしはもっとげんきでした。",
             "zh": "以前更有精神。",
-            "note": "でした=过去肯定，もっと=更加"
+            "note": "でした=过去肯定，もっと=更加",
+            "audioUrl": "/audio/lesson/el-na-adjectives_ex5.mp3"
           }
         ]
       },
@@ -5052,43 +5282,50 @@
             "ja": "部屋に猫がいます。",
             "reading": "へやにねこがいます。",
             "zh": "房间里有猫。",
-            "note": "猫→有生命→います"
+            "note": "猫→有生命→います",
+            "audioUrl": "/audio/lesson/el-existence_ex0.mp3"
           },
           {
             "ja": "駅の近くにコンビニがあります。",
             "reading": "えきのちかくにコンビニがあります。",
             "zh": "车站附近有便利店。",
-            "note": "便利店→无生命→あります"
+            "note": "便利店→无生命→あります",
+            "audioUrl": "/audio/lesson/el-existence_ex1.mp3"
           },
           {
             "ja": "田中さんは今、どこにいますか？",
             "reading": "たなかさんはいま、どこにいますか？",
             "zh": "田中先生现在在哪里？",
-            "note": "人→います，どこ=哪里"
+            "note": "人→います，どこ=哪里",
+            "audioUrl": "/audio/lesson/el-existence_ex2.mp3"
           },
           {
             "ja": "鍵はかばんの中にあります。",
             "reading": "かぎはかばんのなかにあります。",
             "zh": "钥匙在包里。",
-            "note": "钥匙→无生命→あります，の中=里面"
+            "note": "钥匙→无生命→あります，の中=里面",
+            "audioUrl": "/audio/lesson/el-existence_ex3.mp3"
           },
           {
             "ja": "この近くに病院はありますか？",
             "reading": "このちかくにびょういんはありますか？",
             "zh": "这附近有医院吗？",
-            "note": "建筑→あります，话题用は提问"
+            "note": "建筑→あります，话题用は提问",
+            "audioUrl": "/audio/lesson/el-existence_ex4.mp3"
           },
           {
             "ja": "冷蔵庫の中に何がありますか？",
             "reading": "れいぞうこのなかになにがありますか？",
             "zh": "冰箱里有什么？",
-            "note": "何が=什么（存在的主体用が）"
+            "note": "何が=什么（存在的主体用が）",
+            "audioUrl": "/audio/lesson/el-existence_ex5.mp3"
           },
           {
             "ja": "教室に学生が三人います。",
             "reading": "きょうしつにがくせいがさんにんいます。",
             "zh": "教室里有三个学生。",
-            "note": "三人（さんにん）=三个人，人的计数词"
+            "note": "三人（さんにん）=三个人，人的计数词",
+            "audioUrl": "/audio/lesson/el-existence_ex6.mp3"
           }
         ]
       },
@@ -5337,43 +5574,50 @@
             "ja": "今、何時ですか？",
             "reading": "いま、なんじですか？",
             "zh": "现在几点？",
-            "note": "何時（なんじ）=几点，常用问法"
+            "note": "何時（なんじ）=几点，常用问法",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex0.mp3"
           },
           {
             "ja": "授業は午前九時から始まります。",
             "reading": "じゅぎょうはごぜんくじからはじまります。",
             "zh": "课从上午9点开始。",
-            "note": "から=从（时间起点）"
+            "note": "から=从（时间起点）",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex1.mp3"
           },
           {
             "ja": "水曜日に会議があります。",
             "reading": "すいようびにかいぎがあります。",
             "zh": "星期三有会议。",
-            "note": "星期用に标记（时间点）"
+            "note": "星期用に标记（时间点）",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex2.mp3"
           },
           {
             "ja": "本を三冊買いました。",
             "reading": "ほんをさんさつかいました。",
             "zh": "买了三本书。",
-            "note": "冊（さつ）是书的量词"
+            "note": "冊（さつ）是书的量词",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex3.mp3"
           },
           {
             "ja": "ビールを一本ください。",
             "reading": "ビールをいっぽんください。",
             "zh": "请给我一瓶啤酒。",
-            "note": "本（ほん）→一本时变音=いっぽん"
+            "note": "本（ほん）→一本时变音=いっぽん",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex4.mp3"
           },
           {
             "ja": "りんごをみっつください。",
             "reading": "りんごをみっつください。",
             "zh": "请给我三个苹果。",
-            "note": "和语数词みっつ=3个，不加量词"
+            "note": "和语数词みっつ=3个，不加量词",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex5.mp3"
           },
           {
             "ja": "私の誕生日は三月十四日です。",
             "reading": "わたしのたんじょうびはさんがつじゅうよっかです。",
             "zh": "我的生日是3月14日。",
-            "note": "14日=じゅうよっか，特殊读法"
+            "note": "14日=じゅうよっか，特殊读法",
+            "audioUrl": "/audio/lesson/el-time-numbers_ex6.mp3"
           }
         ]
       },
@@ -5522,43 +5766,50 @@
             "ja": "これは何ですか？",
             "reading": "これはなんですか？",
             "zh": "这是什么？",
-            "note": "これ单独指代物品，最基础用法"
+            "note": "これ单独指代物品，最基础用法",
+            "audioUrl": "/audio/lesson/el-this-that_ex0.mp3"
           },
           {
             "ja": "その本、面白いですか？",
             "reading": "そのほん、おもしろいですか？",
             "zh": "那本书有趣吗？",
-            "note": "その=修饰对方手边的书"
+            "note": "その=修饰对方手边的书",
+            "audioUrl": "/audio/lesson/el-this-that_ex1.mp3"
           },
           {
             "ja": "あれが有名な富士山です。",
             "reading": "あれがゆうめいなふじさんです。",
             "zh": "那个就是有名的富士山。",
-            "note": "あれ=指远处，说话双方都能看见"
+            "note": "あれ=指远处，说话双方都能看见",
+            "audioUrl": "/audio/lesson/el-this-that_ex2.mp3"
           },
           {
             "ja": "すみません、トイレはどこですか？",
             "reading": "すみません、トイレはどこですか？",
             "zh": "请问，厕所在哪里？",
-            "note": "どこ=询问地点，常用场景"
+            "note": "どこ=询问地点，常用场景",
+            "audioUrl": "/audio/lesson/el-this-that_ex3.mp3"
           },
           {
             "ja": "この近くにいい店はありますか？",
             "reading": "このちかくにいいみせはありますか？",
             "zh": "这附近有好的店吗？",
-            "note": "この+ちかく（附近），修饰名词用法"
+            "note": "この+ちかく（附近），修饰名词用法",
+            "audioUrl": "/audio/lesson/el-this-that_ex4.mp3"
           },
           {
             "ja": "どれがあなたのかばんですか？",
             "reading": "どれがあなたのかばんですか？",
             "zh": "哪个是你的包？",
-            "note": "どれ=哪个（从多个中选），用が"
+            "note": "どれ=哪个（从多个中选），用が",
+            "audioUrl": "/audio/lesson/el-this-that_ex5.mp3"
           },
           {
             "ja": "あの人はだれですか？",
             "reading": "あのひとはだれですか？",
             "zh": "那个人是谁？",
-            "note": "あの+人，不在场的人或远处的人"
+            "note": "あの+人，不在场的人或远处的人",
+            "audioUrl": "/audio/lesson/el-this-that_ex6.mp3"
           }
         ]
       },
@@ -5761,37 +6012,43 @@
             "ja": "A：ただいま！　B：おかえりなさい！",
             "reading": "A：ただいま　B：おかえりなさい",
             "zh": "A：我回来了！ B：欢迎回来！",
-            "note": "家庭场景，每天必用"
+            "note": "家庭场景，每天必用",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex0.mp3"
           },
           {
             "ja": "すみません、これをください。",
             "reading": "すみません、これをください。",
             "zh": "请问，我要这个。",
-            "note": "餐厅/便利店点餐最基本表达"
+            "note": "餐厅/便利店点餐最基本表达",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex1.mp3"
           },
           {
             "ja": "A：コーヒーはいかがですか？　B：いいえ、結構です。",
             "reading": "A：コーヒーはいかがですか　B：いいえ、けっこうです",
             "zh": "A：要咖啡吗？ B：不，不用了。",
-            "note": "いかが=どう的礼貌形；結構です=礼貌拒绝"
+            "note": "いかが=どう的礼貌形；結構です=礼貌拒绝",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex2.mp3"
           },
           {
             "ja": "お会計をお願いします。",
             "reading": "おかいけいをおねがいします。",
             "zh": "请结账。",
-            "note": "餐厅用完餐后，对服务员说"
+            "note": "餐厅用完餐后，对服务员说",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex3.mp3"
           },
           {
             "ja": "少々お待ちください。",
             "reading": "しょうしょうおまちください。",
             "zh": "请稍等。",
-            "note": "服务员/工作人员的正式用法"
+            "note": "服务员/工作人员的正式用法",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex4.mp3"
           },
           {
             "ja": "いただきます！（みんなで）",
             "reading": "いただきます",
             "zh": "（大家一起）开动了！",
-            "note": "全家或聚餐时，大家一起说"
+            "note": "全家或聚餐时，大家一起说",
+            "audioUrl": "/audio/lesson/el-daily-conversation_ex5.mp3"
           }
         ]
       },
@@ -5943,37 +6200,43 @@
             "ja": "飲む → 一类",
             "reading": "のむ → いちるい",
             "zh": "喝 → 词尾む，非る → 一类",
-            "note": "记住：不是る结尾 = 直接认定一类"
+            "note": "记住：不是る结尾 = 直接认定一类",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex0.mp3"
           },
           {
             "ja": "食べる → 二类",
             "reading": "たべる → にるい",
             "zh": "吃 → べ是え段 → 二类",
-            "note": "べ（be）属于え段：あいうえお中的え"
+            "note": "べ（be）属于え段：あいうえお中的え",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex1.mp3"
           },
           {
             "ja": "見る → 二类",
             "reading": "みる → にるい",
             "zh": "看 → み是い段 → 二类",
-            "note": "み（mi）属于い段"
+            "note": "み（mi）属于い段",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex2.mp3"
           },
           {
             "ja": "行く → 一类",
             "reading": "いく → いちるい",
             "zh": "去 → 词尾く，非る → 一类",
-            "note": "く结尾，直接一类"
+            "note": "く结尾，直接一类",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex3.mp3"
           },
           {
             "ja": "帰る → 一类（例外！）",
             "reading": "かえる → いちるい（れいがい）",
             "zh": "回去 → え段，但是例外一类！",
-            "note": "这是最重要的例外词，必须背下来"
+            "note": "这是最重要的例外词，必须背下来",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex4.mp3"
           },
           {
             "ja": "来る → 三类",
             "reading": "くる → さんるい",
             "zh": "来 → 三类不规则动词之一",
-            "note": "する和くる是仅有的两个三类动词"
+            "note": "する和くる是仅有的两个三类动词",
+            "audioUrl": "/audio/lesson/n5-verb-groups_ex5.mp3"
           }
         ]
       },
@@ -6091,37 +6354,43 @@
             "ja": "毎日、日本語を勉強します。",
             "reading": "まいにち、にほんごをべんきょうします。",
             "zh": "每天学日语。",
-            "note": "する → します，三类变形"
+            "note": "する → します，三类变形",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex0.mp3"
           },
           {
             "ja": "お酒は飲みません。",
             "reading": "おさけはのみません。",
             "zh": "不喝酒。",
-            "note": "飲む → 飲みます → 飲みません"
+            "note": "飲む → 飲みます → 飲みません",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex1.mp3"
           },
           {
             "ja": "昨日、友達に会いました。",
             "reading": "きのう、ともだちにあいました。",
             "zh": "昨天见了朋友。",
-            "note": "会う → 会います → 会いました"
+            "note": "会う → 会います → 会いました",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex2.mp3"
           },
           {
             "ja": "先週は学校に来ませんでした。",
             "reading": "せんしゅうはがっこうにきませんでした。",
             "zh": "上周没来学校。",
-            "note": "くる → きます → きませんでした"
+            "note": "くる → きます → きませんでした",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex3.mp3"
           },
           {
             "ja": "何時に起きますか？",
             "reading": "なんじにおきますか？",
             "zh": "几点起床？",
-            "note": "起きる（二类）→ 起きます，疑问加か"
+            "note": "起きる（二类）→ 起きます，疑问加か",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex4.mp3"
           },
           {
             "ja": "一緒に映画を見ませんか？",
             "reading": "いっしょにえいがをみませんか？",
             "zh": "要不要一起去看电影？",
-            "note": "ませんか 表示礼貌邀请，而非单纯否定疑问"
+            "note": "ませんか 表示礼貌邀请，而非单纯否定疑问",
+            "audioUrl": "/audio/lesson/n5-masu-form_ex5.mp3"
           }
         ]
       },
@@ -6237,37 +6506,43 @@
             "ja": "昨日、映画を見た。",
             "reading": "きのう、えいがをみた。",
             "zh": "昨天看了电影。",
-            "note": "見る（二类）→ 見た。普通体，适合朋友间对话"
+            "note": "見る（二类）→ 見た。普通体，适合朋友间对话",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex0.mp3"
           },
           {
             "ja": "友達と一緒にご飯を食べた。",
             "reading": "ともだちといっしょにごはんをたべた。",
             "zh": "和朋友一起吃饭了。",
-            "note": "食べる（二类）→ 食べた"
+            "note": "食べる（二类）→ 食べた",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex1.mp3"
           },
           {
             "ja": "日本語を三年間勉強した。",
             "reading": "にほんごをさんねんかんべんきょうした。",
             "zh": "学了三年日语。",
-            "note": "する（三类）→ した"
+            "note": "する（三类）→ した",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex2.mp3"
           },
           {
             "ja": "昨日は本を読んだ。",
             "reading": "きのうはほんをよんだ。",
             "zh": "昨天读了书。",
-            "note": "読む（む→んだ）：撥音便"
+            "note": "読む（む→んだ）：撥音便",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex3.mp3"
           },
           {
             "ja": "駅まで歩いた。",
             "reading": "えきまであるいた。",
             "zh": "走路去了车站。",
-            "note": "歩く（く→いた）：い音便"
+            "note": "歩く（く→いた）：い音便",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex4.mp3"
           },
           {
             "ja": "友達が来た！",
             "reading": "ともだちがきた！",
             "zh": "朋友来了！",
-            "note": "くる（三类）→ きた"
+            "note": "くる（三类）→ きた",
+            "audioUrl": "/audio/lesson/n5-ta-form_ex5.mp3"
           }
         ]
       },
@@ -6409,37 +6684,43 @@
             "ja": "朝ごはんを食べない。",
             "reading": "あさごはんをたべない。",
             "zh": "不吃早饭。（普通体）",
-            "note": "食べる（二类）→ 食べない"
+            "note": "食べる（二类）→ 食べない",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex0.mp3"
           },
           {
             "ja": "今日は学校に行かない。",
             "reading": "きょうはがっこうにいかない。",
             "zh": "今天不去学校。",
-            "note": "行く（一类）→ 行かない，く→か"
+            "note": "行く（一类）→ 行かない，く→か",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex1.mp3"
           },
           {
             "ja": "お酒を飲まないほうがいいよ。",
             "reading": "おさけをのまないほうがいいよ。",
             "zh": "最好不要喝酒哦。",
-            "note": "飲む（一類）→ 飲まない，む→ま"
+            "note": "飲む（一類）→ 飲まない，む→ま",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex2.mp3"
           },
           {
             "ja": "彼は全然話さない。",
             "reading": "かれはぜんぜんはなさない。",
             "zh": "他完全不说话。",
-            "note": "話す（一类）→ 話さない，す→さ"
+            "note": "話す（一类）→ 話さない，す→さ",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex3.mp3"
           },
           {
             "ja": "宿題をしなかった。",
             "reading": "しゅくだいをしなかった。",
             "zh": "没做作业。",
-            "note": "しない（ない形）→ しなかった（ない的过去式）"
+            "note": "しない（ない形）→ しなかった（ない的过去式）",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex4.mp3"
           },
           {
             "ja": "今日は来ないと思う。",
             "reading": "きょうはこないとおもう。",
             "zh": "我觉得今天不会来。",
-            "note": "くる（三类）→ こない"
+            "note": "くる（三类）→ こない",
+            "audioUrl": "/audio/lesson/n5-nai-form_ex5.mp3"
           }
         ]
       },
@@ -6582,37 +6863,43 @@
             "ja": "今年、日本に行きたいです。",
             "reading": "ことし、にほんにいきたいです。",
             "zh": "今年想去日本。",
-            "note": "行きたい（礼貌体加です）"
+            "note": "行きたい（礼貌体加です）",
+            "audioUrl": "/audio/lesson/n5-want_ex0.mp3"
           },
           {
             "ja": "何を食べたいですか？",
             "reading": "なにをたべたいですか？",
             "zh": "想吃什么？",
-            "note": "疑问句：たい + ですか"
+            "note": "疑问句：たい + ですか",
+            "audioUrl": "/audio/lesson/n5-want_ex1.mp3"
           },
           {
             "ja": "もうラーメンは食べたくない。",
             "reading": "もうらーめんはたべたくない。",
             "zh": "不想再吃拉面了。",
-            "note": "たくない = 否定（い形容词规则）"
+            "note": "たくない = 否定（い形容词规则）",
+            "audioUrl": "/audio/lesson/n5-want_ex2.mp3"
           },
           {
             "ja": "子供の頃、医者になりたかった。",
             "reading": "こどものころ、いしゃになりたかった。",
             "zh": "小时候想成为医生。",
-            "note": "たかった = 过去式（い形容词过去规则）"
+            "note": "たかった = 过去式（い形容词过去规则）",
+            "audioUrl": "/audio/lesson/n5-want_ex3.mp3"
           },
           {
             "ja": "日本語で話したいです。",
             "reading": "にほんごではなしたいです。",
             "zh": "想用日语说话。",
-            "note": "話します → 話し + たい"
+            "note": "話します → 話し + たい",
+            "audioUrl": "/audio/lesson/n5-want_ex4.mp3"
           },
           {
             "ja": "早く寝たい。眠い。",
             "reading": "はやくねたい。ねむい。",
             "zh": "想快点睡觉，好困。",
-            "note": "普通体たい，自言自语"
+            "note": "普通体たい，自言自语",
+            "audioUrl": "/audio/lesson/n5-want_ex5.mp3"
           }
         ]
       },
@@ -6729,37 +7016,43 @@
             "ja": "日本語を少し話すことができます。",
             "reading": "にほんごをすこしはなすことができます。",
             "zh": "能说一点点日语。",
-            "note": "自我介绍时的常用表达"
+            "note": "自我介绍时的常用表达",
+            "audioUrl": "/audio/lesson/n5-can_ex0.mp3"
           },
           {
             "ja": "漢字を読むことができません。",
             "reading": "かんじをよむことができません。",
             "zh": "不会读汉字。",
-            "note": "否定：できません"
+            "note": "否定：できません",
+            "audioUrl": "/audio/lesson/n5-can_ex1.mp3"
           },
           {
             "ja": "明日、来ることができますか？",
             "reading": "あした、くることができますか？",
             "zh": "明天能来吗？",
-            "note": "疑问；来る（くる）辞書形不变"
+            "note": "疑问；来る（くる）辞書形不变",
+            "audioUrl": "/audio/lesson/n5-can_ex2.mp3"
           },
           {
             "ja": "ここでカードを使うことができます。",
             "reading": "ここでかーどをつかうことができます。",
             "zh": "这里可以刷卡。",
-            "note": "表示客观可能性（不是个人能力）"
+            "note": "表示客观可能性（不是个人能力）",
+            "audioUrl": "/audio/lesson/n5-can_ex3.mp3"
           },
           {
             "ja": "子供の頃、泳ぐことができませんでした。",
             "reading": "こどものころ、およぐことができませんでした。",
             "zh": "小时候不会游泳。",
-            "note": "过去否定：できませんでした"
+            "note": "过去否定：できませんでした",
+            "audioUrl": "/audio/lesson/n5-can_ex4.mp3"
           },
           {
             "ja": "この店では日本語で注文することができます。",
             "reading": "このみせではにほんごでちゅうもんすることができます。",
             "zh": "在这家店可以用日语点餐。",
-            "note": "する的辞書形 + こと"
+            "note": "する的辞書形 + こと",
+            "audioUrl": "/audio/lesson/n5-can_ex5.mp3"
           }
         ]
       },
@@ -6910,37 +7203,43 @@
             "ja": "今日は学校に行きません。",
             "reading": "きょうはがっこうにいきません。",
             "zh": "今天不去学校。",
-            "note": "今日は 放句首作话题"
+            "note": "今日は 放句首作话题",
+            "audioUrl": "/audio/lesson/n5-when_ex0.mp3"
           },
           {
             "ja": "昨日、友達と映画を見ました。",
             "reading": "きのう、ともだちとえいがをみました。",
             "zh": "昨天和朋友看了电影。",
-            "note": "昨日 作时间状语"
+            "note": "昨日 作时间状语",
+            "audioUrl": "/audio/lesson/n5-when_ex1.mp3"
           },
           {
             "ja": "来年、日本に行きたいです。",
             "reading": "らいねん、にほんにいきたいです。",
             "zh": "明年想去日本。",
-            "note": "来年 + たい 表将来愿望"
+            "note": "来年 + たい 表将来愿望",
+            "audioUrl": "/audio/lesson/n5-when_ex2.mp3"
           },
           {
             "ja": "もう宿題は終わりましたか？",
             "reading": "もうしゅくだいはおわりましたか？",
             "zh": "作业已经做完了吗？",
-            "note": "もう + 疑问句：询问是否已完成"
+            "note": "もう + 疑问句：询问是否已完成",
+            "audioUrl": "/audio/lesson/n5-when_ex3.mp3"
           },
           {
             "ja": "いいえ、まだ終わっていません。",
             "reading": "いいえ、まだおわっていません。",
             "zh": "不，还没完成。",
-            "note": "まだ ＋ ていません = 还没……（标准回答）"
+            "note": "まだ ＋ ていません = 还没……（标准回答）",
+            "audioUrl": "/audio/lesson/n5-when_ex4.mp3"
           },
           {
             "ja": "毎日、朝8時から夜11時まで勉強します。",
             "reading": "まいにち、あさはちじからよるじゅういちじまでべんきょうします。",
             "zh": "每天从早上8点学到晚上11点。",
-            "note": "から～まで 表示时间范围"
+            "note": "から～まで 表示时间范围",
+            "audioUrl": "/audio/lesson/n5-when_ex5.mp3"
           }
         ]
       },
@@ -7055,37 +7354,43 @@
             "ja": "毎日日本語を勉強しています。",
             "reading": "まいにちにほんごをべんきょうしています。",
             "zh": "每天都在学日语。",
-            "note": "毎日（每天）是时间词，不是频率副词，但常一起学习"
+            "note": "毎日（每天）是时间词，不是频率副词，但常一起学习",
+            "audioUrl": "/audio/lesson/n5-frequency_ex0.mp3"
           },
           {
             "ja": "よく一人でカフェに行きます。",
             "reading": "よくひとりでかふぇにいきます。",
             "zh": "经常一个人去咖啡馆。",
-            "note": "よく 接肯定"
+            "note": "よく 接肯定",
+            "audioUrl": "/audio/lesson/n5-frequency_ex1.mp3"
           },
           {
             "ja": "時々、自炊します。",
             "reading": "ときどき、じすいします。",
             "zh": "有时候自己做饭。",
-            "note": "時々 接肯定"
+            "note": "時々 接肯定",
+            "audioUrl": "/audio/lesson/n5-frequency_ex2.mp3"
           },
           {
             "ja": "あまり肉を食べません。",
             "reading": "あまりにくをたべません。",
             "zh": "不怎么吃肉。",
-            "note": "あまり 必须接否定"
+            "note": "あまり 必须接否定",
+            "audioUrl": "/audio/lesson/n5-frequency_ex3.mp3"
           },
           {
             "ja": "全然わかりません。すみません。",
             "reading": "ぜんぜんわかりません。すみません。",
             "zh": "完全不明白。对不起。",
-            "note": "全然 + 否定，非常常用的说法"
+            "note": "全然 + 否定，非常常用的说法",
+            "audioUrl": "/audio/lesson/n5-frequency_ex4.mp3"
           },
           {
             "ja": "最近、たまにしか運動しません。",
             "reading": "さいきん、たまにしかうんどうしません。",
             "zh": "最近只是偶尔运动一下。",
-            "note": "たまにしか～ない：更强调「只偶尔」，是较高级的表达"
+            "note": "たまにしか～ない：更强调「只偶尔」，是较高级的表达",
+            "audioUrl": "/audio/lesson/n5-frequency_ex5.mp3"
           }
         ]
       },
@@ -7193,37 +7498,43 @@
             "ja": "明日、図書館に行きます。",
             "reading": "あした、としょかんにいきます。",
             "zh": "明天去图书馆。",
-            "note": "に 表目的地，行く（一类）→ 行きます"
+            "note": "に 表目的地，行く（一类）→ 行きます",
+            "audioUrl": "/audio/lesson/n5-movement_ex0.mp3"
           },
           {
             "ja": "友達が明日私の家に来ます。",
             "reading": "ともだちがあしたわたしのいえにきます。",
             "zh": "朋友明天要来我家。",
-            "note": "来る（三类）→ きます，朋友「来」我这里"
+            "note": "来る（三类）→ きます，朋友「来」我这里",
+            "audioUrl": "/audio/lesson/n5-movement_ex1.mp3"
           },
           {
             "ja": "何時に帰りますか？",
             "reading": "なんじにかえりますか？",
             "zh": "几点回家？",
-            "note": "帰る（一类例外）→ 帰ります"
+            "note": "帰る（一类例外）→ 帰ります",
+            "audioUrl": "/audio/lesson/n5-movement_ex2.mp3"
           },
           {
             "ja": "学校から家まで自転車で20分かかります。",
             "reading": "がっこうからいえまでじてんしゃでにじゅっぷんかかります。",
             "zh": "从学校骑车到家要20分钟。",
-            "note": "から～まで 表范围，で 表交通手段"
+            "note": "から～まで 表范围，で 表交通手段",
+            "audioUrl": "/audio/lesson/n5-movement_ex3.mp3"
           },
           {
             "ja": "日本へようこそ！",
             "reading": "にほんへようこそ！",
             "zh": "欢迎来日本！",
-            "note": "へ 强调方向感，用于欢迎语"
+            "note": "へ 强调方向感，用于欢迎语",
+            "audioUrl": "/audio/lesson/n5-movement_ex4.mp3"
           },
           {
             "ja": "スーパーに寄ってから帰ります。",
             "reading": "すーぱーによってからかえります。",
             "zh": "去超市买完东西再回家。",
-            "note": "て形 + から 表示先后顺序：做完一件事再做另一件"
+            "note": "て形 + から 表示先后顺序：做完一件事再做另一件",
+            "audioUrl": "/audio/lesson/n5-movement_ex5.mp3"
           }
         ]
       },
@@ -7353,37 +7664,43 @@
             "ja": "少し待ってください。",
             "reading": "すこしまってください。",
             "zh": "请稍等一下。",
-            "note": "待つ → 待って（一类つ→って）"
+            "note": "待つ → 待って（一类つ→って）",
+            "audioUrl": "/audio/lesson/n5-please_ex0.mp3"
           },
           {
             "ja": "窓を開けてください。",
             "reading": "まどをあけてください。",
             "zh": "请打开窗户。",
-            "note": "開ける（二类）→ 開けて"
+            "note": "開ける（二类）→ 開けて",
+            "audioUrl": "/audio/lesson/n5-please_ex1.mp3"
           },
           {
             "ja": "ゆっくり話してください。",
             "reading": "ゆっくりはなしてください。",
             "zh": "请说慢一点。",
-            "note": "話す → 話して（一类す→して）"
+            "note": "話す → 話して（一类す→して）",
+            "audioUrl": "/audio/lesson/n5-please_ex2.mp3"
           },
           {
             "ja": "ここに座らないでください。",
             "reading": "ここにすわらないでください。",
             "zh": "请不要坐这里。",
-            "note": "座る → 座らない → 座らないで"
+            "note": "座る → 座らない → 座らないで",
+            "audioUrl": "/audio/lesson/n5-please_ex3.mp3"
           },
           {
             "ja": "携帯を使わないでください。",
             "reading": "けいたいをつかわないでください。",
             "zh": "请不要使用手机。",
-            "note": "使う → 使わない → 使わないで（う→わ例外）"
+            "note": "使う → 使わない → 使わないで（う→わ例外）",
+            "audioUrl": "/audio/lesson/n5-please_ex4.mp3"
           },
           {
             "ja": "ドアを閉めていただけませんか？",
             "reading": "どあをしめていただけませんか？",
             "zh": "能请您关一下门吗？",
-            "note": "更礼貌的请求形式"
+            "note": "更礼貌的请求形式",
+            "audioUrl": "/audio/lesson/n5-please_ex5.mp3"
           }
         ]
       },
@@ -7475,37 +7792,43 @@
             "ja": "友達に誕生日プレゼントをあげました。",
             "reading": "ともだちにたんじょうびぷれぜんとをあげました。",
             "zh": "给朋友送了生日礼物。",
-            "note": "接收方=友達（他人）→ あげる"
+            "note": "接收方=友達（他人）→ あげる",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex0.mp3"
           },
           {
             "ja": "田中さんが私にお土産をくれました。",
             "reading": "たなかさんがわたしにおみやげをくれました。",
             "zh": "田中先生给了我伴手礼。",
-            "note": "接收方=私（我）→ くれる"
+            "note": "接收方=私（我）→ くれる",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex1.mp3"
           },
           {
             "ja": "先生に漢字の読み方を教えてもらいました。",
             "reading": "せんせいにかんじのよみかたをおしえてもらいました。",
             "zh": "请老师教了我汉字的读法。",
-            "note": "てもらう：我从老师那里得到了「教」这个恩惠"
+            "note": "てもらう：我从老师那里得到了「教」这个恩惠",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex2.mp3"
           },
           {
             "ja": "妹が荷物を運んでくれた。",
             "reading": "いもうとがにもつをはこんでくれた。",
             "zh": "妹妹帮我搬了行李。",
-            "note": "妹妹为「我方」做事 → くれる（普通体）"
+            "note": "妹妹为「我方」做事 → くれる（普通体）",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex3.mp3"
           },
           {
             "ja": "道を教えてあげましょうか？",
             "reading": "みちをおしえてあげましょうか？",
             "zh": "我来告诉你路怎么走？",
-            "note": "てあげる：主动提出为对方做事"
+            "note": "てあげる：主动提出为对方做事",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex4.mp3"
           },
           {
             "ja": "このコート、誰にもらったの？",
             "reading": "このこーと、だれにもらったの？",
             "zh": "这件外套是从谁那里得到的？",
-            "note": "もらう 的过去式，口语疑问"
+            "note": "もらう 的过去式，口语疑问",
+            "audioUrl": "/audio/lesson/n5-give-receive_ex5.mp3"
           }
         ]
       },
@@ -7640,37 +7963,43 @@
             "ja": "最近、日本語が上手になってきました。",
             "reading": "さいきん、にほんごがじょうずになってきました。",
             "zh": "最近日语越来越好了。",
-            "note": "上手（じょうず）是な形容词 → 上手になる"
+            "note": "上手（じょうず）是な形容词 → 上手になる",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex0.mp3"
           },
           {
             "ja": "秋になると、葉っぱが赤くなります。",
             "reading": "あきになると、はっぱがあかくなります。",
             "zh": "到了秋天，叶子就会变红。",
-            "note": "赤い（い形容词）→ 赤くなる"
+            "note": "赤い（い形容词）→ 赤くなる",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex1.mp3"
           },
           {
             "ja": "この店のラーメンはおいしくなりましたね。",
             "reading": "このみせのらーめんはおいしくなりましたね。",
             "zh": "这家店的拉面变好吃了呢。",
-            "note": "おいしい → おいしくなりました（过去礼貌体）"
+            "note": "おいしい → おいしくなりました（过去礼貌体）",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex2.mp3"
           },
           {
             "ja": "子供の頃から好きになりました。",
             "reading": "こどものころからすきになりました。",
             "zh": "从小就开始喜欢了。",
-            "note": "好き（な形容词）→ 好きになる，表示感情的变化"
+            "note": "好き（な形容词）→ 好きになる，表示感情的变化",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex3.mp3"
           },
           {
             "ja": "将来、医者になりたいです。",
             "reading": "しょうらい、いしゃになりたいです。",
             "zh": "将来想成为医生。",
-            "note": "名词 + になる + たい，梦想/目标的标准说法"
+            "note": "名词 + になる + たい，梦想/目标的标准说法",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex4.mp3"
           },
           {
             "ja": "テストの点数が高くなったので、嬉しいです。",
             "reading": "てすとのてんすうがたかくなったので、うれしいです。",
             "zh": "考试分数变高了，很开心。",
-            "note": "高い → 高くなった（た形，过去变化）"
+            "note": "高い → 高くなった（た形，过去变化）",
+            "audioUrl": "/audio/lesson/n5-adjective-verb_ex5.mp3"
           }
         ]
       },
@@ -7917,43 +8246,50 @@
             "ja": "毎日日本語を勉強していますが、まだ全然話せません。",
             "reading": "まいにちにほんごをべんきょうしていますが、まだぜんぜんはなせません。",
             "zh": "每天都在学日语，但还是完全不会说。",
-            "note": "ている + が（转折）+ まだ + 全然 + ません，多语法综合"
+            "note": "ている + が（转折）+ まだ + 全然 + ません，多语法综合",
+            "audioUrl": "/audio/lesson/n5-review_ex0.mp3"
           },
           {
             "ja": "来年、日本に行きたいので、今からお金を貯めています。",
             "reading": "らいねん、にほんにいきたいので、いまからおかねをためています。",
             "zh": "明年想去日本，所以从现在开始存钱。",
-            "note": "たい + ので（因为）+ ている，目的与行动"
+            "note": "たい + ので（因为）+ ている，目的与行动",
+            "audioUrl": "/audio/lesson/n5-review_ex1.mp3"
           },
           {
             "ja": "友達が誕生日プレゼントをくれたので、とても嬉しかったです。",
             "reading": "ともだちがたんじょうびぷれぜんとをくれたので、とてもうれしかったです。",
             "zh": "朋友送了生日礼物给我，非常开心。",
-            "note": "くれる + た形（原因）+ い形容词过去式"
+            "note": "くれる + た形（原因）+ い形容词过去式",
+            "audioUrl": "/audio/lesson/n5-review_ex2.mp3"
           },
           {
             "ja": "図書館では静かにしてください。携帯を使わないでください。",
             "reading": "としょかんではしずかにしてください。けいたいをつかわないでください。",
             "zh": "在图书馆请保持安静，请不要使用手机。",
-            "note": "にする（使…安静）+ てください + ないでください"
+            "note": "にする（使…安静）+ てください + ないでください",
+            "audioUrl": "/audio/lesson/n5-review_ex3.mp3"
           },
           {
             "ja": "子供の頃は辛い食べ物が苦手でしたが、今は大好きになりました。",
             "reading": "こどものころはからいたべものがにがてでしたが、いまはだいすきになりました。",
             "zh": "小时候不擅长吃辣的食物，但现在变得非常喜欢了。",
-            "note": "は + でした（过去）+ が（转折）+ になりました（变化）"
+            "note": "は + でした（过去）+ が（转折）+ になりました（变化）",
+            "audioUrl": "/audio/lesson/n5-review_ex4.mp3"
           },
           {
             "ja": "先生に日本語を教えてもらったので、少し上手になりました。",
             "reading": "せんせいににほんごをおしえてもらったので、すこしじょうずになりました。",
             "zh": "老师教了我日语，所以稍微变好了一点。",
-            "note": "てもらう + ので + になる，授受 + 变化"
+            "note": "てもらう + ので + になる，授受 + 变化",
+            "audioUrl": "/audio/lesson/n5-review_ex5.mp3"
           },
           {
             "ja": "行きたいですが、今日は時間がないので、来週行くことができますか？",
             "reading": "いきたいですが、きょうはじかんがないので、らいしゅういくことができますか？",
             "zh": "我很想去，但今天没时间，下周能去吗？",
-            "note": "たい + が（转折）+ ので（原因）+ ことができる（可能）"
+            "note": "たい + が（转折）+ ので（原因）+ ことができる（可能）",
+            "audioUrl": "/audio/lesson/n5-review_ex6.mp3"
           }
         ]
       },

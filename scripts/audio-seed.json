@@ -3255,5 +3255,2765 @@
     "audioUrl": "/audio/grammar/g-nara_ex3.mp3",
     "page": "/grammar/g-nara",
     "sourceId": "g-nara"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "あおい",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex0.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex0.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "いえ",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex1.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex1.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "うえ",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex2.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex2.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "おかあさん",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex3.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex3.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "いか",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex4.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex4.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-1_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "あおい",
+    "outputPath": "public/audio/lesson/kana-hiragana-1_ex5.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-1_ex5.mp3",
+    "page": "/lesson/kana-hiragana-1",
+    "sourceId": "kana-hiragana-1"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "すし",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex0.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex0.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ねこ",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex1.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex1.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "なに",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex2.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex2.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ちち",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex3.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex3.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "つき",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex4.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex4.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "にほん",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex5.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex5.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex6",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "さかな",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex6.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex6.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex7",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "そと",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex7.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex7.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-2_ex8",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "てがみ",
+    "outputPath": "public/audio/lesson/kana-hiragana-2_ex8.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-2_ex8.mp3",
+    "page": "/lesson/kana-hiragana-2",
+    "sourceId": "kana-hiragana-2"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "がっこう",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex0.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex0.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ざっし",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex1.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex1.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "でんわ",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex2.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex2.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ばら",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex3.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex3.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ぱん",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex4.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex4.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "てんぷら",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex5.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex5.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex6",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ふじさん",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex6.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex6.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-hiragana-3_ex7",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ごはん",
+    "outputPath": "public/audio/lesson/kana-hiragana-3_ex7.mp3",
+    "audioUrl": "/audio/lesson/kana-hiragana-3_ex7.mp3",
+    "page": "/lesson/kana-hiragana-3",
+    "sourceId": "kana-hiragana-3"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "アイスクリーム",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex0.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex0.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "コーヒー",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex1.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex1.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ケーキ",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex2.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex2.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "アメリカ",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex3.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex3.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "カメラ",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex4.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex4.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-1_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "エアコン",
+    "outputPath": "public/audio/lesson/kana-katakana-1_ex5.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-1_ex5.mp3",
+    "page": "/lesson/kana-katakana-1",
+    "sourceId": "kana-katakana-1"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "テレビ",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex0.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex0.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "スマートフォン",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex1.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex1.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "アイスクリーム",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex2.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex2.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "パーティー",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex3.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex3.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "コンビニ",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex4.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex4.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-kana-katakana-2_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ファッション",
+    "outputPath": "public/audio/lesson/kana-katakana-2_ex5.mp3",
+    "audioUrl": "/audio/lesson/kana-katakana-2_ex5.mp3",
+    "page": "/lesson/kana-katakana-2",
+    "sourceId": "kana-katakana-2"
+  },
+  {
+    "id": "lesson-special-sounds_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "きょうと",
+    "outputPath": "public/audio/lesson/special-sounds_ex0.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex0.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "でんしゃ",
+    "outputPath": "public/audio/lesson/special-sounds_ex1.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex1.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "きって",
+    "outputPath": "public/audio/lesson/special-sounds_ex2.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex2.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "りょうり",
+    "outputPath": "public/audio/lesson/special-sounds_ex3.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex3.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "しんかんせん",
+    "outputPath": "public/audio/lesson/special-sounds_ex4.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex4.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ちょっと",
+    "outputPath": "public/audio/lesson/special-sounds_ex5.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex5.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex6",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "おかあさん",
+    "outputPath": "public/audio/lesson/special-sounds_ex6.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex6.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-special-sounds_ex7",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "にゅうがく",
+    "outputPath": "public/audio/lesson/special-sounds_ex7.mp3",
+    "audioUrl": "/audio/lesson/special-sounds_ex7.mp3",
+    "page": "/lesson/special-sounds",
+    "sourceId": "special-sounds"
+  },
+  {
+    "id": "lesson-greetings-intro_ex0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "はじめまして。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex0.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex0.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_ex1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "わたしは李明です。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex1.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex1.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_ex2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "中国から来ました。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex2.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex2.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_ex3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "大学生です。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex3.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex3.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_ex4",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "日本語を勉強しています。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex4.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex4.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_ex5",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "どうぞよろしくお願いします。",
+    "outputPath": "public/audio/lesson/greetings-intro_ex5.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_ex5.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_gr0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "おはようございます。",
+    "outputPath": "public/audio/lesson/greetings-intro_gr0.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_gr0.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_gr1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "こんにちは。",
+    "outputPath": "public/audio/lesson/greetings-intro_gr1.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_gr1.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_gr2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "こんばんは。",
+    "outputPath": "public/audio/lesson/greetings-intro_gr2.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_gr2.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_gr3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "おやすみなさい。",
+    "outputPath": "public/audio/lesson/greetings-intro_gr3.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_gr3.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_pl0",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ありがとうございます。",
+    "outputPath": "public/audio/lesson/greetings-intro_pl0.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_pl0.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_pl1",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ありがとう。",
+    "outputPath": "public/audio/lesson/greetings-intro_pl1.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_pl1.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_pl2",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "すみません。",
+    "outputPath": "public/audio/lesson/greetings-intro_pl2.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_pl2.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-greetings-intro_pl3",
+    "type": "lesson-example",
+    "level": "beginner",
+    "text": "ごめんなさい。",
+    "outputPath": "public/audio/lesson/greetings-intro_pl3.mp3",
+    "audioUrl": "/audio/lesson/greetings-intro_pl3.mp3",
+    "page": "/lesson/greetings-intro",
+    "sourceId": "greetings-intro"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "わたしは学生です。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex0.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "今日は月曜日です。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex1.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "田中さんは先生じゃありません。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex2.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "昨日は休みでした。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex3.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "毎日、日本語を勉強します。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex4.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "朝ごはんを食べません。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex5.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex6",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "昨日、映画を見ました。",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex6.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex6.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-desu-masu_ex7",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "一緒に行きませんか？",
+    "outputPath": "public/audio/lesson/el-desu-masu_ex7.mp3",
+    "audioUrl": "/audio/lesson/el-desu-masu_ex7.mp3",
+    "page": "/lesson/el-desu-masu",
+    "sourceId": "el-desu-masu"
+  },
+  {
+    "id": "lesson-el-particles-wa-ga_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "田中さんは来ました。",
+    "outputPath": "public/audio/lesson/el-particles-wa-ga_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wa-ga_ex0.mp3",
+    "page": "/lesson/el-particles-wa-ga",
+    "sourceId": "el-particles-wa-ga"
+  },
+  {
+    "id": "lesson-el-particles-wa-ga_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "田中さんが来ました。",
+    "outputPath": "public/audio/lesson/el-particles-wa-ga_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wa-ga_ex1.mp3",
+    "page": "/lesson/el-particles-wa-ga",
+    "sourceId": "el-particles-wa-ga"
+  },
+  {
+    "id": "lesson-el-particles-wa-ga_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "日本語は難しいです。",
+    "outputPath": "public/audio/lesson/el-particles-wa-ga_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wa-ga_ex2.mp3",
+    "page": "/lesson/el-particles-wa-ga",
+    "sourceId": "el-particles-wa-ga"
+  },
+  {
+    "id": "lesson-el-particles-wa-ga_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "日本語が難しいです。",
+    "outputPath": "public/audio/lesson/el-particles-wa-ga_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wa-ga_ex3.mp3",
+    "page": "/lesson/el-particles-wa-ga",
+    "sourceId": "el-particles-wa-ga"
+  },
+  {
+    "id": "lesson-el-particles-wa-ga_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "彼女が作ったケーキはおいしい。",
+    "outputPath": "public/audio/lesson/el-particles-wa-ga_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wa-ga_ex4.mp3",
+    "page": "/lesson/el-particles-wa-ga",
+    "sourceId": "el-particles-wa-ga"
+  },
+  {
+    "id": "lesson-el-particles-wo-ni-de_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "毎日、電車で学校に行きます。",
+    "outputPath": "public/audio/lesson/el-particles-wo-ni-de_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex0.mp3",
+    "page": "/lesson/el-particles-wo-ni-de",
+    "sourceId": "el-particles-wo-ni-de"
+  },
+  {
+    "id": "lesson-el-particles-wo-ni-de_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "図書館で日本語の本を読みます。",
+    "outputPath": "public/audio/lesson/el-particles-wo-ni-de_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex1.mp3",
+    "page": "/lesson/el-particles-wo-ni-de",
+    "sourceId": "el-particles-wo-ni-de"
+  },
+  {
+    "id": "lesson-el-particles-wo-ni-de_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "冷蔵庫にビールがあります。",
+    "outputPath": "public/audio/lesson/el-particles-wo-ni-de_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex2.mp3",
+    "page": "/lesson/el-particles-wo-ni-de",
+    "sourceId": "el-particles-wo-ni-de"
+  },
+  {
+    "id": "lesson-el-particles-wo-ni-de_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "9時に起きて、10時に学校を出ます。",
+    "outputPath": "public/audio/lesson/el-particles-wo-ni-de_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-particles-wo-ni-de_ex3.mp3",
+    "page": "/lesson/el-particles-wo-ni-de",
+    "sourceId": "el-particles-wo-ni-de"
+  },
+  {
+    "id": "lesson-el-i-adjectives_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "この映画は面白いです。",
+    "outputPath": "public/audio/lesson/el-i-adjectives_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-i-adjectives_ex0.mp3",
+    "page": "/lesson/el-i-adjectives",
+    "sourceId": "el-i-adjectives"
+  },
+  {
+    "id": "lesson-el-i-adjectives_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "昨日は忙しくなかったです。",
+    "outputPath": "public/audio/lesson/el-i-adjectives_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-i-adjectives_ex1.mp3",
+    "page": "/lesson/el-i-adjectives",
+    "sourceId": "el-i-adjectives"
+  },
+  {
+    "id": "lesson-el-i-adjectives_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "新しいスマホを買いたいです。",
+    "outputPath": "public/audio/lesson/el-i-adjectives_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-i-adjectives_ex2.mp3",
+    "page": "/lesson/el-i-adjectives",
+    "sourceId": "el-i-adjectives"
+  },
+  {
+    "id": "lesson-el-i-adjectives_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "この店の料理は安くておいしい。",
+    "outputPath": "public/audio/lesson/el-i-adjectives_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-i-adjectives_ex3.mp3",
+    "page": "/lesson/el-i-adjectives",
+    "sourceId": "el-i-adjectives"
+  },
+  {
+    "id": "lesson-n5-te-form_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "シャワーを浴びて、朝ごはんを食べます。",
+    "outputPath": "public/audio/lesson/n5-te-form_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-te-form_ex0.mp3",
+    "page": "/lesson/n5-te-form",
+    "sourceId": "n5-te-form"
+  },
+  {
+    "id": "lesson-n5-te-form_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "ゆっくり話してください。",
+    "outputPath": "public/audio/lesson/n5-te-form_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-te-form_ex1.mp3",
+    "page": "/lesson/n5-te-form",
+    "sourceId": "n5-te-form"
+  },
+  {
+    "id": "lesson-n5-te-form_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今、テレビを見ています。",
+    "outputPath": "public/audio/lesson/n5-te-form_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-te-form_ex2.mp3",
+    "page": "/lesson/n5-te-form",
+    "sourceId": "n5-te-form"
+  },
+  {
+    "id": "lesson-n5-te-form_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "窓を開けてもいいですか？",
+    "outputPath": "public/audio/lesson/n5-te-form_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-te-form_ex3.mp3",
+    "page": "/lesson/n5-te-form",
+    "sourceId": "n5-te-form"
+  },
+  {
+    "id": "lesson-n5-te-iru_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今、ご飯を食べています。",
+    "outputPath": "public/audio/lesson/n5-te-iru_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-te-iru_ex0.mp3",
+    "page": "/lesson/n5-te-iru",
+    "sourceId": "n5-te-iru"
+  },
+  {
+    "id": "lesson-n5-te-iru_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "彼女は結婚しています。",
+    "outputPath": "public/audio/lesson/n5-te-iru_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-te-iru_ex1.mp3",
+    "page": "/lesson/n5-te-iru",
+    "sourceId": "n5-te-iru"
+  },
+  {
+    "id": "lesson-n5-te-iru_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "電気がついています。",
+    "outputPath": "public/audio/lesson/n5-te-iru_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-te-iru_ex2.mp3",
+    "page": "/lesson/n5-te-iru",
+    "sourceId": "n5-te-iru"
+  },
+  {
+    "id": "lesson-n5-te-iru_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "田中さんはどんな仕事をしていますか。",
+    "outputPath": "public/audio/lesson/n5-te-iru_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-te-iru_ex3.mp3",
+    "page": "/lesson/n5-te-iru",
+    "sourceId": "n5-te-iru"
+  },
+  {
+    "id": "lesson-n5-te-iru_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "その単語を知っています。",
+    "outputPath": "public/audio/lesson/n5-te-iru_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-te-iru_ex4.mp3",
+    "page": "/lesson/n5-te-iru",
+    "sourceId": "n5-te-iru"
+  },
+  {
+    "id": "lesson-n4-potential_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "日本語が話せます。",
+    "outputPath": "public/audio/lesson/n4-potential_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-potential_ex0.mp3",
+    "page": "/lesson/n4-potential",
+    "sourceId": "n4-potential"
+  },
+  {
+    "id": "lesson-n4-potential_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "漢字はまだあまり書けません。",
+    "outputPath": "public/audio/lesson/n4-potential_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-potential_ex1.mp3",
+    "page": "/lesson/n4-potential",
+    "sourceId": "n4-potential"
+  },
+  {
+    "id": "lesson-n4-potential_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "この魚は生で食べられます。",
+    "outputPath": "public/audio/lesson/n4-potential_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-potential_ex2.mp3",
+    "page": "/lesson/n4-potential",
+    "sourceId": "n4-potential"
+  },
+  {
+    "id": "lesson-n4-potential_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "明日は来られますか？",
+    "outputPath": "public/audio/lesson/n4-potential_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-potential_ex3.mp3",
+    "page": "/lesson/n4-potential",
+    "sourceId": "n4-potential"
+  },
+  {
+    "id": "lesson-n4-potential_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "ここでカードが使えますよ。",
+    "outputPath": "public/audio/lesson/n4-potential_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-potential_ex4.mp3",
+    "page": "/lesson/n4-potential",
+    "sourceId": "n4-potential"
+  },
+  {
+    "id": "lesson-n4-tara_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "もし雨が降ったら、試合は中止です。",
+    "outputPath": "public/audio/lesson/n4-tara_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-tara_ex0.mp3",
+    "page": "/lesson/n4-tara",
+    "sourceId": "n4-tara"
+  },
+  {
+    "id": "lesson-n4-tara_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "宿題が終わったら、遊んでもいいよ。",
+    "outputPath": "public/audio/lesson/n4-tara_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-tara_ex1.mp3",
+    "page": "/lesson/n4-tara",
+    "sourceId": "n4-tara"
+  },
+  {
+    "id": "lesson-n4-tara_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "家に帰ったら、手を洗ってください。",
+    "outputPath": "public/audio/lesson/n4-tara_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-tara_ex2.mp3",
+    "page": "/lesson/n4-tara",
+    "sourceId": "n4-tara"
+  },
+  {
+    "id": "lesson-n4-tara_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "財布を開けたら、お金がなかった。",
+    "outputPath": "public/audio/lesson/n4-tara_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-tara_ex3.mp3",
+    "page": "/lesson/n4-tara",
+    "sourceId": "n4-tara"
+  },
+  {
+    "id": "lesson-n4-tara_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "もし時間があったら、映画を見ませんか？",
+    "outputPath": "public/audio/lesson/n4-tara_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-tara_ex4.mp3",
+    "page": "/lesson/n4-tara",
+    "sourceId": "n4-tara"
+  },
+  {
+    "id": "lesson-n4-plain-form_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "明日は雨が降ると思います。",
+    "outputPath": "public/audio/lesson/n4-plain-form_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-plain-form_ex0.mp3",
+    "page": "/lesson/n4-plain-form",
+    "sourceId": "n4-plain-form"
+  },
+  {
+    "id": "lesson-n4-plain-form_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "疲れたから、もう寝ます。",
+    "outputPath": "public/audio/lesson/n4-plain-form_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-plain-form_ex1.mp3",
+    "page": "/lesson/n4-plain-form",
+    "sourceId": "n4-plain-form"
+  },
+  {
+    "id": "lesson-n4-plain-form_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "彼女は日本に行くと言っていた。",
+    "outputPath": "public/audio/lesson/n4-plain-form_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-plain-form_ex2.mp3",
+    "page": "/lesson/n4-plain-form",
+    "sourceId": "n4-plain-form"
+  },
+  {
+    "id": "lesson-n4-plain-form_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "学校が遠いので、毎日大変です。",
+    "outputPath": "public/audio/lesson/n4-plain-form_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-plain-form_ex3.mp3",
+    "page": "/lesson/n4-plain-form",
+    "sourceId": "n4-plain-form"
+  },
+  {
+    "id": "lesson-n4-plain-form_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "彼は先生なので、日本語が上手です。",
+    "outputPath": "public/audio/lesson/n4-plain-form_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-plain-form_ex4.mp3",
+    "page": "/lesson/n4-plain-form",
+    "sourceId": "n4-plain-form"
+  },
+  {
+    "id": "lesson-n4-volitional_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "もう帰ろう。",
+    "outputPath": "public/audio/lesson/n4-volitional_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-volitional_ex0.mp3",
+    "page": "/lesson/n4-volitional",
+    "sourceId": "n4-volitional"
+  },
+  {
+    "id": "lesson-n4-volitional_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "一緒に映画を見よう！",
+    "outputPath": "public/audio/lesson/n4-volitional_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-volitional_ex1.mp3",
+    "page": "/lesson/n4-volitional",
+    "sourceId": "n4-volitional"
+  },
+  {
+    "id": "lesson-n4-volitional_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "今年こそ日記をつけようと思っています。",
+    "outputPath": "public/audio/lesson/n4-volitional_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-volitional_ex2.mp3",
+    "page": "/lesson/n4-volitional",
+    "sourceId": "n4-volitional"
+  },
+  {
+    "id": "lesson-n4-volitional_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "明日は早く起きようと思っているんですが、なかなかできません。",
+    "outputPath": "public/audio/lesson/n4-volitional_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-volitional_ex3.mp3",
+    "page": "/lesson/n4-volitional",
+    "sourceId": "n4-volitional"
+  },
+  {
+    "id": "lesson-n4-volitional_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "さあ、勉強しよう！",
+    "outputPath": "public/audio/lesson/n4-volitional_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-volitional_ex4.mp3",
+    "page": "/lesson/n4-volitional",
+    "sourceId": "n4-volitional"
+  },
+  {
+    "id": "lesson-n4-te-ageru-morau-kureru_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "友達に道を教えてあげました。",
+    "outputPath": "public/audio/lesson/n4-te-ageru-morau-kureru_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex0.mp3",
+    "page": "/lesson/n4-te-ageru-morau-kureru",
+    "sourceId": "n4-te-ageru-morau-kureru"
+  },
+  {
+    "id": "lesson-n4-te-ageru-morau-kureru_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "友達に道を教えてもらいました。",
+    "outputPath": "public/audio/lesson/n4-te-ageru-morau-kureru_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex1.mp3",
+    "page": "/lesson/n4-te-ageru-morau-kureru",
+    "sourceId": "n4-te-ageru-morau-kureru"
+  },
+  {
+    "id": "lesson-n4-te-ageru-morau-kureru_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "友達が道を教えてくれました。",
+    "outputPath": "public/audio/lesson/n4-te-ageru-morau-kureru_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex2.mp3",
+    "page": "/lesson/n4-te-ageru-morau-kureru",
+    "sourceId": "n4-te-ageru-morau-kureru"
+  },
+  {
+    "id": "lesson-n4-te-ageru-morau-kureru_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "先生に日本語を教えていただきました。",
+    "outputPath": "public/audio/lesson/n4-te-ageru-morau-kureru_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex3.mp3",
+    "page": "/lesson/n4-te-ageru-morau-kureru",
+    "sourceId": "n4-te-ageru-morau-kureru"
+  },
+  {
+    "id": "lesson-n4-te-ageru-morau-kureru_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "荷物を持ってあげましょうか？",
+    "outputPath": "public/audio/lesson/n4-te-ageru-morau-kureru_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-te-ageru-morau-kureru_ex4.mp3",
+    "page": "/lesson/n4-te-ageru-morau-kureru",
+    "sourceId": "n4-te-ageru-morau-kureru"
+  },
+  {
+    "id": "lesson-n4-experience_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "富士山に登ったことがあります。",
+    "outputPath": "public/audio/lesson/n4-experience_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-experience_ex0.mp3",
+    "page": "/lesson/n4-experience",
+    "sourceId": "n4-experience"
+  },
+  {
+    "id": "lesson-n4-experience_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "日本のアニメを見たことがありますか？",
+    "outputPath": "public/audio/lesson/n4-experience_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-experience_ex1.mp3",
+    "page": "/lesson/n4-experience",
+    "sourceId": "n4-experience"
+  },
+  {
+    "id": "lesson-n4-experience_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "はい、何度も見たことがあります。",
+    "outputPath": "public/audio/lesson/n4-experience_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-experience_ex2.mp3",
+    "page": "/lesson/n4-experience",
+    "sourceId": "n4-experience"
+  },
+  {
+    "id": "lesson-n4-experience_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "いいえ、まだ一度も見たことがありません。",
+    "outputPath": "public/audio/lesson/n4-experience_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-experience_ex3.mp3",
+    "page": "/lesson/n4-experience",
+    "sourceId": "n4-experience"
+  },
+  {
+    "id": "lesson-n4-experience_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "こんなにおいしい料理は食べたことがない。",
+    "outputPath": "public/audio/lesson/n4-experience_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-experience_ex4.mp3",
+    "page": "/lesson/n4-experience",
+    "sourceId": "n4-experience"
+  },
+  {
+    "id": "lesson-n4-ba_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "安ければ、買います。",
+    "outputPath": "public/audio/lesson/n4-ba_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-ba_ex0.mp3",
+    "page": "/lesson/n4-ba",
+    "sourceId": "n4-ba"
+  },
+  {
+    "id": "lesson-n4-ba_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "わからなければ、調べればいいですよ。",
+    "outputPath": "public/audio/lesson/n4-ba_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-ba_ex1.mp3",
+    "page": "/lesson/n4-ba",
+    "sourceId": "n4-ba"
+  },
+  {
+    "id": "lesson-n4-ba_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "あの時、もっと勉強すればよかった。",
+    "outputPath": "public/audio/lesson/n4-ba_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-ba_ex2.mp3",
+    "page": "/lesson/n4-ba",
+    "sourceId": "n4-ba"
+  },
+  {
+    "id": "lesson-n4-ba_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "天気がよければ、ピクニックに行きましょう。",
+    "outputPath": "public/audio/lesson/n4-ba_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-ba_ex3.mp3",
+    "page": "/lesson/n4-ba",
+    "sourceId": "n4-ba"
+  },
+  {
+    "id": "lesson-n4-ba_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "もっと早く来れば、席があったのに。",
+    "outputPath": "public/audio/lesson/n4-ba_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-ba_ex4.mp3",
+    "page": "/lesson/n4-ba",
+    "sourceId": "n4-ba"
+  },
+  {
+    "id": "lesson-n4-to-nara_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "春になると、桜が咲きます。",
+    "outputPath": "public/audio/lesson/n4-to-nara_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-to-nara_ex0.mp3",
+    "page": "/lesson/n4-to-nara",
+    "sourceId": "n4-to-nara"
+  },
+  {
+    "id": "lesson-n4-to-nara_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "このボタンを押すと、エレベーターが来ます。",
+    "outputPath": "public/audio/lesson/n4-to-nara_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-to-nara_ex1.mp3",
+    "page": "/lesson/n4-to-nara",
+    "sourceId": "n4-to-nara"
+  },
+  {
+    "id": "lesson-n4-to-nara_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "左に曲がると、コンビニがあります。",
+    "outputPath": "public/audio/lesson/n4-to-nara_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-to-nara_ex2.mp3",
+    "page": "/lesson/n4-to-nara",
+    "sourceId": "n4-to-nara"
+  },
+  {
+    "id": "lesson-n4-to-nara_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "「日本語を勉強したい」「そうなら、この教材がいいですよ。」",
+    "outputPath": "public/audio/lesson/n4-to-nara_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-to-nara_ex3.mp3",
+    "page": "/lesson/n4-to-nara",
+    "sourceId": "n4-to-nara"
+  },
+  {
+    "id": "lesson-n4-to-nara_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "東京に行くなら、新幹線が便利です。",
+    "outputPath": "public/audio/lesson/n4-to-nara_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-to-nara_ex4.mp3",
+    "page": "/lesson/n4-to-nara",
+    "sourceId": "n4-to-nara"
+  },
+  {
+    "id": "lesson-n4-causative_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "先生は学生に漢字を書かせました。",
+    "outputPath": "public/audio/lesson/n4-causative_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-causative_ex0.mp3",
+    "page": "/lesson/n4-causative",
+    "sourceId": "n4-causative"
+  },
+  {
+    "id": "lesson-n4-causative_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "母は子供に野菜を食べさせます。",
+    "outputPath": "public/audio/lesson/n4-causative_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-causative_ex1.mp3",
+    "page": "/lesson/n4-causative",
+    "sourceId": "n4-causative"
+  },
+  {
+    "id": "lesson-n4-causative_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "面白い映画で彼女を笑わせました。",
+    "outputPath": "public/audio/lesson/n4-causative_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-causative_ex2.mp3",
+    "page": "/lesson/n4-causative",
+    "sourceId": "n4-causative"
+  },
+  {
+    "id": "lesson-n4-causative_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "少し休ませてください。",
+    "outputPath": "public/audio/lesson/n4-causative_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-causative_ex3.mp3",
+    "page": "/lesson/n4-causative",
+    "sourceId": "n4-causative"
+  },
+  {
+    "id": "lesson-n4-causative_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "このプロジェクトを担当させていただけますか？",
+    "outputPath": "public/audio/lesson/n4-causative_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-causative_ex4.mp3",
+    "page": "/lesson/n4-causative",
+    "sourceId": "n4-causative"
+  },
+  {
+    "id": "lesson-n4-passive_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "私は先生に褒められました。",
+    "outputPath": "public/audio/lesson/n4-passive_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-passive_ex0.mp3",
+    "page": "/lesson/n4-passive",
+    "sourceId": "n4-passive"
+  },
+  {
+    "id": "lesson-n4-passive_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "財布を盗まれてしまいました。",
+    "outputPath": "public/audio/lesson/n4-passive_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-passive_ex1.mp3",
+    "page": "/lesson/n4-passive",
+    "sourceId": "n4-passive"
+  },
+  {
+    "id": "lesson-n4-passive_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "昨日、雨に降られて大変でした。",
+    "outputPath": "public/audio/lesson/n4-passive_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-passive_ex2.mp3",
+    "page": "/lesson/n4-passive",
+    "sourceId": "n4-passive"
+  },
+  {
+    "id": "lesson-n4-passive_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "この小説は夏目漱石に書かれました。",
+    "outputPath": "public/audio/lesson/n4-passive_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-passive_ex3.mp3",
+    "page": "/lesson/n4-passive",
+    "sourceId": "n4-passive"
+  },
+  {
+    "id": "lesson-n4-passive_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "子供に泣かれて、困りました。",
+    "outputPath": "public/audio/lesson/n4-passive_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-passive_ex4.mp3",
+    "page": "/lesson/n4-passive",
+    "sourceId": "n4-passive"
+  },
+  {
+    "id": "lesson-n4-te-shimau_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "宿題を忘れてしまいました。",
+    "outputPath": "public/audio/lesson/n4-te-shimau_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-te-shimau_ex0.mp3",
+    "page": "/lesson/n4-te-shimau",
+    "sourceId": "n4-te-shimau"
+  },
+  {
+    "id": "lesson-n4-te-shimau_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "ケーキ、全部食べちゃった。",
+    "outputPath": "public/audio/lesson/n4-te-shimau_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-te-shimau_ex1.mp3",
+    "page": "/lesson/n4-te-shimau",
+    "sourceId": "n4-te-shimau"
+  },
+  {
+    "id": "lesson-n4-te-shimau_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "待ち合わせの場所を間違えてしまって、ごめんなさい。",
+    "outputPath": "public/audio/lesson/n4-te-shimau_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-te-shimau_ex2.mp3",
+    "page": "/lesson/n4-te-shimau",
+    "sourceId": "n4-te-shimau"
+  },
+  {
+    "id": "lesson-n4-te-shimau_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "電車に乗り遅れてしまいました。",
+    "outputPath": "public/audio/lesson/n4-te-shimau_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-te-shimau_ex3.mp3",
+    "page": "/lesson/n4-te-shimau",
+    "sourceId": "n4-te-shimau"
+  },
+  {
+    "id": "lesson-n4-te-shimau_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "もう返事してしまったから、断れない。",
+    "outputPath": "public/audio/lesson/n4-te-shimau_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-te-shimau_ex4.mp3",
+    "page": "/lesson/n4-te-shimau",
+    "sourceId": "n4-te-shimau"
+  },
+  {
+    "id": "lesson-n4-te-oku_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "旅行の前に宿を予約しておきました。",
+    "outputPath": "public/audio/lesson/n4-te-oku_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-te-oku_ex0.mp3",
+    "page": "/lesson/n4-te-oku",
+    "sourceId": "n4-te-oku"
+  },
+  {
+    "id": "lesson-n4-te-oku_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "ドアを開けておいてください。",
+    "outputPath": "public/audio/lesson/n4-te-oku_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-te-oku_ex1.mp3",
+    "page": "/lesson/n4-te-oku",
+    "sourceId": "n4-te-oku"
+  },
+  {
+    "id": "lesson-n4-te-oku_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "明日のパーティーのために料理を作っておきます。",
+    "outputPath": "public/audio/lesson/n4-te-oku_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-te-oku_ex2.mp3",
+    "page": "/lesson/n4-te-oku",
+    "sourceId": "n4-te-oku"
+  },
+  {
+    "id": "lesson-n4-te-oku_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "単語帳はもう買っといたよ。",
+    "outputPath": "public/audio/lesson/n4-te-oku_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-te-oku_ex3.mp3",
+    "page": "/lesson/n4-te-oku",
+    "sourceId": "n4-te-oku"
+  },
+  {
+    "id": "lesson-n4-te-oku_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "メモしておかないと、忘れてしまいます。",
+    "outputPath": "public/audio/lesson/n4-te-oku_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-te-oku_ex4.mp3",
+    "page": "/lesson/n4-te-oku",
+    "sourceId": "n4-te-oku"
+  },
+  {
+    "id": "lesson-n4-soo-you-rashii_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "この料理、おいしそうですね。",
+    "outputPath": "public/audio/lesson/n4-soo-you-rashii_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex0.mp3",
+    "page": "/lesson/n4-soo-you-rashii",
+    "sourceId": "n4-soo-you-rashii"
+  },
+  {
+    "id": "lesson-n4-soo-you-rashii_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "あの料理、おいしいらしいですよ。",
+    "outputPath": "public/audio/lesson/n4-soo-you-rashii_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex1.mp3",
+    "page": "/lesson/n4-soo-you-rashii",
+    "sourceId": "n4-soo-you-rashii"
+  },
+  {
+    "id": "lesson-n4-soo-you-rashii_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "彼は疲れているようです。",
+    "outputPath": "public/audio/lesson/n4-soo-you-rashii_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex2.mp3",
+    "page": "/lesson/n4-soo-you-rashii",
+    "sourceId": "n4-soo-you-rashii"
+  },
+  {
+    "id": "lesson-n4-soo-you-rashii_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "雨が降りそうです。",
+    "outputPath": "public/audio/lesson/n4-soo-you-rashii_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex3.mp3",
+    "page": "/lesson/n4-soo-you-rashii",
+    "sourceId": "n4-soo-you-rashii"
+  },
+  {
+    "id": "lesson-n4-soo-you-rashii_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "天気予報によると、明日は雨が降るそうです。",
+    "outputPath": "public/audio/lesson/n4-soo-you-rashii_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-soo-you-rashii_ex4.mp3",
+    "page": "/lesson/n4-soo-you-rashii",
+    "sourceId": "n4-soo-you-rashii"
+  },
+  {
+    "id": "lesson-n4-te-mo-ii_ex0",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "ここで写真を撮ってもいいですか？",
+    "outputPath": "public/audio/lesson/n4-te-mo-ii_ex0.mp3",
+    "audioUrl": "/audio/lesson/n4-te-mo-ii_ex0.mp3",
+    "page": "/lesson/n4-te-mo-ii",
+    "sourceId": "n4-te-mo-ii"
+  },
+  {
+    "id": "lesson-n4-te-mo-ii_ex1",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "ここでは写真を撮ってはいけません。",
+    "outputPath": "public/audio/lesson/n4-te-mo-ii_ex1.mp3",
+    "audioUrl": "/audio/lesson/n4-te-mo-ii_ex1.mp3",
+    "page": "/lesson/n4-te-mo-ii",
+    "sourceId": "n4-te-mo-ii"
+  },
+  {
+    "id": "lesson-n4-te-mo-ii_ex2",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "明日は来なくてもいいですよ。",
+    "outputPath": "public/audio/lesson/n4-te-mo-ii_ex2.mp3",
+    "audioUrl": "/audio/lesson/n4-te-mo-ii_ex2.mp3",
+    "page": "/lesson/n4-te-mo-ii",
+    "sourceId": "n4-te-mo-ii"
+  },
+  {
+    "id": "lesson-n4-te-mo-ii_ex3",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "この薬は飲まなくてもいいですか？",
+    "outputPath": "public/audio/lesson/n4-te-mo-ii_ex3.mp3",
+    "audioUrl": "/audio/lesson/n4-te-mo-ii_ex3.mp3",
+    "page": "/lesson/n4-te-mo-ii",
+    "sourceId": "n4-te-mo-ii"
+  },
+  {
+    "id": "lesson-n4-te-mo-ii_ex4",
+    "type": "lesson-example",
+    "level": "n4",
+    "text": "宿題はもう終わったから、遊んでもいいよ。",
+    "outputPath": "public/audio/lesson/n4-te-mo-ii_ex4.mp3",
+    "audioUrl": "/audio/lesson/n4-te-mo-ii_ex4.mp3",
+    "page": "/lesson/n4-te-mo-ii",
+    "sourceId": "n4-te-mo-ii"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "明日、大阪へ行きます。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex0.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "姉と買い物をしました。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex1.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "りんごとみかんを買いました。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex2.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "わたしも日本語を勉強しています。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex3.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "これは友達の本です。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex4.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "日本語の授業は楽しいです。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex5.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-particles-he-to-mo-no_ex6",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "何も分かりません。",
+    "outputPath": "public/audio/lesson/el-particles-he-to-mo-no_ex6.mp3",
+    "audioUrl": "/audio/lesson/el-particles-he-to-mo-no_ex6.mp3",
+    "page": "/lesson/el-particles-he-to-mo-no",
+    "sourceId": "el-particles-he-to-mo-no"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "山田さんはとても親切です。",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex0.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "日本語はあまり上手じゃありません。",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex1.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "ここは静かできれいです。",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex2.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "好きな食べ物は何ですか？",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex3.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "その人は有名な歌手ですか？",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex4.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-na-adjectives_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "昔はもっと元気でした。",
+    "outputPath": "public/audio/lesson/el-na-adjectives_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-na-adjectives_ex5.mp3",
+    "page": "/lesson/el-na-adjectives",
+    "sourceId": "el-na-adjectives"
+  },
+  {
+    "id": "lesson-el-existence_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "部屋に猫がいます。",
+    "outputPath": "public/audio/lesson/el-existence_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex0.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "駅の近くにコンビニがあります。",
+    "outputPath": "public/audio/lesson/el-existence_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex1.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "田中さんは今、どこにいますか？",
+    "outputPath": "public/audio/lesson/el-existence_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex2.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "鍵はかばんの中にあります。",
+    "outputPath": "public/audio/lesson/el-existence_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex3.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "この近くに病院はありますか？",
+    "outputPath": "public/audio/lesson/el-existence_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex4.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "冷蔵庫の中に何がありますか？",
+    "outputPath": "public/audio/lesson/el-existence_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex5.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-existence_ex6",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "教室に学生が三人います。",
+    "outputPath": "public/audio/lesson/el-existence_ex6.mp3",
+    "audioUrl": "/audio/lesson/el-existence_ex6.mp3",
+    "page": "/lesson/el-existence",
+    "sourceId": "el-existence"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "今、何時ですか？",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex0.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "授業は午前九時から始まります。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex1.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "水曜日に会議があります。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex2.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "本を三冊買いました。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex3.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "ビールを一本ください。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex4.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "りんごをみっつください。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex5.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-time-numbers_ex6",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "私の誕生日は三月十四日です。",
+    "outputPath": "public/audio/lesson/el-time-numbers_ex6.mp3",
+    "audioUrl": "/audio/lesson/el-time-numbers_ex6.mp3",
+    "page": "/lesson/el-time-numbers",
+    "sourceId": "el-time-numbers"
+  },
+  {
+    "id": "lesson-el-this-that_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "これは何ですか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex0.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "その本、面白いですか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex1.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "あれが有名な富士山です。",
+    "outputPath": "public/audio/lesson/el-this-that_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex2.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "すみません、トイレはどこですか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex3.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "この近くにいい店はありますか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex4.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "どれがあなたのかばんですか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex5.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-this-that_ex6",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "あの人はだれですか？",
+    "outputPath": "public/audio/lesson/el-this-that_ex6.mp3",
+    "audioUrl": "/audio/lesson/el-this-that_ex6.mp3",
+    "page": "/lesson/el-this-that",
+    "sourceId": "el-this-that"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex0",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "A：ただいま！　B：おかえりなさい！",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex0.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex0.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex1",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "すみません、これをください。",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex1.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex1.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex2",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "A：コーヒーはいかがですか？　B：いいえ、結構です。",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex2.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex2.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex3",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "お会計をお願いします。",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex3.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex3.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex4",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "少々お待ちください。",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex4.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex4.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-el-daily-conversation_ex5",
+    "type": "lesson-example",
+    "level": "elementary",
+    "text": "いただきます！（みんなで）",
+    "outputPath": "public/audio/lesson/el-daily-conversation_ex5.mp3",
+    "audioUrl": "/audio/lesson/el-daily-conversation_ex5.mp3",
+    "page": "/lesson/el-daily-conversation",
+    "sourceId": "el-daily-conversation"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "飲む → 一类",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex0.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "食べる → 二类",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex1.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "見る → 二类",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex2.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "行く → 一类",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex3.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "帰る → 一类（例外！）",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex4.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-verb-groups_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "来る → 三类",
+    "outputPath": "public/audio/lesson/n5-verb-groups_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-verb-groups_ex5.mp3",
+    "page": "/lesson/n5-verb-groups",
+    "sourceId": "n5-verb-groups"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "毎日、日本語を勉強します。",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex0.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "お酒は飲みません。",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex1.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "昨日、友達に会いました。",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex2.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "先週は学校に来ませんでした。",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex3.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "何時に起きますか？",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex4.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-masu-form_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "一緒に映画を見ませんか？",
+    "outputPath": "public/audio/lesson/n5-masu-form_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-masu-form_ex5.mp3",
+    "page": "/lesson/n5-masu-form",
+    "sourceId": "n5-masu-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "昨日、映画を見た。",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex0.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "友達と一緒にご飯を食べた。",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex1.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "日本語を三年間勉強した。",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex2.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "昨日は本を読んだ。",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex3.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "駅まで歩いた。",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex4.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-ta-form_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "友達が来た！",
+    "outputPath": "public/audio/lesson/n5-ta-form_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-ta-form_ex5.mp3",
+    "page": "/lesson/n5-ta-form",
+    "sourceId": "n5-ta-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "朝ごはんを食べない。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex0.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今日は学校に行かない。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex1.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "お酒を飲まないほうがいいよ。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex2.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "彼は全然話さない。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex3.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "宿題をしなかった。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex4.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-nai-form_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今日は来ないと思う。",
+    "outputPath": "public/audio/lesson/n5-nai-form_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-nai-form_ex5.mp3",
+    "page": "/lesson/n5-nai-form",
+    "sourceId": "n5-nai-form"
+  },
+  {
+    "id": "lesson-n5-want_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今年、日本に行きたいです。",
+    "outputPath": "public/audio/lesson/n5-want_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex0.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-want_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "何を食べたいですか？",
+    "outputPath": "public/audio/lesson/n5-want_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex1.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-want_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "もうラーメンは食べたくない。",
+    "outputPath": "public/audio/lesson/n5-want_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex2.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-want_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "子供の頃、医者になりたかった。",
+    "outputPath": "public/audio/lesson/n5-want_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex3.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-want_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "日本語で話したいです。",
+    "outputPath": "public/audio/lesson/n5-want_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex4.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-want_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "早く寝たい。眠い。",
+    "outputPath": "public/audio/lesson/n5-want_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-want_ex5.mp3",
+    "page": "/lesson/n5-want",
+    "sourceId": "n5-want"
+  },
+  {
+    "id": "lesson-n5-can_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "日本語を少し話すことができます。",
+    "outputPath": "public/audio/lesson/n5-can_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex0.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-can_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "漢字を読むことができません。",
+    "outputPath": "public/audio/lesson/n5-can_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex1.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-can_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "明日、来ることができますか？",
+    "outputPath": "public/audio/lesson/n5-can_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex2.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-can_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "ここでカードを使うことができます。",
+    "outputPath": "public/audio/lesson/n5-can_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex3.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-can_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "子供の頃、泳ぐことができませんでした。",
+    "outputPath": "public/audio/lesson/n5-can_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex4.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-can_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "この店では日本語で注文することができます。",
+    "outputPath": "public/audio/lesson/n5-can_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-can_ex5.mp3",
+    "page": "/lesson/n5-can",
+    "sourceId": "n5-can"
+  },
+  {
+    "id": "lesson-n5-when_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "今日は学校に行きません。",
+    "outputPath": "public/audio/lesson/n5-when_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex0.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-when_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "昨日、友達と映画を見ました。",
+    "outputPath": "public/audio/lesson/n5-when_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex1.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-when_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "来年、日本に行きたいです。",
+    "outputPath": "public/audio/lesson/n5-when_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex2.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-when_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "もう宿題は終わりましたか？",
+    "outputPath": "public/audio/lesson/n5-when_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex3.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-when_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "いいえ、まだ終わっていません。",
+    "outputPath": "public/audio/lesson/n5-when_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex4.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-when_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "毎日、朝8時から夜11時まで勉強します。",
+    "outputPath": "public/audio/lesson/n5-when_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-when_ex5.mp3",
+    "page": "/lesson/n5-when",
+    "sourceId": "n5-when"
+  },
+  {
+    "id": "lesson-n5-frequency_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "毎日日本語を勉強しています。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex0.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-frequency_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "よく一人でカフェに行きます。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex1.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-frequency_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "時々、自炊します。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex2.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-frequency_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "あまり肉を食べません。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex3.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-frequency_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "全然わかりません。すみません。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex4.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-frequency_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "最近、たまにしか運動しません。",
+    "outputPath": "public/audio/lesson/n5-frequency_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-frequency_ex5.mp3",
+    "page": "/lesson/n5-frequency",
+    "sourceId": "n5-frequency"
+  },
+  {
+    "id": "lesson-n5-movement_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "明日、図書館に行きます。",
+    "outputPath": "public/audio/lesson/n5-movement_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex0.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-movement_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "友達が明日私の家に来ます。",
+    "outputPath": "public/audio/lesson/n5-movement_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex1.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-movement_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "何時に帰りますか？",
+    "outputPath": "public/audio/lesson/n5-movement_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex2.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-movement_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "学校から家まで自転車で20分かかります。",
+    "outputPath": "public/audio/lesson/n5-movement_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex3.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-movement_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "日本へようこそ！",
+    "outputPath": "public/audio/lesson/n5-movement_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex4.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-movement_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "スーパーに寄ってから帰ります。",
+    "outputPath": "public/audio/lesson/n5-movement_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-movement_ex5.mp3",
+    "page": "/lesson/n5-movement",
+    "sourceId": "n5-movement"
+  },
+  {
+    "id": "lesson-n5-please_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "少し待ってください。",
+    "outputPath": "public/audio/lesson/n5-please_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex0.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-please_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "窓を開けてください。",
+    "outputPath": "public/audio/lesson/n5-please_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex1.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-please_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "ゆっくり話してください。",
+    "outputPath": "public/audio/lesson/n5-please_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex2.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-please_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "ここに座らないでください。",
+    "outputPath": "public/audio/lesson/n5-please_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex3.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-please_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "携帯を使わないでください。",
+    "outputPath": "public/audio/lesson/n5-please_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex4.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-please_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "ドアを閉めていただけませんか？",
+    "outputPath": "public/audio/lesson/n5-please_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-please_ex5.mp3",
+    "page": "/lesson/n5-please",
+    "sourceId": "n5-please"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "友達に誕生日プレゼントをあげました。",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex0.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "田中さんが私にお土産をくれました。",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex1.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "先生に漢字の読み方を教えてもらいました。",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex2.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "妹が荷物を運んでくれた。",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex3.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "道を教えてあげましょうか？",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex4.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-give-receive_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "このコート、誰にもらったの？",
+    "outputPath": "public/audio/lesson/n5-give-receive_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-give-receive_ex5.mp3",
+    "page": "/lesson/n5-give-receive",
+    "sourceId": "n5-give-receive"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "最近、日本語が上手になってきました。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex0.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "秋になると、葉っぱが赤くなります。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex1.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "この店のラーメンはおいしくなりましたね。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex2.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "子供の頃から好きになりました。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex3.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "将来、医者になりたいです。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex4.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-adjective-verb_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "テストの点数が高くなったので、嬉しいです。",
+    "outputPath": "public/audio/lesson/n5-adjective-verb_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-adjective-verb_ex5.mp3",
+    "page": "/lesson/n5-adjective-verb",
+    "sourceId": "n5-adjective-verb"
+  },
+  {
+    "id": "lesson-n5-review_ex0",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "毎日日本語を勉強していますが、まだ全然話せません。",
+    "outputPath": "public/audio/lesson/n5-review_ex0.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex0.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex1",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "来年、日本に行きたいので、今からお金を貯めています。",
+    "outputPath": "public/audio/lesson/n5-review_ex1.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex1.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex2",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "友達が誕生日プレゼントをくれたので、とても嬉しかったです。",
+    "outputPath": "public/audio/lesson/n5-review_ex2.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex2.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex3",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "図書館では静かにしてください。携帯を使わないでください。",
+    "outputPath": "public/audio/lesson/n5-review_ex3.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex3.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex4",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "子供の頃は辛い食べ物が苦手でしたが、今は大好きになりました。",
+    "outputPath": "public/audio/lesson/n5-review_ex4.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex4.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex5",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "先生に日本語を教えてもらったので、少し上手になりました。",
+    "outputPath": "public/audio/lesson/n5-review_ex5.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex5.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
+  },
+  {
+    "id": "lesson-n5-review_ex6",
+    "type": "lesson-example",
+    "level": "n5",
+    "text": "行きたいですが、今日は時間がないので、来週行くことができますか？",
+    "outputPath": "public/audio/lesson/n5-review_ex6.mp3",
+    "audioUrl": "/audio/lesson/n5-review_ex6.mp3",
+    "page": "/lesson/n5-review",
+    "sourceId": "n5-review"
   }
 ]
