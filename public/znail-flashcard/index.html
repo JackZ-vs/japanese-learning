@@ -326,6 +326,94 @@ header {
   border-radius: 99px; margin-left: 4px;
 }
 
+/* ── Numbers view ───────────────────────────────────────────── */
+.num-view { padding: 12px 16px 20px; }
+.num-section { margin-bottom: 24px; }
+.num-section-title {
+  font-size: 13px; font-weight: 700; color: var(--text2);
+  text-transform: uppercase; letter-spacing: .5px;
+  margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+}
+.num-section-title::before { content: ''; flex: 1; height: 1px; background: var(--border); }
+.num-section-title::after  { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+/* Number table */
+.num-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.num-table { width: 100%; border-collapse: collapse; min-width: 340px; }
+.num-table th {
+  background: var(--surface2); color: var(--text2);
+  font-size: 11px; font-weight: 700; padding: 7px 4px; text-align: center;
+  border: 1px solid var(--border);
+}
+.num-table td {
+  border: 1px solid var(--border);
+  padding: 7px 4px; text-align: center;
+  background: var(--surface);
+  vertical-align: middle;
+}
+.num-table tr:nth-child(even) td { background: var(--surface2); }
+.num-kanji { font-size: 14px; font-weight: 700; font-family: 'Noto Sans JP', sans-serif; display: block; }
+.num-reading { font-size: 11px; color: var(--text2); font-family: 'Noto Sans JP', sans-serif; display: block; margin-top: 1px; }
+.num-row-label { font-size: 13px; font-weight: 700; color: var(--text); background: var(--surface2) !important; }
+/* Irregular cells */
+.num-irregular {
+  background: #fff8e1 !important;
+  border-color: #f59e0b !important;
+}
+.dark .num-irregular { background: #2a2000 !important; border-color: #b45309 !important; }
+.num-irregular .num-reading { color: #b45309; font-weight: 700; }
+.num-irregular .num-kanji { color: #92400e; }
+.dark .num-irregular .num-reading { color: #fbbf24; }
+.dark .num-irregular .num-kanji { color: #fde68a; }
+
+/* Rule cards */
+.rule-grid { display: flex; flex-direction: column; gap: 8px; }
+.rule-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px;
+}
+.rule-card.warn { border-left: 3px solid #f59e0b; }
+.rule-card.info { border-left: 3px solid var(--cust); }
+.rule-title { font-size: 12px; font-weight: 700; color: var(--text2); margin-bottom: 6px; }
+.rule-row { display: flex; align-items: baseline; gap: 8px; padding: 2px 0; }
+.rule-num { font-size: 15px; font-weight: 700; min-width: 32px; color: var(--text); }
+.rule-wrong { font-size: 13px; color: #ef4444; text-decoration: line-through; font-family: 'Noto Sans JP', sans-serif; }
+.rule-arrow { font-size: 12px; color: var(--text3); }
+.rule-right { font-size: 14px; font-weight: 700; color: #16a34a; font-family: 'Noto Sans JP', sans-serif; }
+.dark .rule-right { color: #4ade80; }
+.rule-note { font-size: 11px; color: var(--text3); margin-left: auto; }
+
+/* Dual reading cards */
+.dual-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.dual-card {
+  background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: 12px; padding: 10px 8px; text-align: center;
+}
+.dual-num { font-size: 28px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.dual-readings { display: flex; flex-direction: column; gap: 3px; }
+.dual-r { font-size: 12px; font-family: 'Noto Sans JP', sans-serif; padding: 2px 6px; border-radius: 6px; }
+.dual-r.primary { background: var(--cust-bg); color: var(--cust); font-weight: 700; }
+.dual-r.secondary { color: var(--text2); }
+.dual-hint { font-size: 10px; color: var(--text3); margin-top: 4px; }
+
+/* Combo examples */
+.combo-list { display: flex; flex-direction: column; gap: 8px; }
+.combo-item {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px;
+  display: flex; align-items: center; gap: 12px;
+}
+.combo-number {
+  font-size: 18px; font-weight: 700; color: var(--text);
+  min-width: 72px; text-align: right;
+}
+.combo-jp { flex: 1; }
+.combo-kanji { font-size: 14px; font-weight: 600; font-family: 'Noto Sans JP', sans-serif; color: var(--text); }
+.combo-reading { font-size: 13px; font-family: 'Noto Sans JP', sans-serif; color: var(--cust); font-weight: 600; margin-top: 2px; }
+.combo-note { font-size: 11px; color: var(--text3); margin-top: 1px; }
+.combo-item .hl { color: #b45309; font-weight: 700; }
+.dark .combo-item .hl { color: #fbbf24; }
+
 /* ── Scrollbar ───────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
@@ -430,7 +518,6 @@ header {
     </div>
   </div>
 
-</div><!-- #app -->
 
 <!-- Settings Panel -->
 <div class="overlay" id="overlay" onclick="closeSettings()"></div>
@@ -457,6 +544,268 @@ header {
   </div>
 </div>
 
+  <!-- ── NUMBERS VIEW ─────────────────────────────────── -->
+  <div class="view" id="viewNumbers">
+    <div class="num-view">
+
+      <!-- 10×5 Reference Table -->
+      <div class="num-section">
+        <div class="num-section-title">数字读法参考表</div>
+        <div class="num-table-wrap">
+          <table class="num-table">
+            <thead>
+              <tr>
+                <th style="min-width:28px"></th>
+                <th>×1</th>
+                <th>×10 十</th>
+                <th>×100 百</th>
+                <th>×1000 千</th>
+                <th>×10000 万</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="num-row-label">1</td>
+                <td><span class="num-kanji">一</span><span class="num-reading">いち</span></td>
+                <td><span class="num-kanji">十</span><span class="num-reading">じゅう</span></td>
+                <td><span class="num-kanji">百</span><span class="num-reading">ひゃく</span></td>
+                <td class="num-irregular"><span class="num-kanji">千</span><span class="num-reading">せん ★</span></td>
+                <td><span class="num-kanji">一万</span><span class="num-reading">いちまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">2</td>
+                <td><span class="num-kanji">二</span><span class="num-reading">に</span></td>
+                <td><span class="num-kanji">二十</span><span class="num-reading">にじゅう</span></td>
+                <td><span class="num-kanji">二百</span><span class="num-reading">にひゃく</span></td>
+                <td><span class="num-kanji">二千</span><span class="num-reading">にせん</span></td>
+                <td><span class="num-kanji">二万</span><span class="num-reading">にまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">3</td>
+                <td><span class="num-kanji">三</span><span class="num-reading">さん</span></td>
+                <td><span class="num-kanji">三十</span><span class="num-reading">さんじゅう</span></td>
+                <td class="num-irregular"><span class="num-kanji">三百</span><span class="num-reading">さんびゃく</span></td>
+                <td class="num-irregular"><span class="num-kanji">三千</span><span class="num-reading">さんぜん</span></td>
+                <td><span class="num-kanji">三万</span><span class="num-reading">さんまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">4</td>
+                <td><span class="num-kanji">四</span><span class="num-reading">よん</span></td>
+                <td><span class="num-kanji">四十</span><span class="num-reading">よんじゅう</span></td>
+                <td><span class="num-kanji">四百</span><span class="num-reading">よんひゃく</span></td>
+                <td><span class="num-kanji">四千</span><span class="num-reading">よんせん</span></td>
+                <td><span class="num-kanji">四万</span><span class="num-reading">よんまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">5</td>
+                <td><span class="num-kanji">五</span><span class="num-reading">ご</span></td>
+                <td><span class="num-kanji">五十</span><span class="num-reading">ごじゅう</span></td>
+                <td><span class="num-kanji">五百</span><span class="num-reading">ごひゃく</span></td>
+                <td><span class="num-kanji">五千</span><span class="num-reading">ごせん</span></td>
+                <td><span class="num-kanji">五万</span><span class="num-reading">ごまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">6</td>
+                <td><span class="num-kanji">六</span><span class="num-reading">ろく</span></td>
+                <td><span class="num-kanji">六十</span><span class="num-reading">ろくじゅう</span></td>
+                <td class="num-irregular"><span class="num-kanji">六百</span><span class="num-reading">ろっぴゃく</span></td>
+                <td><span class="num-kanji">六千</span><span class="num-reading">ろくせん</span></td>
+                <td><span class="num-kanji">六万</span><span class="num-reading">ろくまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">7</td>
+                <td><span class="num-kanji">七</span><span class="num-reading">なな</span></td>
+                <td><span class="num-kanji">七十</span><span class="num-reading">ななじゅう</span></td>
+                <td><span class="num-kanji">七百</span><span class="num-reading">ななひゃく</span></td>
+                <td><span class="num-kanji">七千</span><span class="num-reading">ななせん</span></td>
+                <td><span class="num-kanji">七万</span><span class="num-reading">ななまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">8</td>
+                <td><span class="num-kanji">八</span><span class="num-reading">はち</span></td>
+                <td><span class="num-kanji">八十</span><span class="num-reading">はちじゅう</span></td>
+                <td class="num-irregular"><span class="num-kanji">八百</span><span class="num-reading">はっぴゃく</span></td>
+                <td class="num-irregular"><span class="num-kanji">八千</span><span class="num-reading">はっせん</span></td>
+                <td><span class="num-kanji">八万</span><span class="num-reading">はちまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">9</td>
+                <td><span class="num-kanji">九</span><span class="num-reading">きゅう</span></td>
+                <td><span class="num-kanji">九十</span><span class="num-reading">きゅうじゅう</span></td>
+                <td><span class="num-kanji">九百</span><span class="num-reading">きゅうひゃく</span></td>
+                <td><span class="num-kanji">九千</span><span class="num-reading">きゅうせん</span></td>
+                <td><span class="num-kanji">九万</span><span class="num-reading">きゅうまん</span></td>
+              </tr>
+              <tr>
+                <td class="num-row-label">10</td>
+                <td><span class="num-kanji">十</span><span class="num-reading">じゅう</span></td>
+                <td><span class="num-kanji">百</span><span class="num-reading">ひゃく</span></td>
+                <td><span class="num-kanji">千</span><span class="num-reading">せん</span></td>
+                <td><span class="num-kanji">一万</span><span class="num-reading">いちまん</span></td>
+                <td><span class="num-kanji">十万</span><span class="num-reading">じゅうまん</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:11px;color:var(--text3);margin-top:6px;text-align:right">🟡 = 音变，读音与规律不同，需特别记忆</p>
+      </div>
+
+      <!-- Sound Change Rules -->
+      <div class="num-section">
+        <div class="num-section-title">音变规则（易错！）</div>
+        <div class="rule-grid">
+          <div class="rule-card warn">
+            <div class="rule-title">× 百 — 3、6、8 发生音变</div>
+            <div class="rule-row">
+              <span class="rule-num">300</span>
+              <span class="rule-wrong">さんひゃく</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">さんびゃく</span>
+              <span class="rule-note">ひ→び</span>
+            </div>
+            <div class="rule-row">
+              <span class="rule-num">600</span>
+              <span class="rule-wrong">ろくひゃく</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">ろっぴゃく</span>
+              <span class="rule-note">ろく→ろっ、ひ→ぴ</span>
+            </div>
+            <div class="rule-row">
+              <span class="rule-num">800</span>
+              <span class="rule-wrong">はちひゃく</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">はっぴゃく</span>
+              <span class="rule-note">はち→はっ、ひ→ぴ</span>
+            </div>
+          </div>
+          <div class="rule-card warn">
+            <div class="rule-title">× 千 — 3、8 发生音变</div>
+            <div class="rule-row">
+              <span class="rule-num">3,000</span>
+              <span class="rule-wrong">さんせん</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">さんぜん</span>
+              <span class="rule-note">せ→ぜ</span>
+            </div>
+            <div class="rule-row">
+              <span class="rule-num">8,000</span>
+              <span class="rule-wrong">はちせん</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">はっせん</span>
+              <span class="rule-note">はち→はっ</span>
+            </div>
+          </div>
+          <div class="rule-card info">
+            <div class="rule-title">特殊：1,000 不加「いち」</div>
+            <div class="rule-row">
+              <span class="rule-num">1,000</span>
+              <span class="rule-wrong">いちせん</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">せん</span>
+              <span class="rule-note">直接说せん即可</span>
+            </div>
+            <div class="rule-row">
+              <span class="rule-num">10,000</span>
+              <span class="rule-wrong">まん</span>
+              <span class="rule-arrow">→</span>
+              <span class="rule-right">いちまん</span>
+              <span class="rule-note">10000 要加いち</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dual Readings -->
+      <div class="num-section">
+        <div class="num-section-title">双读法数字</div>
+        <div class="dual-grid">
+          <div class="dual-card">
+            <div class="dual-num">4</div>
+            <div class="dual-readings">
+              <span class="dual-r primary">よん</span>
+              <span class="dual-r secondary">し</span>
+            </div>
+            <div class="dual-hint">价格用よん<br>4月=しがつ</div>
+          </div>
+          <div class="dual-card">
+            <div class="dual-num">7</div>
+            <div class="dual-readings">
+              <span class="dual-r primary">なな</span>
+              <span class="dual-r secondary">しち</span>
+            </div>
+            <div class="dual-hint">价格用なな<br>7月=しちがつ</div>
+          </div>
+          <div class="dual-card">
+            <div class="dual-num">9</div>
+            <div class="dual-readings">
+              <span class="dual-r primary">きゅう</span>
+              <span class="dual-r secondary">く</span>
+            </div>
+            <div class="dual-hint">价格用きゅう<br>9月=くがつ</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Complex Number Examples -->
+      <div class="num-section">
+        <div class="num-section-title">复合数字练习</div>
+        <div class="combo-list">
+          <div class="combo-item">
+            <div class="combo-number">3,600</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">三千六百</div>
+              <div class="combo-reading"><span class="hl">さんぜん</span>・<span class="hl">ろっぴゃく</span></div>
+              <div class="combo-note">两处音变</div>
+            </div>
+          </div>
+          <div class="combo-item">
+            <div class="combo-number">5,500</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">五千五百</div>
+              <div class="combo-reading">ごせん・ごひゃく</div>
+              <div class="combo-note">无音变（规律读法）</div>
+            </div>
+          </div>
+          <div class="combo-item">
+            <div class="combo-number">6,800</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">六千八百</div>
+              <div class="combo-reading">ろくせん・<span class="hl">はっぴゃく</span></div>
+              <div class="combo-note">百音变</div>
+            </div>
+          </div>
+          <div class="combo-item">
+            <div class="combo-number">8,800</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">八千八百</div>
+              <div class="combo-reading"><span class="hl">はっせん</span>・<span class="hl">はっぴゃく</span></div>
+              <div class="combo-note">千 & 百 双音变</div>
+            </div>
+          </div>
+          <div class="combo-item">
+            <div class="combo-number">8,888</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">八千八百八十八</div>
+              <div class="combo-reading"><span class="hl">はっせん</span>・<span class="hl">はっぴゃく</span>・はちじゅうはち</div>
+              <div class="combo-note">地狱模式 😅</div>
+            </div>
+          </div>
+          <div class="combo-item">
+            <div class="combo-number">12,345</div>
+            <div class="combo-jp">
+              <div class="combo-kanji">一万二千三百四十五</div>
+              <div class="combo-reading">いちまん・にせん・<span class="hl">さんびゃく</span>・よんじゅうご</div>
+              <div class="combo-note">百音变，千无变化</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- .num-view -->
+  </div><!-- #viewNumbers -->
+
+</div><!-- #app -->
+
 <div class="toast" id="toast"></div>
 
 <!-- Bottom Nav -->
@@ -465,6 +814,7 @@ header {
   <button class="bnav-btn" id="bnQuiz" onclick="startQuiz('all')">🎲<span>测验</span></button>
   <button class="bnav-btn" id="bnHigh" onclick="startQuiz('high')">⭐<span>高频</span></button>
   <button class="bnav-btn" id="bnWeak" onclick="startQuiz('weak')">❌<span>错题</span></button>
+  <button class="bnav-btn" id="bnNum" onclick="goNumbers()">🔢<span>数字</span></button>
 </div>
 
 <script>
@@ -989,6 +1339,15 @@ document.addEventListener('keydown', e => {
   else if (e.key === '1') markCard(true)
   else if (e.key === '2') markCard(false)
 })
+
+// ─── NUMBERS ─────────────────────────────────────────────────────────────────
+
+function goNumbers() {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null }
+  showView('viewNumbers')
+  document.querySelectorAll('.bnav-btn').forEach(b => b.classList.remove('active'))
+  document.getElementById('bnNum').classList.add('active')
+}
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 
