@@ -118,6 +118,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Z.Nail Flashcard Banner */}
+      <section>
+        <a href="/znail-flashcard/" className="group block">
+          <div className="bg-gradient-to-r from-[#c44569] to-[#e8748a] rounded-2xl p-6 flex items-center gap-5 hover:shadow-lg transition-shadow">
+            <div className="text-4xl flex-shrink-0">💅</div>
+            <div className="flex-1 text-white">
+              <div className="text-xs font-semibold uppercase tracking-wider opacity-75 mb-1">实用工具</div>
+              <div className="text-lg font-bold leading-tight mb-1">Z.Nail 接客日语 Flashcard</div>
+              <div className="text-sm opacity-80">13个场景 · 65张卡片 · 带发音 · 手机优先</div>
+            </div>
+            <span className="text-white text-xl opacity-70 group-hover:translate-x-1 transition-transform flex-shrink-0">→</span>
+          </div>
+        </a>
+      </section>
+
       {/* Kana CTA */}
       <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a8e] rounded-2xl p-8 text-center text-white">
         <div className="text-4xl mb-4 japanese">あ ア か カ</div>

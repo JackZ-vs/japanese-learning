@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Z.Nail 接客日语 Flashcard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --tech: #c44569;
+  --tech-bg: #fdf0f3;
+  --tech-border: #f0b8c5;
+  --cust: #2e86ab;
+  --cust-bg: #eef6fb;
+  --cust-border: #b3d8ea;
+  --star: #f59e0b;
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --surface2: #f1f3f5;
+  --border: #e9ecef;
+  --text: #212529;
+  --text2: #6c757d;
+  --text3: #adb5bd;
+  --radius: 16px;
+  --shadow: 0 2px 12px rgba(0,0,0,.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.12);
+}
+.dark {
+  --bg: #0f1117;
+  --surface: #1c1f26;
+  --surface2: #252830;
+  --border: #2e3138;
+  --text: #e9ecef;
+  --text2: #9ca3af;
+  --text3: #4b5563;
+  --tech-bg: #2d1520;
+  --tech-border: #6b2336;
+  --cust-bg: #0f2233;
+  --cust-border: #1a4a6b;
+  --shadow: 0 2px 12px rgba(0,0,0,.3);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,.4);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; }
+body {
+  font-family: 'Noto Sans SC', 'Noto Sans JP', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+  transition: background .2s, color .2s;
+}
+.jp { font-family: 'Noto Sans JP', sans-serif; }
+
+/* ── Layout ─────────────────────────────────────────────────── */
+#app { max-width: 480px; margin: 0 auto; padding: 0 0 80px; }
+.view { display: none; }
+.view.active { display: block; }
+
+/* ── Header ─────────────────────────────────────────────────── */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px;
+  display: flex; align-items: center; gap: 10px;
+}
+.hdr-logo { font-size: 18px; font-weight: 700; color: var(--tech); flex: 1; }
+.hdr-logo span { color: var(--text2); font-weight: 400; font-size: 13px; }
+.icon-btn {
+  width: 36px; height: 36px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface2);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--text2); flex-shrink: 0;
+  transition: background .15s;
+}
+.icon-btn:hover { background: var(--border); }
+
+/* ── Progress bar ────────────────────────────────────────────── */
+.prog-bar-wrap { padding: 16px; }
+.prog-label { display: flex; justify-content: space-between; font-size: 13px; color: var(--text2); margin-bottom: 6px; }
+.prog-track { height: 8px; background: var(--surface2); border-radius: 99px; overflow: hidden; }
+.prog-fill { height: 100%; background: linear-gradient(90deg, var(--tech), var(--cust)); border-radius: 99px; transition: width .4s; }
+
+/* ── Deck grid ───────────────────────────────────────────────── */
+.deck-grid { padding: 0 16px; display: flex; flex-direction: column; gap: 10px; }
+.deck-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex; align-items: center; gap: 12px;
+  box-shadow: var(--shadow);
+  transition: transform .1s, box-shadow .1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.deck-card:active { transform: scale(.98); }
+.deck-num {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: var(--surface2); display: flex; align-items: center;
+  justify-content: center; font-size: 14px; font-weight: 700;
+  color: var(--text2); flex-shrink: 0;
+}
+.deck-info { flex: 1; min-width: 0; }
+.deck-title { font-size: 15px; font-weight: 600; color: var(--text); }
+.deck-subtitle { font-size: 12px; color: var(--text2); margin-top: 1px; }
+.deck-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+.deck-count { font-size: 12px; color: var(--text3); }
+.deck-progress-mini { font-size: 12px; font-weight: 600; color: var(--tech); }
+
+/* ── Quick actions ───────────────────────────────────────────── */
+.quick-row { display: flex; gap: 10px; padding: 16px; }
+.quick-btn {
+  flex: 1; padding: 12px; border-radius: var(--radius);
+  border: 1px solid var(--border); background: var(--surface);
+  cursor: pointer; font-size: 13px; font-weight: 600;
+  color: var(--text); text-align: center;
+  box-shadow: var(--shadow);
+  transition: background .15s;
+}
+.quick-btn.primary { background: var(--tech); color: #fff; border-color: var(--tech); }
+.quick-btn:active { opacity: .85; }
+
+/* ── Section heading ─────────────────────────────────────────── */
+.section-head { padding: 12px 16px 8px; font-size: 12px; font-weight: 600; color: var(--text3); text-transform: uppercase; letter-spacing: .6px; }
+
+/* ── Deck view: card list ────────────────────────────────────── */
+.back-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 12px 16px; cursor: pointer;
+  font-size: 14px; color: var(--text2); font-weight: 500;
+  border: none; background: none; width: 100%;
+}
+.back-btn::before { content: '←'; font-size: 16px; }
+.deck-header-info { padding: 0 16px 12px; }
+.deck-header-info h2 { font-size: 20px; font-weight: 700; }
+.deck-header-info p { font-size: 13px; color: var(--text2); margin-top: 4px; }
+.card-list { padding: 0 16px; display: flex; flex-direction: column; gap: 8px; }
+.card-list-item {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+  display: flex; align-items: center; gap: 10px;
+  transition: border-color .15s;
+}
+.card-list-item.mastered { border-color: #22c55e; }
+.card-list-item.tech { border-left: 3px solid var(--tech); }
+.card-list-item.cust { border-left: 3px solid var(--cust); }
+.card-list-item.high .star-badge { display: inline; }
+.star-badge { display: none; color: var(--star); font-size: 14px; }
+.cli-main { flex: 1; min-width: 0; }
+.cli-jp { font-size: 15px; font-weight: 600; color: var(--text); }
+.cli-zh { font-size: 12px; color: var(--text2); margin-top: 2px; }
+.cli-status { font-size: 18px; flex-shrink: 0; }
+.cli-audio { font-size: 16px; flex-shrink: 0; cursor: pointer; padding: 4px; color: var(--text2); background: none; border: none; }
+.cli-audio:active { color: var(--tech); }
+
+/* ── Flashcard ───────────────────────────────────────────────── */
+.study-header { display: flex; align-items: center; gap: 8px; padding: 10px 16px; }
+.progress-text { flex: 1; text-align: center; font-size: 13px; color: var(--text2); }
+.card-scene { width: 100%; padding: 16px; }
+.card-outer { perspective: 1000px; width: 100%; aspect-ratio: 1.6; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.card-inner {
+  position: relative; width: 100%; height: 100%;
+  transform-style: preserve-3d;
+  transition: transform .45s cubic-bezier(.4,0,.2,1);
+}
+.card-inner.flipped { transform: rotateY(180deg); }
+.card-face, .card-back {
+  position: absolute; inset: 0;
+  border-radius: var(--radius);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: var(--shadow-lg);
+  padding: 20px;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  gap: 8px; text-align: center;
+  border: 2px solid transparent;
+}
+.card-face { background: var(--surface); }
+.card-back { transform: rotateY(180deg); }
+.card-face.tech-card { border-color: var(--tech-border); background: var(--tech-bg); }
+.card-face.cust-card { border-color: var(--cust-border); background: var(--cust-bg); }
+.card-back.tech-card { border-color: var(--tech-border); background: var(--tech-bg); }
+.card-back.cust-card { border-color: var(--cust-border); background: var(--cust-bg); }
+.role-badge {
+  font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 99px;
+  letter-spacing: .4px; align-self: flex-start;
+}
+.tech .role-badge { background: var(--tech); color: #fff; }
+.cust .role-badge { background: var(--cust); color: #fff; }
+.card-star { position: absolute; top: 14px; right: 14px; font-size: 18px; color: var(--star); }
+.card-main-text { font-size: clamp(20px,6vw,32px); font-weight: 700; line-height: 1.3; }
+.card-sub-text { font-size: clamp(13px,3.5vw,16px); color: var(--text2); }
+.card-romaji { font-size: clamp(11px,2.8vw,14px); color: var(--text3); font-style: italic; margin-top: 2px; }
+.card-notes { font-size: 12px; color: var(--text3); max-width: 90%; margin-top: 4px; }
+.card-hint { font-size: 12px; color: var(--text3); margin-top: 4px; }
+.tap-hint { font-size: 11px; color: var(--text3); text-align: center; margin-top: -8px; padding: 0 16px; }
+.audio-row { display: flex; justify-content: center; padding: 4px 0; }
+.audio-btn {
+  font-size: 22px; background: none; border: none; cursor: pointer;
+  color: var(--text2); padding: 6px 14px; border-radius: 10px;
+  transition: color .15s, background .15s;
+}
+.audio-btn:hover { color: var(--tech); background: var(--tech-bg); }
+.audio-btn.playing { color: var(--tech); animation: pulse .6s infinite alternate; }
+@keyframes pulse { from { opacity: 1; } to { opacity: .5; } }
+
+/* ── Study actions ───────────────────────────────────────────── */
+.study-actions {
+  display: flex; gap: 10px; padding: 0 16px 12px;
+  justify-content: center;
+}
+.action-btn {
+  flex: 1; max-width: 140px; padding: 13px;
+  border-radius: 14px; border: none;
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  transition: transform .1s, opacity .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.action-btn:active { transform: scale(.96); }
+.btn-mastered { background: #22c55e; color: #fff; }
+.btn-practice { background: #ef4444; color: #fff; }
+.nav-row { display: flex; gap: 8px; padding: 0 16px 8px; justify-content: center; }
+.nav-btn {
+  padding: 10px 22px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--surface);
+  font-size: 14px; cursor: pointer; color: var(--text2);
+  transition: background .15s;
+}
+.nav-btn:hover { background: var(--surface2); }
+
+/* ── Direction toggle ────────────────────────────────────────── */
+.dir-toggle {
+  display: flex; gap: 6px; padding: 10px 16px;
+  justify-content: center;
+}
+.dir-opt {
+  flex: 1; max-width: 180px; padding: 9px;
+  border-radius: 10px; border: 1.5px solid var(--border);
+  background: var(--surface2); font-size: 12px; font-weight: 600;
+  cursor: pointer; color: var(--text2); text-align: center;
+  transition: all .15s;
+}
+.dir-opt.active { border-color: var(--tech); background: var(--tech-bg); color: var(--tech); }
+
+/* ── Quiz ────────────────────────────────────────────────────── */
+.quiz-end {
+  text-align: center; padding: 40px 20px;
+  display: flex; flex-direction: column; align-items: center; gap: 16px;
+}
+.quiz-end h2 { font-size: 24px; font-weight: 700; }
+.quiz-end p { color: var(--text2); }
+
+/* ── Settings panel ──────────────────────────────────────────── */
+.settings-panel {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 100%; max-width: 480px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-radius: 20px 20px 0 0;
+  padding: 16px;
+  box-shadow: 0 -8px 32px rgba(0,0,0,.15);
+  z-index: 200;
+  transition: transform .3s;
+}
+.settings-panel.hidden { transform: translateX(-50%) translateY(100%); }
+.settings-row { display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.settings-row:last-child { border-bottom: none; }
+.settings-label { flex: 1; font-size: 14px; font-weight: 500; }
+.settings-sub { font-size: 12px; color: var(--text2); margin-top: 1px; }
+.toggle-switch {
+  width: 44px; height: 24px; border-radius: 99px;
+  background: var(--border); border: none; cursor: pointer;
+  position: relative; transition: background .2s; flex-shrink: 0;
+}
+.toggle-switch.on { background: var(--tech); }
+.toggle-switch::after {
+  content: ''; position: absolute; top: 2px; left: 2px;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: #fff; transition: left .2s;
+}
+.toggle-switch.on::after { left: 22px; }
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.4);
+  z-index: 199; display: none;
+}
+.overlay.show { display: block; }
+
+/* ── Toast ───────────────────────────────────────────────────── */
+.toast {
+  position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%);
+  background: rgba(0,0,0,.8); color: #fff;
+  padding: 8px 18px; border-radius: 99px; font-size: 13px;
+  opacity: 0; transition: opacity .3s; pointer-events: none; z-index: 300;
+  white-space: nowrap;
+}
+.toast.show { opacity: 1; }
+
+/* ── Bottom nav ──────────────────────────────────────────────── */
+.bottom-nav {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 100%; max-width: 480px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  display: flex; z-index: 100;
+}
+.bnav-btn {
+  flex: 1; padding: 10px 4px 12px;
+  border: none; background: none; cursor: pointer;
+  font-size: 20px; color: var(--text3);
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  transition: color .15s;
+}
+.bnav-btn span { font-size: 10px; font-weight: 600; }
+.bnav-btn.active { color: var(--tech); }
+
+/* ── Review deck badge ───────────────────────────────────────── */
+.badge {
+  display: inline-block; background: #ef4444; color: #fff;
+  font-size: 10px; font-weight: 700; padding: 1px 5px;
+  border-radius: 99px; margin-left: 4px;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <header>
+    <div class="hdr-logo">Z.Nail <span>接客日語</span></div>
+    <button class="icon-btn" id="btnDarkMode" title="暗色模式">🌙</button>
+    <button class="icon-btn" id="btnSettings" title="设置">⚙️</button>
+  </header>
+
+  <!-- ── HOME VIEW ───────────────────────────────────────── -->
+  <div class="view" id="viewHome">
+    <div class="prog-bar-wrap">
+      <div class="prog-label">
+        <span>总进度</span>
+        <span id="totalProgressText">0 / 65 已掌握</span>
+      </div>
+      <div class="prog-track"><div class="prog-fill" id="totalProgressFill" style="width:0%"></div></div>
+    </div>
+
+    <div class="quick-row">
+      <button class="quick-btn primary" onclick="startQuiz('all')">🎲 随机测验（全部）</button>
+      <button class="quick-btn" onclick="startQuiz('high')">⭐ 高频卡测验</button>
+    </div>
+
+    <div class="section-head">13 个场景</div>
+    <div class="deck-grid" id="deckGrid"></div>
+    <div style="height:16px"></div>
+
+    <div class="quick-row" style="padding-top:0">
+      <button class="quick-btn" onclick="startQuiz('weak')" style="color:#ef4444;border-color:#ef4444">❌ 错题本 <span id="weakBadge" class="badge" style="display:none"></span></button>
+      <button class="quick-btn" style="font-size:12px;color:var(--text3)" onclick="confirmReset()">🔄 重置进度</button>
+    </div>
+  </div>
+
+  <!-- ── DECK VIEW ───────────────────────────────────────── -->
+  <div class="view" id="viewDeck">
+    <button class="back-btn" onclick="goHome()"> 返回</button>
+    <div class="deck-header-info">
+      <h2 id="deckViewTitle"></h2>
+      <p id="deckViewDesc"></p>
+    </div>
+    <div class="dir-toggle">
+      <button class="dir-opt" id="dirZhJp" onclick="setDir('zh-jp')">中文 → 日文</button>
+      <button class="dir-opt" id="dirJpZh" onclick="setDir('jp-zh')">日文 → 中文</button>
+    </div>
+    <div style="display:flex;gap:8px;padding:0 16px 12px">
+      <button class="quick-btn primary" style="font-size:13px" onclick="startQuizFromDeck()">🎲 随机测验此 Deck</button>
+    </div>
+    <div class="card-list" id="deckCardList"></div>
+    <div style="height:16px"></div>
+  </div>
+
+  <!-- ── STUDY / QUIZ VIEW ──────────────────────────────── -->
+  <div class="view" id="viewStudy">
+    <div class="study-header">
+      <button class="icon-btn" onclick="exitStudy()">✕</button>
+      <div class="progress-text" id="studyProgressText"></div>
+      <button class="icon-btn" id="btnDirToggle" onclick="toggleDir()" title="切换方向">⇄</button>
+    </div>
+
+    <div class="dir-toggle" style="padding-top:0">
+      <button class="dir-opt" id="studyDirZhJp" onclick="setDir('zh-jp')">中文 → 日文</button>
+      <button class="dir-opt" id="studyDirJpZh" onclick="setDir('jp-zh')">日文 → 中文</button>
+    </div>
+
+    <div class="card-scene">
+      <div class="card-outer" id="cardOuter" onclick="flipCard()">
+        <div class="card-inner" id="cardInner">
+          <div class="card-face" id="cardFront"></div>
+          <div class="card-back" id="cardBack"></div>
+        </div>
+      </div>
+    </div>
+    <p class="tap-hint" id="tapHint">点击卡片翻面</p>
+
+    <div class="audio-row">
+      <button class="audio-btn" id="audioBtn" onclick="playCardAudio()">🔊</button>
+    </div>
+
+    <div class="study-actions" id="studyActions" style="display:none">
+      <button class="action-btn btn-mastered" onclick="markCard(true)">✅ 会了</button>
+      <button class="action-btn btn-practice" onclick="markCard(false)">❌ 再练</button>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn" onclick="prevCard()">← 上一张</button>
+      <button class="nav-btn" onclick="nextCard()">下一张 →</button>
+    </div>
+
+    <div class="quiz-end" id="quizEnd" style="display:none">
+      <div style="font-size:48px">🎉</div>
+      <h2>测验完成！</h2>
+      <p id="quizEndStats"></p>
+      <button class="quick-btn primary" style="max-width:200px" onclick="restartQuiz()">再来一轮</button>
+      <button class="quick-btn" style="max-width:200px" onclick="goHome()">回到首页</button>
+    </div>
+  </div>
+
+</div><!-- #app -->
+
+<!-- Settings Panel -->
+<div class="overlay" id="overlay" onclick="closeSettings()"></div>
+<div class="settings-panel hidden" id="settingsPanel">
+  <div style="display:flex;align-items:center;margin-bottom:8px">
+    <div style="flex:1;font-size:16px;font-weight:700">设置</div>
+    <button class="icon-btn" onclick="closeSettings()">✕</button>
+  </div>
+  <div class="settings-row">
+    <div>
+      <div class="settings-label">显示罗马音</div>
+      <div class="settings-sub">卡片背面是否显示拼音转写</div>
+    </div>
+    <button class="toggle-switch" id="toggleRomaji" onclick="toggleSetting('showRomaji')"></button>
+  </div>
+  <div class="settings-row">
+    <div>
+      <div class="settings-label">暗色模式</div>
+    </div>
+    <button class="toggle-switch" id="toggleDark" onclick="toggleSetting('darkMode')"></button>
+  </div>
+  <div style="margin-top:12px">
+    <button class="quick-btn" style="width:100%;color:#ef4444;border-color:#ef4444" onclick="confirmReset()">🔄 重置所有进度</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Bottom Nav -->
+<div class="bottom-nav">
+  <button class="bnav-btn active" id="bnHome" onclick="goHome()">🏠<span>首页</span></button>
+  <button class="bnav-btn" id="bnQuiz" onclick="startQuiz('all')">🎲<span>测验</span></button>
+  <button class="bnav-btn" id="bnHigh" onclick="startQuiz('high')">⭐<span>高频</span></button>
+  <button class="bnav-btn" id="bnWeak" onclick="startQuiz('weak')">❌<span>错题</span></button>
+</div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+
+const DECKS = [
+  { id:'welcome',       title_zh:'欢迎接待',       title_jp:'お出迎え',         order:1,  desc:'客人进店时' },
+  { id:'ask-design',    title_zh:'询问款式',       title_jp:'デザインを聞く',   order:2,  desc:'开始服务前确认款式' },
+  { id:'design-answers',title_zh:'客人答款式',     title_jp:'お客様の答え',      order:3,  desc:'听懂客人说的款式' },
+  { id:'follow-up',     title_zh:'跟进客人回答',   title_jp:'フォロー',          order:4,  desc:'客人没决定/带参考图时' },
+  { id:'confirm-start', title_zh:'确认并开始',     title_jp:'確認＆開始',        order:5,  desc:'确认款式后开始施作' },
+  { id:'off',           title_zh:'卸甲',           title_jp:'オフ',              order:6,  desc:'卸甲时的提示' },
+  { id:'ask-shape',     title_zh:'询问甲型',       title_jp:'形を聞く',          order:7,  desc:'询问指甲形状' },
+  { id:'shape-answers', title_zh:'客人答甲型',     title_jp:'形のお答え',        order:8,  desc:'听懂客人说的形状' },
+  { id:'length-check',  title_zh:'长度确认',       title_jp:'長さ確認',          order:9,  desc:'搓完后确认长度' },
+  { id:'shape-check',   title_zh:'形状确认',       title_jp:'形確認',            order:10, desc:'最重要！14种客人反馈' },
+  { id:'during-work',   title_zh:'施作中',         title_jp:'施術中',            order:11, desc:'上色、照灯等指令' },
+  { id:'done',          title_zh:'完工',           title_jp:'完成',              order:12, desc:'完成后的话术' },
+  { id:'payment',       title_zh:'结账',           title_jp:'お会計',            order:13, desc:'付款方式说明' },
+  { id:'farewell',      title_zh:'送客',           title_jp:'お見送り',          order:14, desc:'道别用语' },
+]
+
+const CARDS = [
+  // Deck 1
+  { id:'w1',    deck:'welcome',        zh:'欢迎光临',                     jp:'いらっしゃいませ',                  romaji:'irasshaimase',                         role:'tech', priority:'high', notes:'进店时' },
+  { id:'w2',    deck:'welcome',        zh:'请坐这边',                     jp:'こちらにどうぞ',                    romaji:'kochira ni dōzo',                      role:'tech', priority:'high', notes:'简短版' },
+  { id:'w3',    deck:'welcome',        zh:'请坐',                         jp:'こちらにおかけください',            romaji:'kochira ni okake kudasai',             role:'tech', priority:'normal', notes:'更礼貌版' },
+  // Deck 2
+  { id:'ad-q',  deck:'ask-design',    zh:'今天做什么款式？',              jp:'今日はどんなデザインにしますか？',  romaji:'kyō wa donna dezain ni shimasu ka?',   role:'tech', priority:'high', notes:'标准开场问' },
+  // Deck 3
+  { id:'da1',   deck:'design-answers',zh:'想做单色',                     jp:'ワンカラーにしたいです',            romaji:'wan-karā ni shitai desu',              role:'customer', priority:'high', notes:'' },
+  { id:'da2',   deck:'design-answers',zh:'想做猫眼',                     jp:'マグネットにしたいです',            romaji:'magunetto ni shitai desu',             role:'customer', priority:'high', notes:'' },
+  { id:'da3',   deck:'design-answers',zh:'想做成这张照片的样子',          jp:'この写真みたいにしたいです',        romaji:'kono shashin mitai ni shitai desu',    role:'customer', priority:'high', notes:'跟进见 Deck 4' },
+  { id:'da3b',  deck:'design-answers',zh:'想换个颜色',                   jp:'色をかえたいです',                  romaji:'iro o kaetai desu',                    role:'customer', priority:'normal', notes:'通常跟随 da3' },
+  { id:'da4',   deck:'design-answers',zh:'想做简单一点',                  jp:'シンプルな感じにしたいです',        romaji:'shinpuru na kanji ni shitai desu',     role:'customer', priority:'normal', notes:'' },
+  { id:'da5',   deck:'design-answers',zh:'想做可爱一点',                  jp:'かわいい感じにしたいです',          romaji:'kawaii kanji ni shitai desu',          role:'customer', priority:'normal', notes:'' },
+  { id:'da6',   deck:'design-answers',zh:'想贴钻',                       jp:'ストーンを付けたいです',            romaji:'sutōn o tsuketai desu',                role:'customer', priority:'normal', notes:'' },
+  { id:'da7',   deck:'design-answers',zh:'想加亮片',                     jp:'ラメを入れたいです',                romaji:'rame o iretai desu',                   role:'customer', priority:'normal', notes:'' },
+  { id:'da8',   deck:'design-answers',zh:'还没决定',                     jp:'まだ決めてないです',                romaji:'mada kimete-nai desu',                 role:'customer', priority:'high', notes:'跟进见 Deck 4' },
+  { id:'da9',   deck:'design-answers',zh:'想要跳色',                     jp:'ポイントカラーを入れたいです',      romaji:'pointo karā o iretai desu',            role:'customer', priority:'normal', notes:'' },
+  // Deck 4
+  { id:'fu1',   deck:'follow-up',     zh:'要看样品吗？',                  jp:'サンプル見ますか？',               romaji:'sanpuru mimasu ka?',                   role:'tech', priority:'normal', notes:'客人没决定时' },
+  { id:'fu2',   deck:'follow-up',     zh:'颜色怎么选？',                  jp:'色はどうしますか？',               romaji:'iro wa dō shimasu ka?',                role:'tech', priority:'high', notes:'' },
+  { id:'fu3',   deck:'follow-up',     zh:'请给我看一下，谢谢',            jp:'見せてください、ありがとうございます', romaji:'misete kudasai, arigatō gozaimasu', role:'tech', priority:'normal', notes:'客人有参考照片时' },
+  { id:'fu4',   deck:'follow-up',     zh:'可以给我看一下吗？',            jp:'見せてもらえますか？',             romaji:'misete moraemasu ka?',                 role:'tech', priority:'high', notes:'fu3 更礼貌版' },
+  // Deck 5
+  { id:'cs1',   deck:'confirm-start', zh:'好的，明白了',                  jp:'かしこまりました',                 romaji:'kashikomarimashita',                   role:'tech', priority:'high', notes:'万能回应' },
+  { id:'cs2',   deck:'confirm-start', zh:'是这个款式对吧',                jp:'このデザインですね',               romaji:'kono dezain desu ne',                  role:'tech', priority:'normal', notes:'' },
+  { id:'cs3',   deck:'confirm-start', zh:'那就开始啦',                    jp:'では始めますね',                   romaji:'dewa hajimemasu ne',                   role:'tech', priority:'high', notes:'' },
+  // Deck 6
+  { id:'o1',    deck:'off',           zh:'痛的话请告诉我',                jp:'痛かったら教えてください',         romaji:'itakattara oshiete kudasai',           role:'tech', priority:'high', notes:'' },
+  // Deck 7
+  { id:'as-q',  deck:'ask-shape',     zh:'指甲形状想做什么样的？',        jp:'爪の形はどうしますか？',           romaji:'tsume no katachi wa dō shimasu ka?',  role:'tech', priority:'high', notes:'简版：かたちはどうしますか？' },
+  // Deck 8
+  { id:'sa1',   deck:'shape-answers', zh:'想做椭圆形',                   jp:'オーバルにしたいです',             romaji:'ōbaru ni shitai desu',                 role:'customer', priority:'high', notes:'Oval' },
+  { id:'sa2',   deck:'shape-answers', zh:'想做方圆形',                   jp:'スクエアオフにしたいです',         romaji:'sukuea-ofu ni shitai desu',            role:'customer', priority:'high', notes:'Squoval' },
+  { id:'sa3',   deck:'shape-answers', zh:'想做杏仁形',                   jp:'アーモンドにしたいです',           romaji:'āmondo ni shitai desu',                role:'customer', priority:'high', notes:'Almond' },
+  { id:'sa4',   deck:'shape-answers', zh:'想短点',                       jp:'短めにしたいです',                 romaji:'mijikame ni shitai desu',               role:'customer', priority:'high', notes:'' },
+  { id:'sa5',   deck:'shape-answers', zh:'跟现在差不多',                 jp:'今と同じ感じでお願いします',       romaji:'ima to onaji kanji de onegaishimasu',  role:'customer', priority:'high', notes:'' },
+  // Deck 9
+  { id:'lc-q',  deck:'length-check',  zh:'这个长度可以吗？',             jp:'この長さで大丈夫ですか？',         romaji:'kono nagasa de daijōbu desu ka?',      role:'tech', priority:'high', notes:'' },
+  { id:'lc1',   deck:'length-check',  zh:'可以',                         jp:'大丈夫です',                       romaji:'daijōbu desu',                         role:'customer', priority:'high', notes:'' },
+  { id:'lc2',   deck:'length-check',  zh:'再短一点',                     jp:'もう少し短くしてください',         romaji:'mō sukoshi mijikaku shite kudasai',    role:'customer', priority:'high', notes:'' },
+  { id:'lc3',   deck:'length-check',  zh:'有点长',                       jp:'少し長いです',                     romaji:'sukoshi nagai desu',                   role:'customer', priority:'high', notes:'' },
+  { id:'lc4',   deck:'length-check',  zh:'有点短',                       jp:'少し短いです',                     romaji:'sukoshi mijikai desu',                 role:'customer', priority:'high', notes:'' },
+  // Deck 10
+  { id:'sc-q',  deck:'shape-check',   zh:'这个形状可以吗？',             jp:'この形で大丈夫ですか？',           romaji:'kono katachi de daijōbu desu ka?',     role:'tech', priority:'high', notes:'' },
+  { id:'sc1',   deck:'shape-check',   zh:'可以没问题',                   jp:'大丈夫です',                       romaji:'daijōbu desu',                         role:'customer', priority:'high', notes:'' },
+  { id:'sc2',   deck:'shape-check',   zh:'可以就这样',                   jp:'はい、これで大丈夫です',           romaji:'hai, kore de daijōbu desu',            role:'customer', priority:'normal', notes:'' },
+  { id:'sc3',   deck:'shape-check',   zh:'很好',                         jp:'いい感じです',                     romaji:'ii kanji desu',                        role:'customer', priority:'high', notes:'' },
+  { id:'sc4',   deck:'shape-check',   zh:'想再短一点',                   jp:'もう少し短くしてください',         romaji:'mō sukoshi mijikaku shite kudasai',    role:'customer', priority:'high', notes:'米吉卡 mijika' },
+  { id:'sc5',   deck:'shape-check',   zh:'想再圆一点',                   jp:'もう少し丸くしてください',         romaji:'mō sukoshi maruku shite kudasai',      role:'customer', priority:'high', notes:'吗鲁 maru' },
+  { id:'sc6',   deck:'shape-check',   zh:'想再方一点',                   jp:'もう少し四角くしてください',       romaji:'mō sukoshi shikakaku shite kudasai',   role:'customer', priority:'normal', notes:'西卡库 shikaku' },
+  { id:'sc7',   deck:'shape-check',   zh:'想再尖一点',                   jp:'もう少し尖らせてください',         romaji:'mō sukoshi togarasete kudasai',        role:'customer', priority:'high', notes:'托嘎 togara' },
+  { id:'sc8',   deck:'shape-check',   zh:'不要太尖',                     jp:'あまり尖らせないでください',       romaji:'amari togarasenaide kudasai',          role:'customer', priority:'normal', notes:'' },
+  { id:'sc9',   deck:'shape-check',   zh:'不要太方',                     jp:'あまり四角くしないでください',     romaji:'amari shikakaku shinaide kudasai',     role:'customer', priority:'normal', notes:'' },
+  { id:'sc10',  deck:'shape-check',   zh:'左右有点不一样',               jp:'左右が少し違います',               romaji:'sayū ga sukoshi chigaimasu',           role:'customer', priority:'high', notes:'萨左嘎 sayū-ga' },
+  { id:'sc11',  deck:'shape-check',   zh:'边角有点尖',                   jp:'角が少し尖っています',             romaji:'kado ga sukoshi togatte imasu',        role:'customer', priority:'normal', notes:'卡多嘎 kado-ga' },
+  { id:'sc12',  deck:'shape-check',   zh:'这里再修一下',                 jp:'ここをもう少し整えてください',     romaji:'koko o mō sukoshi totonoete kudasai',  role:'customer', priority:'high', notes:'' },
+  { id:'sc13',  deck:'shape-check',   zh:'跟另一只一样',                 jp:'反対の指と同じにしてください',     romaji:'hantai no yubi to onaji ni shite kudasai', role:'customer', priority:'normal', notes:'汗他一 hantai' },
+  { id:'sc14',  deck:'shape-check',   zh:'交给你好了',                   jp:'お任せで大丈夫です',               romaji:'omakase de daijōbu desu',              role:'customer', priority:'normal', notes:'' },
+  { id:'sc-re', deck:'shape-check',   zh:'这样可以吗？（再问）',         jp:'これで大丈夫ですか？',             romaji:'kore de daijōbu desu ka?',             role:'tech', priority:'high', notes:'修过后再确认' },
+  // Deck 11
+  { id:'dw1',   deck:'during-work',   zh:'这样可以吗？',                 jp:'これ大丈夫ですか？',               romaji:'kore daijōbu desu ka?',                role:'tech', priority:'high', notes:'上色前确认' },
+  { id:'dw2',   deck:'during-work',   zh:'请照灯',                       jp:'ライトお願いします',               romaji:'raito onegaishimasu',                  role:'tech', priority:'high', notes:'' },
+  { id:'dw3',   deck:'during-work',   zh:'麻烦另一只手',                 jp:'反対の手お願いします',             romaji:'hantai no te onegaishimasu',           role:'tech', priority:'high', notes:'' },
+  { id:'dw3b',  deck:'during-work',   zh:'换边麻烦了',                   jp:'反対お願いします',                 romaji:'hantai onegaishimasu',                 role:'tech', priority:'normal', notes:'dw3 简版' },
+  // Deck 12
+  { id:'dn1',   deck:'done',          zh:'完成了',                       jp:'完成です',                         romaji:'kansei desu',                          role:'tech', priority:'high', notes:'' },
+  { id:'dn2',   deck:'done',          zh:'请看一下',                     jp:'見てください',                     romaji:'mite kudasai',                         role:'tech', priority:'high', notes:'' },
+  { id:'dn3',   deck:'done',          zh:'请确认',                       jp:'確認お願いします',                 romaji:'kakunin onegaishimasu',                role:'tech', priority:'high', notes:'dn2 更礼貌版' },
+  { id:'dn4',   deck:'done',          zh:'很好看',                       jp:'かわいいですね',                   romaji:'kawaii desu ne',                       role:'tech', priority:'normal', notes:'赞美款式/成品' },
+  { id:'dn5',   deck:'done',          zh:'可以拍一下照片吗？',           jp:'お写真撮ってもいいですか？',       romaji:'o-shashin totte mo ii desu ka?',       role:'tech', priority:'high', notes:'给作品集拍照' },
+  // Deck 13
+  { id:'py1',   deck:'payment',       zh:'今天是 ××× 日元',              jp:'本日は〇〇円です',                 romaji:'honjitsu wa ○○ en desu',               role:'tech', priority:'high', notes:'' },
+  { id:'py2',   deck:'payment',       zh:'哪种都可以',                   jp:'どちらでも大丈夫です',             romaji:'dochira demo daijōbu desu',            role:'tech', priority:'normal', notes:'现金/卡都行' },
+  { id:'py3',   deck:'payment',       zh:'现金、刷卡都可以',             jp:'現金・カード大丈夫です',           romaji:'genkin, kādo daijōbu desu',            role:'tech', priority:'high', notes:'' },
+  // Deck 14
+  { id:'fw1',   deck:'farewell',      zh:'今天非常感谢',                 jp:'本日はありがとうございました',     romaji:'honjitsu wa arigatō gozaimashita',     role:'tech', priority:'high', notes:'' },
+  { id:'fw2',   deck:'farewell',      zh:'期待您再次光临',               jp:'またお待ちしております',           romaji:'mata omachi shite orimasu',            role:'tech', priority:'high', notes:'较正式' },
+  { id:'fw3',   deck:'farewell',      zh:'下次再来',                     jp:'また来てください',                 romaji:'mata kite kudasai',                    role:'tech', priority:'high', notes:'较亲切' },
+  { id:'fw4',   deck:'farewell',      zh:'下次也多关照',                 jp:'またお願いします',                 romaji:'mata onegaishimasu',                   role:'tech', priority:'normal', notes:'' },
+]
+
+const CARD_MAP = Object.fromEntries(CARDS.map(c => [c.id, c]))
+const DECK_MAP = Object.fromEntries(DECKS.map(d => [d.id, d]))
+
+// ─── STATE ──────────────────────────────────────────────────────────────────
+
+const STORAGE_KEY = 'znail-flashcard-state-v1'
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    if (raw) return JSON.parse(raw)
+  } catch {}
+  return { cards: {}, settings: { direction: 'zh-jp', showRomaji: true, darkMode: false } }
+}
+
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
+}
+
+let state = loadState()
+
+function getCardState(id) {
+  return state.cards[id] || { mastered: null, reviewedAt: null, reviewCount: 0 }
+}
+
+function setCardState(id, mastered) {
+  const cs = getCardState(id)
+  state.cards[id] = {
+    mastered,
+    reviewedAt: Date.now(),
+    reviewCount: (cs.reviewCount || 0) + 1,
+  }
+  saveState()
+}
+
+// ─── AUDIO ──────────────────────────────────────────────────────────────────
+
+let currentAudio = null
+
+function playAudio(id) {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null }
+  const btn = document.getElementById('audioBtn')
+  const src = `audio/${id}.mp3`
+  const audio = new Audio(src)
+  currentAudio = audio
+  if (btn) btn.classList.add('playing')
+  audio.addEventListener('ended', () => { if (btn) btn.classList.remove('playing'); currentAudio = null })
+  audio.addEventListener('error', () => { if (btn) btn.classList.remove('playing'); currentAudio = null; showToast('音频加载失败') })
+  audio.play().catch(() => {})
+}
+
+function playCardAudio() {
+  if (currentStudyCard) playAudio(currentStudyCard.id)
+}
+
+// ─── VIEWS ──────────────────────────────────────────────────────────────────
+
+function showView(id) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'))
+  document.getElementById(id).classList.add('active')
+  document.querySelectorAll('.bnav-btn').forEach(b => b.classList.remove('active'))
+  if (id === 'viewHome') document.getElementById('bnHome').classList.add('active')
+  if (id === 'viewStudy') document.getElementById('bnQuiz').classList.add('active')
+  window.scrollTo(0, 0)
+}
+
+// ─── HOME ────────────────────────────────────────────────────────────────────
+
+function renderHome() {
+  // Total progress
+  const mastered = CARDS.filter(c => getCardState(c.id).mastered).length
+  const pct = Math.round(mastered / CARDS.length * 100)
+  document.getElementById('totalProgressText').textContent = `${mastered} / ${CARDS.length} 已掌握`
+  document.getElementById('totalProgressFill').style.width = pct + '%'
+
+  // Weak badge
+  const weakCount = CARDS.filter(c => getCardState(c.id).mastered === false).length
+  const wb = document.getElementById('weakBadge')
+  wb.textContent = weakCount; wb.style.display = weakCount > 0 ? '' : 'none'
+
+  // Deck grid
+  const grid = document.getElementById('deckGrid')
+  grid.innerHTML = ''
+  DECKS.forEach(deck => {
+    const cards = CARDS.filter(c => c.deck === deck.id)
+    const masteredCount = cards.filter(c => getCardState(c.id).mastered).length
+    const highCount = cards.filter(c => c.priority === 'high').length
+    const div = document.createElement('div')
+    div.className = 'deck-card'
+    div.onclick = () => openDeck(deck.id)
+    div.innerHTML = `
+      <div class="deck-num">${deck.order}</div>
+      <div class="deck-info">
+        <div class="deck-title">${deck.title_zh} <span style="font-size:12px;color:var(--text2);font-weight:400">${deck.title_jp}</span></div>
+        <div class="deck-subtitle">${deck.desc}</div>
+      </div>
+      <div class="deck-meta">
+        <div class="deck-count">${cards.length}张 · ★${highCount}</div>
+        <div class="deck-progress-mini">${masteredCount}/${cards.length}</div>
+      </div>
+    `
+    grid.appendChild(div)
+  })
+}
+
+function goHome() {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null }
+  renderHome()
+  showView('viewHome')
+}
+
+// ─── DECK VIEW ───────────────────────────────────────────────────────────────
+
+let currentDeckId = null
+
+function openDeck(deckId) {
+  currentDeckId = deckId
+  const deck = DECK_MAP[deckId]
+  document.getElementById('deckViewTitle').textContent = `${deck.title_zh}（${deck.title_jp}）`
+  document.getElementById('deckViewDesc').textContent = deck.desc
+
+  const cards = CARDS.filter(c => c.deck === deckId)
+  const list = document.getElementById('deckCardList')
+  list.innerHTML = ''
+  cards.forEach(card => {
+    const cs = getCardState(card.id)
+    const item = document.createElement('div')
+    item.className = `card-list-item ${card.role === 'tech' ? 'tech' : 'cust'} ${card.priority === 'high' ? 'high' : ''} ${cs.mastered ? 'mastered' : ''}`
+    item.onclick = () => startStudySingle(card.id)
+    item.innerHTML = `
+      <div class="cli-main">
+        <div class="cli-jp jp">${card.jp}</div>
+        <div class="cli-zh">${card.zh}</div>
+      </div>
+      <span class="star-badge">★</span>
+      <button class="cli-audio" onclick="event.stopPropagation();playAudio('${card.id}')" title="播放">🔊</button>
+      <div class="cli-status">${cs.mastered === true ? '✅' : cs.mastered === false ? '❌' : '·'}</div>
+    `
+    list.appendChild(item)
+  })
+
+  updateDirButtons()
+  showView('viewDeck')
+}
+
+function startQuizFromDeck() {
+  if (currentDeckId) startQuiz('deck', currentDeckId)
+}
+
+// ─── DIRECTION ───────────────────────────────────────────────────────────────
+
+function setDir(dir) {
+  state.settings.direction = dir
+  saveState()
+  updateDirButtons()
+  if (currentStudyCard) renderCard(currentStudyCard)
+}
+
+function toggleDir() {
+  setDir(state.settings.direction === 'zh-jp' ? 'jp-zh' : 'zh-jp')
+}
+
+function updateDirButtons() {
+  const dir = state.settings.direction
+  ;['', 'study'].forEach(prefix => {
+    const a = document.getElementById(`${prefix}${prefix ? 'Dir' : 'dir'}ZhJp`)
+    const b = document.getElementById(`${prefix}${prefix ? 'Dir' : 'dir'}JpZh`)
+    if (!a || !b) return
+    a.classList.toggle('active', dir === 'zh-jp')
+    b.classList.toggle('active', dir === 'jp-zh')
+  })
+  document.getElementById('dirZhJp')?.classList.toggle('active', dir === 'zh-jp')
+  document.getElementById('dirJpZh')?.classList.toggle('active', dir === 'jp-zh')
+  document.getElementById('studyDirZhJp')?.classList.toggle('active', dir === 'zh-jp')
+  document.getElementById('studyDirJpZh')?.classList.toggle('active', dir === 'jp-zh')
+}
+
+// ─── STUDY ───────────────────────────────────────────────────────────────────
+
+let studyQueue = []      // array of card ids
+let studyIndex = 0
+let isQuizMode = false
+let quizCorrect = 0
+let quizTotal = 0
+let currentStudyCard = null
+let isFlipped = false
+let studySourceDeck = null
+
+function startStudySingle(cardId) {
+  const deckCards = CARDS.filter(c => c.deck === CARD_MAP[cardId].deck)
+  const idx = deckCards.findIndex(c => c.id === cardId)
+  studyQueue = deckCards.map(c => c.id)
+  studyIndex = idx
+  isQuizMode = false
+  enterStudy()
+}
+
+function startQuiz(mode, deckId) {
+  let cards
+  if (mode === 'all') cards = [...CARDS]
+  else if (mode === 'high') cards = CARDS.filter(c => c.priority === 'high')
+  else if (mode === 'weak') cards = CARDS.filter(c => getCardState(c.id).mastered === false)
+  else if (mode === 'deck') cards = CARDS.filter(c => c.deck === deckId)
+
+  if (!cards || cards.length === 0) { showToast('没有符合条件的卡片'); return }
+
+  // Shuffle
+  for (let i = cards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [cards[i], cards[j]] = [cards[j], cards[i]]
+  }
+
+  studyQueue = cards.map(c => c.id)
+  studyIndex = 0
+  isQuizMode = true
+  quizCorrect = 0
+  quizTotal = 0
+  studySourceDeck = deckId || null
+  enterStudy()
+}
+
+function enterStudy() {
+  document.getElementById('quizEnd').style.display = 'none'
+  document.getElementById('cardOuter').style.display = ''
+  document.getElementById('tapHint').style.display = ''
+  document.getElementById('audioBtn').parentElement.style.display = ''
+  document.getElementById('navRow') && (document.getElementById('navRow').style.display = '')
+  updateDirButtons()
+  showView('viewStudy')
+  loadStudyCard()
+}
+
+function loadStudyCard() {
+  if (studyIndex >= studyQueue.length) {
+    // Quiz end
+    if (isQuizMode) showQuizEnd()
+    return
+  }
+  const card = CARD_MAP[studyQueue[studyIndex]]
+  currentStudyCard = card
+  isFlipped = false
+  document.getElementById('cardInner').classList.remove('flipped')
+  document.getElementById('studyActions').style.display = 'none'
+  renderCard(card)
+  updateStudyProgress()
+}
+
+function renderCard(card) {
+  const dir = state.settings.direction
+  const showRomaji = state.settings.showRomaji
+  const isTech = card.role === 'tech'
+  const colorClass = isTech ? 'tech-card tech' : 'cust-card cust'
+  const roleLabel = isTech ? '技师 说' : '客人 说'
+
+  let frontText, frontSub, backText, backSub, backRomaji
+  if (dir === 'zh-jp') {
+    frontText = `<span>${card.zh}</span>`
+    frontSub = ''
+    backText = `<span class="jp">${card.jp}</span>`
+    backSub = card.zh
+    backRomaji = showRomaji ? card.romaji : ''
+  } else {
+    frontText = `<span class="jp">${card.jp}</span>`
+    frontSub = showRomaji ? card.romaji : ''
+    backText = `<span>${card.zh}</span>`
+    backSub = ''
+    backRomaji = ''
+  }
+
+  const starHTML = card.priority === 'high' ? `<div class="card-star">★</div>` : ''
+
+  document.getElementById('cardFront').className = `card-face ${colorClass}`
+  document.getElementById('cardFront').innerHTML = `
+    <div class="role-badge">${roleLabel}</div>
+    ${starHTML}
+    <div class="card-main-text">${frontText}</div>
+    ${frontSub ? `<div class="card-romaji">${frontSub}</div>` : ''}
+    <div class="card-hint">点击翻面查看答案</div>
+  `
+
+  document.getElementById('cardBack').className = `card-back ${colorClass}`
+  document.getElementById('cardBack').innerHTML = `
+    <div class="role-badge">${roleLabel}</div>
+    ${starHTML}
+    <div class="card-main-text">${backText}</div>
+    ${backSub ? `<div class="card-sub-text">${backSub}</div>` : ''}
+    ${backRomaji ? `<div class="card-romaji">${backRomaji}</div>` : ''}
+    ${card.notes ? `<div class="card-notes">💡 ${card.notes}</div>` : ''}
+  `
+}
+
+function flipCard() {
+  isFlipped = !isFlipped
+  document.getElementById('cardInner').classList.toggle('flipped', isFlipped)
+  if (isFlipped) {
+    document.getElementById('studyActions').style.display = 'flex'
+    playAudio(currentStudyCard.id)
+  } else {
+    document.getElementById('studyActions').style.display = 'none'
+  }
+}
+
+function markCard(mastered) {
+  if (!currentStudyCard) return
+  setCardState(currentStudyCard.id, mastered)
+  if (isQuizMode) {
+    quizTotal++
+    if (mastered) quizCorrect++
+  }
+  nextCard()
+}
+
+function nextCard() {
+  studyIndex++
+  loadStudyCard()
+}
+
+function prevCard() {
+  if (studyIndex > 0) { studyIndex--; loadStudyCard() }
+}
+
+function updateStudyProgress() {
+  const total = studyQueue.length
+  const current = studyIndex + 1
+  const text = isQuizMode
+    ? `${current > total ? total : current} / ${total}张`
+    : `${current} / ${total}张`
+  document.getElementById('studyProgressText').textContent = text
+}
+
+function showQuizEnd() {
+  document.getElementById('cardOuter').style.display = 'none'
+  document.getElementById('tapHint').style.display = 'none'
+  document.getElementById('audioBtn').parentElement.style.display = 'none'
+  document.getElementById('studyActions').style.display = 'none'
+  const end = document.getElementById('quizEnd')
+  end.style.display = 'flex'
+  document.getElementById('quizEndStats').textContent =
+    `答对 ${quizCorrect} / ${quizTotal} 张（${Math.round(quizCorrect/quizTotal*100)||0}%）`
+}
+
+function restartQuiz() {
+  // Reshuffle same queue
+  for (let i = studyQueue.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [studyQueue[i], studyQueue[j]] = [studyQueue[j], studyQueue[i]]
+  }
+  studyIndex = 0
+  quizCorrect = 0
+  quizTotal = 0
+  enterStudy()
+}
+
+function exitStudy() {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null }
+  if (currentDeckId) openDeck(currentDeckId)
+  else goHome()
+}
+
+// ─── SETTINGS ────────────────────────────────────────────────────────────────
+
+function openSettings() {
+  document.getElementById('settingsPanel').classList.remove('hidden')
+  document.getElementById('overlay').classList.add('show')
+  updateSettingToggles()
+}
+
+function closeSettings() {
+  document.getElementById('settingsPanel').classList.add('hidden')
+  document.getElementById('overlay').classList.remove('show')
+}
+
+function updateSettingToggles() {
+  document.getElementById('toggleRomaji').classList.toggle('on', state.settings.showRomaji)
+  document.getElementById('toggleDark').classList.toggle('on', state.settings.darkMode)
+}
+
+function toggleSetting(key) {
+  state.settings[key] = !state.settings[key]
+  saveState()
+  updateSettingToggles()
+  applySettings()
+  if (currentStudyCard) renderCard(currentStudyCard)
+}
+
+function applySettings() {
+  document.body.classList.toggle('dark', state.settings.darkMode)
+  document.getElementById('btnDarkMode').textContent = state.settings.darkMode ? '☀️' : '🌙'
+}
+
+function confirmReset() {
+  if (confirm('确定要清除所有学习进度吗？')) {
+    state.cards = {}
+    saveState()
+    showToast('进度已重置')
+    renderHome()
+    closeSettings()
+  }
+}
+
+// ─── TOAST ───────────────────────────────────────────────────────────────────
+
+let toastTimer = null
+function showToast(msg) {
+  const el = document.getElementById('toast')
+  el.textContent = msg; el.classList.add('show')
+  if (toastTimer) clearTimeout(toastTimer)
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2000)
+}
+
+// ─── KEYBOARD ────────────────────────────────────────────────────────────────
+
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('viewStudy').classList.contains('active')) return
+  if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard() }
+  else if (e.key === 'ArrowRight') nextCard()
+  else if (e.key === 'ArrowLeft') prevCard()
+  else if (e.key === '1') markCard(true)
+  else if (e.key === '2') markCard(false)
+})
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+
+document.getElementById('btnDarkMode').addEventListener('click', () => {
+  state.settings.darkMode = !state.settings.darkMode
+  saveState()
+  applySettings()
+  updateSettingToggles()
+})
+
+document.getElementById('btnSettings').addEventListener('click', openSettings)
+
+applySettings()
+updateDirButtons()
+renderHome()
+showView('viewHome')
+</script>
+</body>
+</html>
