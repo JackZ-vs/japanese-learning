@@ -611,7 +611,7 @@ let currentAudio = null
 function playAudio(id) {
   if (currentAudio) { currentAudio.pause(); currentAudio = null }
   const btn = document.getElementById('audioBtn')
-  const src = `audio/${id}.mp3`
+  const src = `/znail-flashcard/audio/${id}.mp3`
   const audio = new Audio(src)
   currentAudio = audio
   if (btn) btn.classList.add('playing')
